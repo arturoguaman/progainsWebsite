@@ -1,0 +1,140 @@
+{
+ "code": "en",
+ "htmlLang": "en",
+ "label": "EN",
+ "name": "English",
+ "ogLocale": "en_US",
+ "nav": {
+  "label": "Primary",
+  "support": "Support",
+  "privacy": "Privacy"
+ },
+ "footer": {
+  "label": "Footer",
+  "rights": "All rights reserved."
+ },
+ "support": {
+  "title": "ProGains Support",
+  "desc": "Help and support for ProGains, the strength-training and workout tracking app for iPhone. Restore purchases, manage your subscription, troubleshoot Cloud Sync, and contact support.",
+  "eyebrow": "Support",
+  "h1": "ProGains Support",
+  "lede": "Answers to the most common questions about ProGains — subscriptions, Cloud Sync, and how your workout data is stored. If you can't find what you need here, email us and we'll help.",
+  "btnEmail": "Email Support",
+  "btnOther": "Read the Privacy Policy",
+  "tocLabel": "On this page",
+  "sections": [
+   {
+    "id": "about",
+    "h2": "About ProGains",
+    "html": "<p>ProGains is a strength-training and workout tracking app for iPhone. It's built for people who train with weights and want their sessions, their plan, and their progress in one place.</p>\n<p>With ProGains you can:</p>\n<ul class=\"features\">\n<li>Create and customize your own exercises, with notes, instructions, muscle group, equipment, and an optional photo</li>\n<li>Build workout templates you can reuse any time</li>\n<li>Build multi-phase training programs and schedule your training week</li>\n<li>Track a workout as you do it, with a built-in rest timer</li>\n<li>Record sets, reps, weight, and RPE for every exercise</li>\n<li>Log warm-up sets, working sets, and drop sets separately</li>\n<li>Start a freestyle workout when you're not following a plan</li>\n<li>Review your workout logs and search your training history</li>\n<li>Track strength progress and estimated one-rep max over time</li>\n<li>Unlock Premium for advanced progress analytics, long-term statistics, your full workout history, unlimited programs and templates, and Cloud Sync</li>\n<li>Keep your training in sync across your Apple devices with Premium Cloud Sync, using your own iCloud account</li>\n</ul>\n<div class=\"note\">\n<p><strong>Recording workouts always works offline.</strong> ProGains saves your training to your device as you go. An internet connection is only needed for purchasing a subscription and, if you're a Premium subscriber with Cloud Sync turned on, for syncing to iCloud.</p>\n</div>"
+   },
+   {
+    "id": "restore",
+    "h2": "Restore purchases",
+    "html": "<p>If you've already subscribed to ProGains Premium — for example on another device, or before reinstalling the app — you can restore your subscription without paying again.</p>\n<ol class=\"steps\">\n<li>Open <strong>ProGains</strong> on your iPhone.</li>\n<li>Open the Premium screen. You can reach it from any Premium prompt in the app — the quickest route is the <span class=\"path\">Planner</span> tab, then the <strong>gear icon</strong> in the top-left corner to open <strong>Settings</strong>, then <strong>Unlock Premium</strong> in the <strong>iCloud</strong> section. The <span class=\"path\">Progress</span> tab and the locked history card at the bottom of the <span class=\"path\">Logs</span> tab open the same screen.</li>\n<li>On the <strong>ProGains Premium</strong> screen, tap <strong>Restore Purchases</strong> (below the subscribe button).</li>\n<li>Wait a moment while the App Store checks your account. Once your subscription is found, Premium features unlock immediately — no restart needed.</li>\n</ol>\n<div class=\"note\">\n<p><strong>Make sure the device is signed in to the Apple Account that originally bought the subscription.</strong> Restoring reads your purchase history from Apple, so a different Apple Account will not find it. You can check which account is signed in under <span class=\"path\">Settings › [your name] › Media &amp; Purchases</span> on your iPhone.</p>\n<p>If the Premium screen already says <strong>\"You're Premium\"</strong>, your subscription is active and there is nothing to restore.</p>\n</div>\n<p>Subscription purchases are handled entirely by Apple through the App Store. ProGains never sees or processes your payment information — the app only receives whether your subscription is currently active.</p>"
+   },
+   {
+    "id": "subscription",
+    "h2": "Manage or cancel a subscription",
+    "html": "<p>ProGains Premium is an auto-renewing subscription sold through the App Store, so it is managed in your Apple Account rather than inside the app. Pricing, renewal date, plan changes, and cancellation are all handled there.</p>\n<div class=\"btn-row\">\n<a class=\"btn btn-primary\" href=\"https://apps.apple.com/account/subscriptions\">Manage or Cancel Subscription</a>\n</div>\n<p style=\"margin-top:1rem\"><small><a href=\"https://apps.apple.com/account/subscriptions\">https://apps.apple.com/account/subscriptions</a></small></p>\n<p>You can also get there on your iPhone: open <span class=\"path\">Settings</span>, tap your name at the top, tap <strong>Subscriptions</strong>, then select <strong>ProGains</strong>.</p>\n<h3>What happens to my data if I cancel?</h3>\n<p>Cancelling does not erase your workout data. Everything you've recorded stays saved on your device exactly as it was, and you can keep using ProGains to create exercises, run workouts, and log your training.</p>\n<p>What changes is access to Premium features. When the subscription lapses, ProGains stops mirroring new changes to iCloud and the workout history list returns to the most recent three months. Your older workouts are not deleted — they're still stored on your device, and they reappear if you subscribe again.</p>\n<p>Refunds are handled by Apple, not by ProGains. Requests can be made at <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>.</p>"
+   },
+   {
+    "id": "cloud-sync",
+    "h2": "Cloud Sync",
+    "html": "<p><strong>Cloud Sync is a Premium feature.</strong> It keeps your workouts, programs, templates, exercises, and settings consistent across the Apple devices signed in to your Apple Account.</p>\n<h3>How it works</h3>\n<ul>\n<li>Your workout data is stored on your device first. That local copy is always the one you're using, whether Cloud Sync is on or off.</li>\n<li>Premium subscribers can turn Cloud Sync on in ProGains under <span class=\"path\">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong> › <strong>iCloud</strong> › <strong>Cloud Sync</strong>. The change takes effect immediately — no restart required.</li>\n<li>When it's on, ProGains uses Apple's iCloud and CloudKit infrastructure to mirror your data to the <strong>private database</strong> in your own iCloud account.</li>\n<li>Because it's your private database, the data moves between your own devices under your Apple Account. The developer of ProGains cannot read it and has no access to it.</li>\n<li>Cloud Sync requires an iPhone signed in to iCloud with a working iCloud account. If you aren't signed in, ProGains will say so and keep saving your data locally.</li>\n<li>Turning Cloud Sync off does not delete anything. It stops mirroring; your local data stays exactly where it is.</li>\n</ul>\n<h3>Checking your sync status</h3>\n<p>Open <span class=\"path\">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong>. When Cloud Sync is on, a <strong>Status</strong> section appears showing the current state — <em>Syncing…</em>, <em>Synced</em>, <em>Not signed in to iCloud</em>, <em>Sync error</em>, or <em>Local only</em> — along with a <strong>This device</strong> row and the time of the last successful sync.</p>"
+   },
+   {
+    "id": "local-only",
+    "h2": "\"Local only\" status",
+    "html": "<p>In <strong>Settings › Status</strong>, the <strong>This device</strong> row shows either <strong>iCloud active</strong> or <strong>Local only</strong>.</p>\n<p><strong>Local only</strong> means exactly what it says: your workout data is saved safely on this iPhone, but iCloud mirroring did not start on this device, so recent changes have not been copied up to iCloud. Nothing has been lost — the data is intact locally.</p>\n<p>This can happen if the local database needs to migrate to a sync-compatible format, or if iCloud isn't fully set up on the device.</p>\n<h3>Troubleshooting steps</h3>\n<ol class=\"steps\">\n<li><strong>Check your internet connection.</strong> Confirm Wi-Fi or cellular data is working on the device.</li>\n<li><strong>Check that you're signed in to iCloud.</strong> Open <span class=\"path\">Settings › [your name]</span> on your iPhone and make sure you're signed in and that iCloud is enabled.</li>\n<li><strong>Check that Cloud Sync is on in ProGains.</strong> Open <span class=\"path\">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong> › <strong>iCloud</strong> and confirm the <strong>Cloud Sync</strong> toggle is on. The toggle only appears while your Premium subscription is active.</li>\n<li><strong>Check that your Premium subscription is active.</strong> If it has lapsed, the Status section will say <em>Premium required</em>. See <a href=\"#subscription-en\">Manage or cancel a subscription</a>.</li>\n<li><strong>Check your iCloud account and storage.</strong> Open <span class=\"path\">Settings › [your name] › iCloud</span> and confirm the account is healthy and you haven't run out of iCloud storage.</li>\n<li><strong>Quit and reopen ProGains, then give it time.</strong> Fully close the app and open it again, then leave it open for a minute or two on a good connection. Syncing runs in the background and isn't always instant.</li>\n<li><strong>Still stuck?</strong> The Status section shows a technical detail line under the <em>Local only</em> and <em>Sync error</em> states, and the error state includes a <strong>Copy Error Details</strong> button. Copy that text and <a href=\"#contact-en\">send it to support</a> — it tells us exactly what went wrong.</li>\n</ol>\n<div class=\"note\">\n<p><strong>Your data is safe either way.</strong> ProGains always writes your workouts to the device first. A sync problem affects whether changes reach your other devices, not whether your training is recorded.</p>\n</div>"
+   },
+   {
+    "id": "storage",
+    "h2": "How workout data is stored",
+    "html": "<p>ProGains stores your workout information — your exercises, programs, templates, scheduled days, workouts, and every set, rep, weight, and RPE you log — <strong>on your iPhone</strong>, in the app's own local database.</p>\n<p>If you're a Premium subscriber and you turn Cloud Sync on, that same data is also mirrored to the <strong>private CloudKit database in your own iCloud account</strong>, which is what lets it appear on your other Apple devices.</p>\n<p><strong>ProGains does not run its own server for your workout data.</strong> There is no ProGains account to create, no login, and no ProGains backend that your training is uploaded to. Your data is either on your device or in your own iCloud — never on a server run by the developer, and never sent to a third party.</p>\n<p>For the full detail on what is stored and where, see the <a href=\"privacy.html#en\">ProGains Privacy Policy</a>.</p>"
+   },
+   {
+    "id": "contact",
+    "h2": "Contact support",
+    "html": "<p>Need help, found a bug, or have a feature request? Email us — we read every message.</p>\n<div class=\"contact\">\n<span class=\"label\">Email</span>\n<a class=\"email\" href=\"mailto:progains.support@gmail.com\">progains.support@gmail.com</a>\n</div>\n<p style=\"margin-top:1.15rem\">To help us answer quickly, please include:</p>\n<ul>\n<li>Your iPhone model and iOS version</li>\n<li>The ProGains version you're running</li>\n<li>What you were doing when the problem happened, and what you expected instead</li>\n<li>For sync problems: the text from the Status section in Settings (there's a <strong>Copy Error Details</strong> button for the error state)</li>\n</ul>\n<div class=\"note\">\n<p>For anything about billing, refunds, or cancelling — those are handled by Apple. Start at <a href=\"https://apps.apple.com/account/subscriptions\">your Apple subscription settings</a> or <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>.</p>\n</div>"
+   }
+  ]
+ },
+ "privacy": {
+  "title": "ProGains Privacy Policy",
+  "desc": "The ProGains privacy policy. ProGains has no servers and makes no network requests of its own. Your workout data stays on your device, or in your own private iCloud database if you enable Premium Cloud Sync.",
+  "eyebrow": "Privacy Policy",
+  "h1": "Privacy Policy — ProGains",
+  "lede": "ProGains is a workout tracking app that runs on your device. It has no accounts, no servers of its own, and makes no network requests of its own. This policy describes exactly what that means for your data.",
+  "updatedLabel": "Last Updated:",
+  "updatedDate": "August 23, 2026",
+  "tocLabel": "On this page",
+  "sections": [
+   {
+    "id": "summary",
+    "h2": "Summary",
+    "html": "<p>ProGains (\"the app\", \"we\") is developed and published by an independent developer. This policy applies to the ProGains iPhone app.</p>\n<dl class=\"facts\">\n<dt>The app has no servers.</dt>\n<dd>ProGains does not operate a backend service. There is no ProGains account, no sign-up, and no login. The app makes no network requests of its own — it does not send your data anywhere we control.</dd>\n<dt>Your workout data lives on your device.</dt>\n<dd>Everything you create in ProGains is stored in a database on your iPhone.</dd>\n<dt>Optional Cloud Sync uses your iCloud, not ours.</dt>\n<dd>If you are a Premium subscriber and turn Cloud Sync on, Apple's CloudKit mirrors your data to the <strong>private database</strong> in your own iCloud account, so it appears on your other Apple devices. We cannot access that database.</dd>\n<dt>No analytics, no tracking, no ads, no third-party SDKs.</dt>\n<dd>ProGains contains no advertising, no third-party analytics, and no tracking of any kind. The only Apple framework it uses for anything outside the device is StoreKit, for subscriptions.</dd>\n<dt>Apple handles payments.</dt>\n<dd>Subscriptions are processed by Apple through the App Store. We never see your payment details.</dd>\n</dl>"
+   },
+   {
+    "id": "collect",
+    "h2": "What we collect",
+    "html": "<p><strong>We do not collect personal information from you.</strong></p>\n<p>ProGains does not operate its own servers and makes no network requests of its own. It has no code that transmits your workout data, your usage of the app, your device identifiers, or any other information to us or to any third party. There is no ProGains account to create, and the app never asks for your name, email address, date of birth, or any other identifying detail.</p>\n<p>The app contains a small set of internal event names used during development to understand which Premium features are viewed (for example, \"paywall viewed\"). These events are compiled to print to the developer console in debug builds only; in the version published on the App Store they do nothing at all, contain no personal data, and are never transmitted anywhere.</p>\n<div class=\"note\">\n<p><strong>What this policy does <em>not</em> cover.</strong> ProGains uses two Apple services — the App Store (for subscriptions, via StoreKit) and iCloud/CloudKit (for optional Cloud Sync). Those are Apple's services, operated by Apple under Apple's own privacy practices, and Apple may receive information in connection with them. The sections below describe how ProGains uses each one. For Apple's practices, see <a href=\"https://www.apple.com/legal/privacy/\">Apple's Privacy Policy</a>.</p>\n</div>"
+   },
+   {
+    "id": "workout-data",
+    "h2": "Your workout data",
+    "html": "<p>Everything you create in ProGains is stored locally on your device, in the app's own database. That includes:</p>\n<ul class=\"features\">\n<li>Exercises you create or customize — name, muscle group, equipment type, notes, instructions</li>\n<li>Training programs and their phases and days</li>\n<li>Workout templates</li>\n<li>Scheduled training days</li>\n<li>Workout logs — date, start and end time, duration, session name, overall notes, perceived difficulty</li>\n<li>Exercise logs within each workout</li>\n<li>Individual sets — set type (warm-up, working, drop set), reps, weight, RPE, and per-set notes</li>\n<li>App state that follows you across devices — your active program, whether it's paused, and your default rest-timer durations</li>\n</ul>\n<p style=\"margin-top:1.15rem\">This information is created entirely by you. ProGains does not derive it from any other source, and it is not sent to us.</p>\n<p>If you are a Premium subscriber and Cloud Sync is enabled, this data is also mirrored to the private CloudKit database in your own iCloud account, as described below. <strong>The developer does not operate that database and cannot read what is in it.</strong></p>"
+   },
+   {
+    "id": "photos",
+    "h2": "Exercise photos",
+    "html": "<p>ProGains lets you attach an optional photo to an exercise in your library. When you tap to add one, iOS presents its own system photo picker; you choose a single image, and only that image is handed to the app. ProGains does not receive access to your photo library, and it does not read, browse, or scan your photos.</p>\n<p>A photo you choose is resized and compressed, then stored in the app's local database alongside the exercise. If Cloud Sync is enabled, it is mirrored to your private iCloud database along with the rest of your data. It is never sent to us or to anyone else. Deleting the photo in the app, or deleting the exercise, removes it.</p>"
+   },
+   {
+    "id": "icloud",
+    "h2": "iCloud and CloudKit",
+    "html": "<p>Cloud Sync is an <strong>optional Premium feature</strong>. It is off unless you turn it on, and it is only available while a Premium subscription is active.</p>\n<p>When it is enabled, ProGains uses Apple's CloudKit to mirror your workout data into the <strong>private database</strong> of the iCloud container associated with the app (<code>iCloud.com.ProGainsApp.database</code>). Concretely, this means:</p>\n<ul>\n<li>The data is stored under <strong>your</strong> Apple Account, in <strong>your</strong> private iCloud database. It counts against your iCloud storage, and it is governed by Apple's terms and privacy policy.</li>\n<li>It syncs between Apple devices signed in to the same Apple Account with ProGains installed.</li>\n<li><strong>The developer of ProGains does not have access to your private CloudKit database and cannot read, export, or recover its contents.</strong> A private CloudKit database is reachable only through the signed-in Apple Account on the user's own devices. There is no developer console, dashboard, or API that exposes it to us.</li>\n<li>ProGains uses no CloudKit public or shared database. Nothing you create is visible to other ProGains users.</li>\n<li>To keep your devices up to date, CloudKit uses Apple's push notification service to signal that changes are waiting. These are silent, system-level messages handled by Apple and iOS; they carry no message content to you and are not used by us for any other purpose.</li>\n<li>Cloud Sync requires an iPhone signed in to iCloud with a working iCloud account and available storage. If iCloud is unavailable, ProGains keeps saving your data locally and tells you it is local only.</li>\n<li>Turning Cloud Sync off stops further mirroring. It does not delete your local data, and it does not by itself delete what is already in your iCloud database.</li>\n</ul>\n<p>If you never enable Cloud Sync, ProGains does not use iCloud for your workout data at all.</p>"
+   },
+   {
+    "id": "subscriptions",
+    "h2": "Subscriptions and payments",
+    "html": "<p>ProGains Premium is an auto-renewing subscription sold through the App Store and processed by Apple using StoreKit. Apple handles the entire transaction.</p>\n<p><strong>ProGains does not receive or store:</strong></p>\n<ul>\n<li>Your credit card or debit card number</li>\n<li>Any other payment credentials or billing details</li>\n<li>Your name, billing address, or Apple Account email</li>\n</ul>\n<p>What the app does receive from StoreKit is your <strong>subscription entitlement</strong> — essentially, whether a subscription to a given ProGains product is currently active, and when it expires. ProGains reads this from Apple to decide whether to unlock Premium features, and re-checks it when the app returns to the foreground and when Apple reports a change (renewal, expiry, cancellation, refund). This entitlement information is not stored on any server of ours, because we do not operate one.</p>\n<p>Restoring purchases uses Apple's standard mechanism to re-read your existing entitlements from the App Store. Managing, changing, or cancelling a subscription is done in your Apple Account settings, not in the app. See the <a href=\"support.html#subscription-en\">Support page</a> for instructions.</p>\n<p>Information Apple collects in connection with a purchase is handled under <a href=\"https://www.apple.com/legal/privacy/\">Apple's Privacy Policy</a>.</p>"
+   },
+   {
+    "id": "notifications",
+    "h2": "Notifications",
+    "html": "<p>ProGains uses <strong>local notifications</strong> for the rest timer between sets. After you finish onboarding, iOS asks once for permission to send notifications. If you allow it, ProGains schedules a single notification when a rest timer starts, so you are alerted when your rest is up even if the app is in the background. If you leave the app open, the notification is cancelled and you get an in-app alert instead. Skipping or ending a rest timer cancels it too.</p>\n<p>These notifications are created and scheduled entirely on your device by iOS. <strong>They are not sent from a ProGains server</strong> — no such server exists — and they contain no personal information. If you decline the permission, or turn notifications off later in iOS Settings, ProGains still works; you simply won't get the background rest-timer alert.</p>\n<p>Separately, if you enable Premium Cloud Sync, Apple's CloudKit uses silent system push notifications to keep your devices in sync, as described under <a href=\"#icloud-en\">iCloud and CloudKit</a>. Those are handled by Apple and iOS and are never displayed to you.</p>"
+   },
+   {
+    "id": "tracking",
+    "h2": "Tracking and advertising",
+    "html": "<p>ProGains does not track you. Specifically, the app contains:</p>\n<ul>\n<li><strong>No advertising.</strong> There are no ads and no advertising SDKs.</li>\n<li><strong>No third-party analytics.</strong> There is no analytics SDK of any kind.</li>\n<li><strong>No third-party SDKs at all.</strong> ProGains has no third-party package dependencies. The only non-standard framework it links is Apple's own StoreKit, for subscriptions.</li>\n<li><strong>No App Tracking Transparency prompt</strong>, because there is nothing to ask about — the app does no tracking as Apple defines it.</li>\n<li><strong>No advertising identifier (IDFA)</strong> and <strong>no identifier for vendors (IDFV)</strong>. The app does not read, store, or transmit either.</li>\n<li><strong>No device fingerprinting</strong>, no cross-app or cross-website tracking, and no data brokers.</li>\n</ul>\n<p>Nothing about you or your training is sold, shared, or used for advertising, because none of it leaves your device or your own iCloud account.</p>"
+   },
+   {
+    "id": "device-settings",
+    "h2": "Settings stored on your device",
+    "html": "<p>ProGains keeps a few small preferences in the app's standard iOS preference storage on your device: whether you have completed onboarding, whether Cloud Sync is switched on, and the time of the last successful sync. These are device-local, contain no personal information, and are removed when the app is deleted.</p>\n<p>ProGains does not use cookies or any web-based tracking technology. The app is not a web app and contains no embedded browser.</p>"
+   },
+   {
+    "id": "deletion",
+    "h2": "Data deletion",
+    "html": "<p>Because we hold none of your data, deletion is entirely under your control.</p>\n<h3>Deleting individual items</h3>\n<p>You can delete any exercise, program, template, workout log, or photo from within ProGains at any time. If Cloud Sync is on, those deletions sync to your other devices.</p>\n<h3>Deleting the app</h3>\n<p>Deleting ProGains from your iPhone removes the app and its locally stored data — the workout database and the app's preferences — from that device.</p>\n<div class=\"note\">\n<p><strong>Deleting the app does not automatically remove data already synced to iCloud.</strong> If you used Premium Cloud Sync, a copy of your data remains in the private CloudKit database in your own iCloud account, so that reinstalling the app on the same Apple Account can restore it. Removing that copy is done through iCloud, not through the app.</p>\n</div>\n<h3>Removing your iCloud copy</h3>\n<p>Data stored in your private iCloud database is managed by you through your Apple Account. Depending on your iOS version, ProGains appears in the list of apps using iCloud under <span class=\"path\">Settings › [your name] › iCloud</span>, where you can turn iCloud off for the app and choose to delete its iCloud data. You can also manage or delete iCloud app data under <span class=\"path\">Settings › [your name] › iCloud › Manage Account Storage</span>. Apple's own instructions for managing and deleting iCloud data are the authoritative reference: see <a href=\"https://support.apple.com/en-us/108922\">Apple Support — Manage your iCloud storage</a>.</p>\n<p>Because these controls belong to Apple and their exact location changes between iOS versions, we cannot delete your iCloud data for you and cannot guarantee a particular menu path. If you would like help finding the right setting on your device, <a href=\"#contact-en\">email us</a> and we will walk you through it.</p>"
+   },
+   {
+    "id": "children",
+    "h2": "Children",
+    "html": "<p>ProGains is a general-audience fitness app and is not directed at children. It does not knowingly collect any information from anyone, of any age, because it does not collect information at all.</p>"
+   },
+   {
+    "id": "changes",
+    "h2": "Changes to this policy",
+    "html": "<p>If the app's behavior changes in a way that affects your privacy, this policy will be updated and the \"Last Updated\" date at the top of this page will change. Material changes will be reflected here before or at the time the corresponding app update is released. Continued use of ProGains after an update constitutes acceptance of the revised policy.</p>"
+   },
+   {
+    "id": "contact",
+    "h2": "Contact",
+    "html": "<p>Questions about this policy, or about how ProGains handles your data? Email us.</p>\n<div class=\"contact\">\n<span class=\"label\">Email</span>\n<a class=\"email\" href=\"mailto:progains.support@gmail.com\">progains.support@gmail.com</a>\n</div>\n<p style=\"margin-top:1.15rem\">For help using the app, see the <a href=\"support.html#en\">ProGains Support page</a>.</p>"
+   }
+  ]
+ }
+}
