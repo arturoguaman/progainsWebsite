@@ -27,17 +27,37 @@
    {
     "id": "about",
     "h2": "关于 ProGains",
-    "html": "<p>ProGains 是一款适用于 iPhone 的力量训练与训练记录应用。它专为进行负重训练、希望把每次训练、训练计划和进展都集中在一处的人打造。</p>\n<p>使用 ProGains，你可以：</p>\n<ul class=\"features\">\n<li>创建并自定义你自己的训练动作，可添加备注、动作说明、目标肌群、器械，以及一张可选的照片</li>\n<li>创建可随时重复使用的训练模板</li>\n<li>创建多阶段的训练方案，并安排你的训练周</li>\n<li>边练边记录训练，内置组间休息计时器</li>\n<li>为每个动作记录组数、次数、重量和 RPE</li>\n<li>分别记录热身组、正式组和递减组</li>\n<li>不按计划训练时，可以开始一次自由训练</li>\n<li>回顾你的训练记录，并搜索你的训练历史</li>\n<li>追踪力量进展以及预估最大单次重量（1RM）随时间的变化</li>\n<li>解锁高级版，获得进阶进展分析、长期统计数据、完整的训练历史、无限量的训练方案与模板，以及云同步</li>\n<li>使用高级版云同步，通过你自己的 iCloud 账户，在你的各台 Apple 设备之间保持训练数据同步</li>\n</ul>\n<div class=\"note\">\n<p><strong>记录训练始终可以离线进行。</strong>ProGains 会在你训练的同时把数据保存到设备上。只有在购买订阅时，以及当你是已开启云同步的高级版订阅用户、需要同步到 iCloud 时，才需要联网。</p>\n</div>"
+    "html": "<p>ProGains 是一款面向 iPhone 的力量训练与训练记录 App。它专为进行负重训练的人打造，让训练方案、每次训练和训练进展都集中在一处。</p>\n<ul class=\"features\">\n<li><strong>计划</strong> &mdash; 多周训练方案，可包含阶段、训练日和休息日，并自动排入日程</li>\n<li><strong>模板</strong> &mdash; 可重复使用的单次训练，随时都能开始</li>\n<li><strong>训练动作库</strong> &mdash; 内置一套基础动作供你编辑，你也可以添加自己的动作，并附上备注、要点和照片</li>\n<li><strong>训练记录</strong> &mdash; 记录每一组的次数、重量和 RPE，支持热身、正式组和递减组，还有自动休息计时器</li>\n<li><strong>历史</strong> &mdash; 每次完成的训练都会保存下来，可搜索，也可在日历上浏览</li>\n<li><strong>进展</strong> &mdash; 预估 1RM（单次最大重量）随时间变化的图表，需高级版</li>\n<li><strong>云同步</strong> &mdash; 通过你自己的 iCloud，在你的所有设备上查看训练数据，需高级版</li>\n</ul>\n<div class=\"note\">\n<p><strong>记录训练始终支持离线使用。</strong>ProGains 会随时把训练数据保存到你的设备上。只有在购买订阅时，以及当你是开启了云同步的高级版订阅用户、需要同步到 iCloud 时，才需要联网。</p>\n</div>"
    },
    {
-    "id": "restore",
-    "h2": "恢复购买",
-    "html": "<p>如果你已经订阅过 ProGains 高级版 —— 例如在另一台设备上订阅，或是在重新安装应用之前订阅过 —— 你可以恢复订阅，无需再次付费。</p>\n<ol class=\"steps\">\n<li>在 iPhone 上打开 <strong>ProGains</strong>。</li>\n<li>打开高级版页面。你可以从应用中任何高级版提示进入 —— 最快的路径是打开 <span class=\"path\">计划</span> 标签页，点按左上角的<strong>齿轮图标</strong>打开<strong>设置</strong>，然后在 <strong>iCloud</strong> 部分点按<strong>解锁高级版</strong>。<span class=\"path\">进展</span> 标签页，以及 <span class=\"path\">记录</span> 标签页底部已锁定的历史卡片，打开的都是同一个页面。</li>\n<li>在 <strong>ProGains 高级版</strong>页面上，点按<strong>恢复购买</strong>（位于订阅按钮下方）。</li>\n<li>稍等片刻，App Store 会核对你的账户。找到你的订阅后，高级版功能会立即解锁 —— 无需重新启动。</li>\n</ol>\n<div class=\"note\">\n<p><strong>请确认该设备登录的是当初购买此订阅的那个 Apple 账户。</strong>恢复购买会从 Apple 读取你的购买历史，因此换成其他 Apple 账户是找不到的。你可以在 iPhone 上的 <span class=\"path\">设置 ›[你的姓名]› 媒体与购买项目</span> 中查看当前登录的是哪个账户。</p>\n<p>如果高级版页面已经显示<strong>「你已是高级用户」</strong>，说明你的订阅正在生效，无需恢复。</p>\n</div>\n<p>订阅购买完全由 Apple 通过 App Store 处理。ProGains 从不接触或处理你的支付信息 —— 应用只会收到你的订阅当前是否有效这一结果。</p>"
+    "id": "programs",
+    "h2": "计划",
+    "html": "<p>计划是一套会重复进行的训练方案，ProGains 会把它排入日程，让你逐日执行。在<span class=\"path\">计划</span>标签页中，进入<strong>计划</strong>即可创建。</p>\n<h3>创建计划</h3>\n<ol class=\"steps\">\n<li>为计划起一个名称，并可选择添加备注。</li>\n<li>选择它持续多久：需要有结束日期就选<strong>固定周数</strong>，想一直重复下去就选<strong>不限时长</strong>。</li>\n<li>如果需要，可以添加<strong>阶段</strong>。阶段是一个有自己名称和周数的多周区块 &mdash; 适合把方案拆分成增肌、力量、冲峰这样的不同时期。如果你想简单一些，整个计划也可以作为单个区块来执行。</li>\n<li>在阶段中添加会重复的训练日。每一天都有自己的名称，以及自己的动作列表和你打算完成的组数与次数。</li>\n<li>任意一天都可以标记为<strong>休息日</strong>。休息日也是循环的一部分，所以「练三休一」的一周，就是四天中把第四天标记为休息日。</li>\n</ol>\n<h3>执行计划</h3>\n<p>把某个计划设为<strong>进行中</strong>，ProGains 就会据此生成你的日程。<span class=\"path\">开始</span>标签页随即会显示当天该做的训练，日历则会显示接下来的安排。同一时间只能有一个计划处于进行中。</p>\n<p>如果需要暂时中断训练，可以暂停正在进行的计划，之后再从原来的位置继续，不会丢失进度。哪个计划正在进行、它是否已暂停，都会在开启云同步后在你的各台设备之间同步。</p>\n<div class=\"note\"><p>免费账户最多可保留 <strong>2 个计划</strong>。高级版取消这一上限。超出上限的计划永远不会被删除 &mdash; 只是在你删除其中一个或升级之前，无法再添加新的计划。</p></div>"
    },
    {
-    "id": "subscription",
-    "h2": "管理或取消订阅",
-    "html": "<p>ProGains 高级版是通过 App Store 销售的自动续期订阅，因此它在你的 Apple 账户中管理，而不是在应用内管理。价格、续期日期、更改套餐和取消订阅都在那里处理。</p>\n<div class=\"btn-row\">\n<a class=\"btn btn-primary\" href=\"https://apps.apple.com/account/subscriptions\">管理或取消订阅</a>\n</div>\n<p style=\"margin-top:1rem\"><small><a href=\"https://apps.apple.com/account/subscriptions\">https://apps.apple.com/account/subscriptions</a></small></p>\n<p>你也可以在 iPhone 上前往：打开<span class=\"path\">设置</span>，点按顶部你的姓名，点按<strong>订阅</strong>，然后选择 <strong>ProGains</strong>。</p>\n<h3>如果我取消订阅，我的数据会怎样？</h3>\n<p>取消订阅不会清除你的训练数据。你记录的一切都会原样保存在设备上，你也可以继续使用 ProGains 创建训练动作、进行训练和记录训练。</p>\n<p>发生变化的是高级版功能的使用权限。订阅失效后，ProGains 会停止把新的更改镜像到 iCloud，训练历史列表也会恢复为仅显示最近三个月。你更早的训练记录不会被删除 —— 它们仍然存储在你的设备上，如果你再次订阅就会重新出现。</p>\n<p>退款由 Apple 处理，而不是由 ProGains 处理。可前往 <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> 提出申请。</p>"
+    "id": "templates",
+    "h2": "模板",
+    "html": "<p>模板是可以重复使用的单次训练 &mdash; 没有日程，没有周数，只是一次你会反复进行的训练。如果你习惯凭状态安排训练，又希望每次都有现成的同一套内容，模板正合适。</p>\n<p>在<span class=\"path\">计划</span>标签页的<strong>模板</strong>中创建：为训练命名，添加动作，再设定你打算完成的组数和次数。</p>\n<h3>从模板开始一次训练</h3>\n<ol class=\"steps\">\n<li>打开<span class=\"path\">开始</span>标签页。</li>\n<li>把顶部的选择器从<strong>计划</strong>切换到<strong>模板</strong>。</li>\n<li>选择一个已保存的模板，训练随即打开，其中的动作也已经准备就绪。</li>\n</ol>\n<p>同一界面上还有<strong>开始空白训练</strong>，它会开启一次内容为空的训练，你可以边练边添加动作。什么都不必提前计划。</p>\n<div class=\"note\"><p>免费账户最多可保留 <strong>3 个模板</strong>。高级版取消这一上限。</p></div>"
+   },
+   {
+    "id": "exercises",
+    "h2": "训练动作库",
+    "html": "<p><span class=\"path\">训练动作</span>标签页就是你的动作库。ProGains 内置了一套按肌群和器材分类的基础动作，你也可以添加自己的动作。</p>\n<h3>一个动作包含什么</h3>\n<ul>\n<li><strong>名称</strong></li>\n<li><strong>肌群</strong> &mdash; 胸部、背部、肩部、前臂、肱二头肌、肱三头肌、腿部、腹部、全身或有氧</li>\n<li><strong>器材</strong> &mdash; 杠铃、哑铃、器械、绳索、自重、壶铃或弹力带</li>\n<li><strong>备注</strong> &mdash; 任何你想记住的内容</li>\n<li><strong>说明</strong> &mdash; 你自己写下的动作要点</li>\n<li><strong>一张可选的照片</strong> &mdash; 器械的调节位置、某台机器，或配重片的组合</li>\n</ul>\n<p>你可以按肌群浏览，或按名称搜索。点按任意动作即可编辑，包括 ProGains 自带的动作 &mdash; 你可以重命名、加上自己的要点，或修改器材以匹配你所在的健身房。</p>\n<p>用不到的内置动作可以删除。这个删除会被记住，因此在开启云同步后，它不会在你的其他设备上重新出现。</p>\n<p>添加照片使用的是标准的 iOS 照片选择器：你选定一张图片，也只有这张图片会交给 App。ProGains 绝不会获得访问你照片图库的权限。</p>"
+   },
+   {
+    "id": "logging",
+    "h2": "记录训练",
+    "html": "<p>从<span class=\"path\">开始</span>标签页开始一次训练 &mdash; 可以是正在进行的计划为当天安排的训练，也可以是临时自由安排的一次训练。之后，记录界面会在整次训练中一直陪着你。</p>\n<h3>记录每一组</h3>\n<p>每一组都可以记录<strong>次数</strong>和<strong>重量</strong>，还可以选填 <strong>RPE</strong>（自觉用力程度）和备注。点按圆圈即可把一组标记为完成。</p>\n<p>组分为三种，在动作中分别归类显示：</p>\n<ul>\n<li><strong>热身组</strong> &mdash; 正式训练之前想加几组就加几组</li>\n<li><strong>正式组</strong> &mdash; 计入训练容量和预估 1RM 的组</li>\n<li><strong>递减组</strong> &mdash; 一个正式组加上随后逐次降重的部分，一起记录</li>\n</ul>\n<h3>上次做到多少</h3>\n<p>每一组所在的行都会显示你上次做这个动作的成绩，你想要超越的数字，始终就在你正在输入的数字旁边。</p>\n<h3>休息计时器</h3>\n<p>休息计时器会自动开始。一共有两个，各司其职：</p>\n<ul>\n<li><strong>组间休息</strong> &mdash; 当前动作还有剩余组数时运行</li>\n<li><strong>动作间休息</strong> &mdash; 在某个动作的最后一组结束、且后面还有其他动作时运行；整次训练的最后一组之后绝不会运行</li>\n</ul>\n<p>你可以在<span class=\"path\">计划</span> &rsaquo; <strong>齿轮图标</strong> &rsaquo; <strong>设置</strong>中设定默认时长，也可以为单个动作单独覆盖组间休息。计时器在运行时可以跳过或修改。</p>\n<p>如果你离开 App，ProGains 会安排一条通知，让你依然知道休息何时结束。如果你留在 App 中，则会在屏幕上看到提醒。</p>\n<h3>暂停与中途离开</h3>\n<p>你可以暂停训练，暂停的时间不会计入记录的时长。把训练界面向下轻扫，它会变成标签栏上方的一个横条继续运行，并显示实时秒表 &mdash; 点按即可返回。</p>"
+   },
+   {
+    "id": "history",
+    "h2": "训练记录与历史",
+    "html": "<p>完成一次训练，它就会被保存下来：每一组、总训练容量、时长、你的备注，以及这次训练的主观强度。什么都不会被丢弃。</p>\n<p>在<span class=\"path\">记录</span>标签页中查看你的训练，可按月份分组，也可以在日历上浏览。你可以按训练或动作名称搜索。点按任意一次训练即可查看完整内容，如果记录有误也可以编辑 &mdash; 编辑已完成的训练不会改变它记录的时长。</p>\n<h3>可以回看多久以前</h3>\n<div class=\"note\"><p><strong>免费版：</strong>最近 <strong>3 个月</strong>的训练。<br>\n<strong>高级版：</strong>你记录过的每一次训练。</p></div>\n<p>有一点值得说清楚：在免费账户上，超过三个月的训练<strong>不会被删除</strong>。它们原封不动地保存在你的设备上，只要你订阅就会立刻重新出现。如果订阅到期，列表只是重新收窄 &mdash; 没有任何内容会丢失。</p>"
+   },
+   {
+    "id": "premium",
+    "h2": "高级版",
+    "html": "<p>ProGains 最重要的那部分可以免费使用：创建计划和模板，以及无限量地记录训练。高级版是可选的订阅，会额外提供以下功能。</p>\n<ul class=\"features\">\n<li><strong>云同步</strong> &mdash; 通过你自己的私人 iCloud 账户，让训练、计划、模板和动作在你的各台设备之间保持同步</li>\n<li><strong>完整训练历史</strong> &mdash; 浏览和搜索你记录过的每一次训练，而不只是最近三个月</li>\n<li><strong>进展分析</strong> &mdash; 每个动作的预估 1RM 随时间变化的图表</li>\n<li><strong>长期统计</strong> &mdash; 趋势变化速度、平台期检测，以及 4 周、8 周和 12 周的力量预测</li>\n<li><strong>无限个计划</strong> &mdash; 不再受免费版 2 个的上限</li>\n<li><strong>无限个模板</strong> &mdash; 不再受免费版 3 个的上限</li>\n</ul>\n<p style=\"margin-top:1.15rem\">高级版是自动续期订阅，提供按月和按年两种方式。你所用货币下的具体价格会显示在 App 内的高级版页面上，因为价格是按 App Store 所在地区分别设定的。订阅会自动续期，直到你取消为止。</p>\n<p>失去高级版并不会删除你的数据。进展图表和更早的历史记录将无法查看，云同步也会停止同步新的更改，但每一次训练都仍保存在你的设备上，只要再次订阅就会回来。</p>"
    },
    {
     "id": "cloud-sync",
@@ -48,6 +68,16 @@
     "id": "local-only",
     "h2": "「仅本地」状态",
     "html": "<p>在<strong>设置 › 状态</strong>中，<strong>本设备</strong>一行会显示 <strong>iCloud 已启用</strong> 或 <strong>仅本地</strong>。</p>\n<p><strong>仅本地</strong>的含义正如字面所示：你的训练数据已安全保存在这台 iPhone 上，但 iCloud 镜像未能在此设备上启动，因此最近的更改尚未复制到 iCloud。没有任何内容丢失 —— 本地数据完好无损。</p>\n<p>出现这种情况，可能是因为本地数据库需要迁移到兼容同步的格式，也可能是因为设备上的 iCloud 尚未完全设置好。</p>\n<h3>排查步骤</h3>\n<ol class=\"steps\">\n<li><strong>检查你的网络连接。</strong>确认设备上的 Wi-Fi 或蜂窝移动数据可以正常使用。</li>\n<li><strong>确认你已登录 iCloud。</strong>在 iPhone 上打开 <span class=\"path\">设置 ›[你的姓名]</span>，确认你已登录并且 iCloud 已启用。</li>\n<li><strong>确认 ProGains 中的云同步已开启。</strong>打开 <span class=\"path\">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong> › <strong>iCloud</strong>，确认<strong>云同步</strong>开关已打开。该开关仅在你的高级版订阅有效期间才会出现。</li>\n<li><strong>确认你的高级版订阅仍然有效。</strong>如果订阅已失效，状态部分会显示<em>需要高级版</em>。请参阅<a href=\"#subscription-zh\">管理或取消订阅</a>。</li>\n<li><strong>检查你的 iCloud 账户和储存空间。</strong>打开 <span class=\"path\">设置 ›[你的姓名]› iCloud</span>，确认账户状态正常，并且你的 iCloud 储存空间没有用尽。</li>\n<li><strong>退出并重新打开 ProGains，然后给它一点时间。</strong>彻底关闭应用再重新打开，在网络良好的情况下让它保持打开一两分钟。同步在后台运行，并不总是立即完成。</li>\n<li><strong>仍然没有解决？</strong>在<em>仅本地</em>和<em>同步出错</em>状态下，状态部分会显示一行技术细节，出错状态还会提供<strong>复制错误详情</strong>按钮。请复制那段文字并<a href=\"#contact-zh\">发送给支持团队</a> —— 它能准确告诉我们出了什么问题。</li>\n</ol>\n<div class=\"note\">\n<p><strong>无论哪种情况，你的数据都是安全的。</strong>ProGains 始终先把你的训练写入设备。同步问题影响的是更改能否传到你的其他设备，而不是你的训练有没有被记录下来。</p>\n</div>"
+   },
+   {
+    "id": "restore",
+    "h2": "恢复购买",
+    "html": "<p>如果你已经订阅过 ProGains 高级版 —— 例如在另一台设备上订阅，或是在重新安装应用之前订阅过 —— 你可以恢复订阅，无需再次付费。</p>\n<ol class=\"steps\">\n<li>在 iPhone 上打开 <strong>ProGains</strong>。</li>\n<li>打开高级版页面。你可以从应用中任何高级版提示进入 —— 最快的路径是打开 <span class=\"path\">计划</span> 标签页，点按左上角的<strong>齿轮图标</strong>打开<strong>设置</strong>，然后在 <strong>iCloud</strong> 部分点按<strong>解锁高级版</strong>。<span class=\"path\">进展</span> 标签页，以及 <span class=\"path\">记录</span> 标签页底部已锁定的历史卡片，打开的都是同一个页面。</li>\n<li>在 <strong>ProGains 高级版</strong>页面上，点按<strong>恢复购买</strong>（位于订阅按钮下方）。</li>\n<li>稍等片刻，App Store 会核对你的账户。找到你的订阅后，高级版功能会立即解锁 —— 无需重新启动。</li>\n</ol>\n<div class=\"note\">\n<p><strong>请确认该设备登录的是当初购买此订阅的那个 Apple 账户。</strong>恢复购买会从 Apple 读取你的购买历史，因此换成其他 Apple 账户是找不到的。你可以在 iPhone 上的 <span class=\"path\">设置 ›[你的姓名]› 媒体与购买项目</span> 中查看当前登录的是哪个账户。</p>\n<p>如果高级版页面已经显示<strong>「你已是高级用户」</strong>，说明你的订阅正在生效，无需恢复。</p>\n</div>\n<p>订阅购买完全由 Apple 通过 App Store 处理。ProGains 从不接触或处理你的支付信息 —— 应用只会收到你的订阅当前是否有效这一结果。</p>"
+   },
+   {
+    "id": "subscription",
+    "h2": "管理或取消订阅",
+    "html": "<p>ProGains 高级版是通过 App Store 销售的自动续期订阅，因此它在你的 Apple 账户中管理，而不是在应用内管理。价格、续期日期、更改套餐和取消订阅都在那里处理。</p>\n<div class=\"btn-row\">\n<a class=\"btn btn-primary\" href=\"https://apps.apple.com/account/subscriptions\">管理或取消订阅</a>\n</div>\n<p style=\"margin-top:1rem\"><small><a href=\"https://apps.apple.com/account/subscriptions\">https://apps.apple.com/account/subscriptions</a></small></p>\n<p>你也可以在 iPhone 上前往：打开<span class=\"path\">设置</span>，点按顶部你的姓名，点按<strong>订阅</strong>，然后选择 <strong>ProGains</strong>。</p>\n<h3>如果我取消订阅，我的数据会怎样？</h3>\n<p>取消订阅不会清除你的训练数据。你记录的一切都会原样保存在设备上，你也可以继续使用 ProGains 创建训练动作、进行训练和记录训练。</p>\n<p>发生变化的是高级版功能的使用权限。订阅失效后，ProGains 会停止把新的更改镜像到 iCloud，训练历史列表也会恢复为仅显示最近三个月。你更早的训练记录不会被删除 —— 它们仍然存储在你的设备上，如果你再次订阅就会重新出现。</p>\n<p>退款由 Apple 处理，而不是由 ProGains 处理。可前往 <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> 提出申请。</p>"
    },
    {
     "id": "storage",

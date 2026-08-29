@@ -5,8 +5,15 @@
 
 /* ---------- Design tokens (light) ---------- */
 :root {
-  --brand:          #E8590C;
+  --brand:          #E8590C;   /* fills, borders, decorative marks */
   --brand-strong:   #C24606;
+  /* The brand orange is only 3.58:1 on white, so it fails as body-size TEXT.
+     These two keep the identity while meeting 4.5:1: -ink for coloured text on a
+     light surface, -fill for a brand background that must carry white text.
+     Both collapse to --brand in dark mode, where light-on-dark already clears
+     the threshold comfortably. */
+  --brand-ink:      #B34105;
+  --brand-fill:     #C24606;
   --brand-soft:     rgba(232, 89, 12, 0.10);
   --brand-border:   rgba(232, 89, 12, 0.28);
 
@@ -17,7 +24,7 @@
 
   --text:           #16181C;
   --text-muted:     #565B63;
-  --text-faint:     #767C85;
+  --text-faint:     #666C76;
 
   --border:         #E2E4E8;
   --border-strong:  #CBCED5;
@@ -42,6 +49,8 @@
   :root {
     --brand:         #FF8A3D;
     --brand-strong:  #FFA366;
+    --brand-ink:     #FF8A3D;
+    --brand-fill:    #FF8A3D;
     --brand-soft:    rgba(255, 138, 61, 0.12);
     --brand-border:  rgba(255, 138, 61, 0.30);
 
@@ -78,6 +87,8 @@ html {
 }
 
 body {
+  /* Nothing on either page is meant to scroll sideways. */
+  overflow-x: clip;
   margin: 0;
   padding: 0;
   font-family: var(--font);
@@ -180,8 +191,10 @@ body {
 
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.4rem;
+  min-width: 0;
 }
 
 .site-nav a {
@@ -199,7 +212,7 @@ body {
   background: var(--surface-alt);
 }
 .site-nav a[aria-current="page"] {
-  color: var(--brand);
+  color: var(--brand-ink);
   background: var(--brand-soft);
   border-color: var(--brand-border);
 }
@@ -245,7 +258,7 @@ body {
 }
 .lang-switch a:hover { color: var(--text); background: var(--surface-alt); }
 .lang-switch a[aria-current="true"] {
-  color: var(--brand);
+  color: var(--brand-ink);
   background: var(--brand-soft);
   border-color: var(--brand-border);
 }
@@ -276,12 +289,14 @@ body {
 
 .eyebrow {
   display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   margin: 0 0 0.85rem;
   padding: 0.28rem 0.7rem;
   border-radius: 999px;
   background: var(--brand-soft);
   border: 1px solid var(--brand-border);
-  color: var(--brand);
+  color: var(--brand-ink);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -347,7 +362,7 @@ ul, ol {
 }
 li { margin-bottom: 0.45rem; }
 li:last-child { margin-bottom: 0; }
-li::marker { color: var(--brand); }
+li::marker { color: var(--brand-ink); }
 ol li::marker { font-weight: 700; }
 
 strong { font-weight: 650; color: var(--text); }
@@ -455,7 +470,7 @@ ol.steps > li::before {
   border-radius: 50%;
   background: var(--brand-soft);
   border: 1px solid var(--brand-border);
-  color: var(--brand);
+  color: var(--brand-ink);
   font-size: 0.8125rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
@@ -468,7 +483,9 @@ ul.features {
   margin: 1rem 0 0;
   display: grid;
   gap: 0.55rem;
-  grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
+  /* min() so the track can never exceed the container: a bare 15.5rem minimum
+     scales with the root font size and overflowed a phone at 200% text zoom. */
+  grid-template-columns: repeat(auto-fit, minmax(min(15.5rem, 100%), 1fr));
   max-width: none;
 }
 ul.features li {
@@ -522,10 +539,12 @@ ul.features li::before {
   text-decoration: none;
   border: 1px solid transparent;
   text-align: center;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .btn-primary {
-  background: var(--brand);
-  border-color: var(--brand);
+  background: var(--brand-fill);
+  border-color: var(--brand-fill);
   color: #fff;
 }
 .btn-primary:hover { background: var(--brand-strong); border-color: var(--brand-strong); color: #fff; }
@@ -547,7 +566,7 @@ ul.features li::before {
   gap: 0.65rem;
   margin: 1.1rem 0 0;
 }
-.btn-row .btn { flex: 1 1 15rem; }
+.btn-row .btn { flex: 1 1 min(15rem, 100%); }
 
 /* ---------- Contact block ---------- */
 .contact {
@@ -619,6 +638,8 @@ dl.facts dd {
   font-weight: 600;
   color: var(--text-muted);
   text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .footer-nav a:hover { color: var(--brand-strong); text-decoration: underline; }
 
