@@ -12,191 +12,1088 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ProGains">
 <meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
 <meta property="og:title" content="ProGains Support">
 <meta property="og:description" content="Help and support for ProGains, the strength-training and workout tracking app for iPhone. Restore purchases, manage your subscription, troubleshoot Cloud Sync, and contact support.">
+<meta property="og:image" content="icon-512.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ProGains Support">
-<meta name="twitter:description" content="Help and support for ProGains, the strength-training and workout tracking app for iPhone.">
+<meta name="twitter:description" content="Help and support for ProGains, the strength-training and workout tracking app for iPhone. Restore purchases, manage your subscription, troubleshoot Cloud Sync, and contact support.">
+<meta name="twitter:image" content="icon-512.png">
 <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-512.png">
 <link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
-<meta property="og:image" content="icon-512.png">
-<meta name="twitter:image" content="icon-512.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<a class="skip-link" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="support.html" aria-label="ProGains home">
-      <img class="brand-mark" src="data:image/png;base64,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" width="30" height="30" alt="" decoding="async">
-      <span><span class="pro">Pro</span><span class="gains">Gains</span></span>
-    </a>
-    <nav class="site-nav" aria-label="Primary">
-      <a href="support.html" aria-current="page">Support</a>
-      <a href="privacy.html">Privacy</a>
-    </nav>
-  </div>
-</header>
-
-<div class="hero">
-  <div class="wrap">
-    <p class="eyebrow">Support</p>
-    <h1>ProGains Support</h1>
-    <p class="lede">Answers to the most common questions about ProGains — subscriptions, Cloud Sync, and how your workout data is stored. If you can't find what you need here, email us and we'll help.</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="mailto:progains.support@gmail.com">Email Support</a>
-      <a class="btn btn-secondary" href="privacy.html">Read the Privacy Policy</a>
-    </div>
-  </div>
+<div class="i18n" id="en" lang="en">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#en" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="support.html#en" aria-current="page">Support</a>
+<a href="privacy.html#en">Privacy</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English" aria-current="true">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">Support</p>
+<h1>ProGains Support</h1>
+<p class="lede">Answers to the most common questions about ProGains — subscriptions, Cloud Sync, and how your workout data is stored. If you can't find what you need here, email us and we'll help.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">Email Support</a><a class="btn btn-secondary" href="privacy.html#en">Read the Privacy Policy</a></div>
+</div></div>
+<main id="main-en"><div class="wrap">
+<nav class="toc" aria-label="On this page"><h2>On this page</h2><ol>
+<li><a href="#about-en">About ProGains</a></li>
+<li><a href="#restore-en">Restore purchases</a></li>
+<li><a href="#subscription-en">Manage or cancel a subscription</a></li>
+<li><a href="#cloud-sync-en">Cloud Sync</a></li>
+<li><a href="#local-only-en">"Local only" status</a></li>
+<li><a href="#storage-en">How workout data is stored</a></li>
+<li><a href="#contact-en">Contact support</a></li>
+</ol></nav>
+<section id="about-en"><h2>About ProGains</h2><p>ProGains is a strength-training and workout tracking app for iPhone. It's built for people who train with weights and want their sessions, their plan, and their progress in one place.</p>
+<p>With ProGains you can:</p>
+<ul class="features">
+<li>Create and customize your own exercises, with notes, instructions, muscle group, equipment, and an optional photo</li>
+<li>Build workout templates you can reuse any time</li>
+<li>Build multi-phase training programs and schedule your training week</li>
+<li>Track a workout as you do it, with a built-in rest timer</li>
+<li>Record sets, reps, weight, and RPE for every exercise</li>
+<li>Log warm-up sets, working sets, and drop sets separately</li>
+<li>Start a freestyle workout when you're not following a plan</li>
+<li>Review your workout logs and search your training history</li>
+<li>Track strength progress and estimated one-rep max over time</li>
+<li>Unlock Premium for advanced progress analytics, long-term statistics, your full workout history, unlimited programs and templates, and Cloud Sync</li>
+<li>Keep your training in sync across your Apple devices with Premium Cloud Sync, using your own iCloud account</li>
+</ul>
+<div class="note">
+<p><strong>Recording workouts always works offline.</strong> ProGains saves your training to your device as you go. An internet connection is only needed for purchasing a subscription and, if you're a Premium subscriber with Cloud Sync turned on, for syncing to iCloud.</p>
+</div></section>
+<section id="restore-en"><h2>Restore purchases</h2><p>If you've already subscribed to ProGains Premium — for example on another device, or before reinstalling the app — you can restore your subscription without paying again.</p>
+<ol class="steps">
+<li>Open <strong>ProGains</strong> on your iPhone.</li>
+<li>Open the Premium screen. You can reach it from any Premium prompt in the app — the quickest route is the <span class="path">Planner</span> tab, then the <strong>gear icon</strong> in the top-left corner to open <strong>Settings</strong>, then <strong>Unlock Premium</strong> in the <strong>iCloud</strong> section. The <span class="path">Progress</span> tab and the locked history card at the bottom of the <span class="path">Logs</span> tab open the same screen.</li>
+<li>On the <strong>ProGains Premium</strong> screen, tap <strong>Restore Purchases</strong> (below the subscribe button).</li>
+<li>Wait a moment while the App Store checks your account. Once your subscription is found, Premium features unlock immediately — no restart needed.</li>
+</ol>
+<div class="note">
+<p><strong>Make sure the device is signed in to the Apple Account that originally bought the subscription.</strong> Restoring reads your purchase history from Apple, so a different Apple Account will not find it. You can check which account is signed in under <span class="path">Settings › [your name] › Media &amp; Purchases</span> on your iPhone.</p>
+<p>If the Premium screen already says <strong>"You're Premium"</strong>, your subscription is active and there is nothing to restore.</p>
 </div>
-
-<main id="main">
-  <div class="wrap">
-
-    <nav class="toc" aria-label="On this page">
-      <h2>On this page</h2>
-      <ol>
-        <li><a href="#about">About ProGains</a></li>
-        <li><a href="#restore">Restore purchases</a></li>
-        <li><a href="#subscription">Manage or cancel a subscription</a></li>
-        <li><a href="#cloud-sync">Cloud Sync</a></li>
-        <li><a href="#local-only">"Local only" status</a></li>
-        <li><a href="#storage">How workout data is stored</a></li>
-        <li><a href="#contact">Contact support</a></li>
-      </ol>
-    </nav>
-
-    <section id="about">
-      <h2>About ProGains</h2>
-      <p>ProGains is a strength-training and workout tracking app for iPhone. It's built for people who train with weights and want their sessions, their plan, and their progress in one place.</p>
-      <p>With ProGains you can:</p>
-      <ul class="features">
-        <li>Create and customize your own exercises, with notes, instructions, muscle group, equipment, and an optional photo</li>
-        <li>Build workout templates you can reuse any time</li>
-        <li>Build multi-phase training programs and schedule your training week</li>
-        <li>Track a workout as you do it, with a built-in rest timer</li>
-        <li>Record sets, reps, weight, and RPE for every exercise</li>
-        <li>Log warm-up sets, working sets, and drop sets separately</li>
-        <li>Start a freestyle workout when you're not following a plan</li>
-        <li>Review your workout logs and search your training history</li>
-        <li>Track strength progress and estimated one-rep max over time</li>
-        <li>Unlock Premium for advanced progress analytics, long-term statistics, your full workout history, unlimited programs and templates, and Cloud Sync</li>
-        <li>Keep your training in sync across your Apple devices with Premium Cloud Sync, using your own iCloud account</li>
-      </ul>
-      <div class="note">
-        <p><strong>Recording workouts always works offline.</strong> ProGains saves your training to your device as you go. An internet connection is only needed for purchasing a subscription and, if you're a Premium subscriber with Cloud Sync turned on, for syncing to iCloud.</p>
-      </div>
-    </section>
-
-    <section id="restore">
-      <h2>Restore purchases</h2>
-      <p>If you've already subscribed to ProGains Premium — for example on another device, or before reinstalling the app — you can restore your subscription without paying again.</p>
-      <ol class="steps">
-        <li>Open <strong>ProGains</strong> on your iPhone.</li>
-        <li>Open the Premium screen. You can reach it from any Premium prompt in the app — the quickest route is the <span class="path">Planner</span> tab, then the <strong>gear icon</strong> in the top-left corner to open <strong>Settings</strong>, then <strong>Unlock Premium</strong> in the <strong>iCloud</strong> section. The <span class="path">Progress</span> tab and the locked history card at the bottom of the <span class="path">Logs</span> tab open the same screen.</li>
-        <li>On the <strong>ProGains Premium</strong> screen, tap <strong>Restore Purchases</strong> (below the subscribe button).</li>
-        <li>Wait a moment while the App Store checks your account. Once your subscription is found, Premium features unlock immediately — no restart needed.</li>
-      </ol>
-      <div class="note">
-        <p><strong>Make sure the device is signed in to the Apple Account that originally bought the subscription.</strong> Restoring reads your purchase history from Apple, so a different Apple Account will not find it. You can check which account is signed in under <span class="path">Settings › [your name] › Media &amp; Purchases</span> on your iPhone.</p>
-        <p>If the Premium screen already says <strong>"You're Premium"</strong>, your subscription is active and there is nothing to restore.</p>
-      </div>
-      <p>Subscription purchases are handled entirely by Apple through the App Store. ProGains never sees or processes your payment information — the app only receives whether your subscription is currently active.</p>
-    </section>
-
-    <section id="subscription">
-      <h2>Manage or cancel a subscription</h2>
-      <p>ProGains Premium is an auto-renewing subscription sold through the App Store, so it is managed in your Apple Account rather than inside the app. Pricing, renewal date, plan changes, and cancellation are all handled there.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Manage or Cancel Subscription</a>
-      </div>
-      <p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
-      <p>You can also get there on your iPhone: open <span class="path">Settings</span>, tap your name at the top, tap <strong>Subscriptions</strong>, then select <strong>ProGains</strong>.</p>
-      <h3>What happens to my data if I cancel?</h3>
-      <p>Cancelling does not erase your workout data. Everything you've recorded stays saved on your device exactly as it was, and you can keep using ProGains to create exercises, run workouts, and log your training.</p>
-      <p>What changes is access to Premium features. When the subscription lapses, ProGains stops mirroring new changes to iCloud and the workout history list returns to the most recent three months. Your older workouts are not deleted — they're still stored on your device, and they reappear if you subscribe again.</p>
-      <p>Refunds are handled by Apple, not by ProGains. Requests can be made at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
-    </section>
-
-    <section id="cloud-sync">
-      <h2>Cloud Sync</h2>
-      <p><strong>Cloud Sync is a Premium feature.</strong> It keeps your workouts, programs, templates, exercises, and settings consistent across the Apple devices signed in to your Apple Account.</p>
-      <h3>How it works</h3>
-      <ul>
-        <li>Your workout data is stored on your device first. That local copy is always the one you're using, whether Cloud Sync is on or off.</li>
-        <li>Premium subscribers can turn Cloud Sync on in ProGains under <span class="path">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong> › <strong>iCloud</strong> › <strong>Cloud Sync</strong>. The change takes effect immediately — no restart required.</li>
-        <li>When it's on, ProGains uses Apple's iCloud and CloudKit infrastructure to mirror your data to the <strong>private database</strong> in your own iCloud account.</li>
-        <li>Because it's your private database, the data moves between your own devices under your Apple Account. The developer of ProGains cannot read it and has no access to it.</li>
-        <li>Cloud Sync requires an iPhone signed in to iCloud with a working iCloud account. If you aren't signed in, ProGains will say so and keep saving your data locally.</li>
-        <li>Turning Cloud Sync off does not delete anything. It stops mirroring; your local data stays exactly where it is.</li>
-      </ul>
-      <h3>Checking your sync status</h3>
-      <p>Open <span class="path">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong>. When Cloud Sync is on, a <strong>Status</strong> section appears showing the current state — <em>Syncing…</em>, <em>Synced</em>, <em>Not signed in to iCloud</em>, <em>Sync error</em>, or <em>Local only</em> — along with a <strong>This device</strong> row and the time of the last successful sync.</p>
-    </section>
-
-    <section id="local-only">
-      <h2>"Local only" status</h2>
-      <p>In <strong>Settings › Status</strong>, the <strong>This device</strong> row shows either <strong>iCloud active</strong> or <strong>Local only</strong>.</p>
-      <p><strong>Local only</strong> means exactly what it says: your workout data is saved safely on this iPhone, but iCloud mirroring did not start on this device, so recent changes have not been copied up to iCloud. Nothing has been lost — the data is intact locally.</p>
-      <p>This can happen if the local database needs to migrate to a sync-compatible format, or if iCloud isn't fully set up on the device.</p>
-      <h3>Troubleshooting steps</h3>
-      <ol class="steps">
-        <li><strong>Check your internet connection.</strong> Confirm Wi-Fi or cellular data is working on the device.</li>
-        <li><strong>Check that you're signed in to iCloud.</strong> Open <span class="path">Settings › [your name]</span> on your iPhone and make sure you're signed in and that iCloud is enabled.</li>
-        <li><strong>Check that Cloud Sync is on in ProGains.</strong> Open <span class="path">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong> › <strong>iCloud</strong> and confirm the <strong>Cloud Sync</strong> toggle is on. The toggle only appears while your Premium subscription is active.</li>
-        <li><strong>Check that your Premium subscription is active.</strong> If it has lapsed, the Status section will say <em>Premium required</em>. See <a href="#subscription">Manage or cancel a subscription</a>.</li>
-        <li><strong>Check your iCloud account and storage.</strong> Open <span class="path">Settings › [your name] › iCloud</span> and confirm the account is healthy and you haven't run out of iCloud storage.</li>
-        <li><strong>Quit and reopen ProGains, then give it time.</strong> Fully close the app and open it again, then leave it open for a minute or two on a good connection. Syncing runs in the background and isn't always instant.</li>
-        <li><strong>Still stuck?</strong> The Status section shows a technical detail line under the <em>Local only</em> and <em>Sync error</em> states, and the error state includes a <strong>Copy Error Details</strong> button. Copy that text and <a href="#contact">send it to support</a> — it tells us exactly what went wrong.</li>
-      </ol>
-      <div class="note">
-        <p><strong>Your data is safe either way.</strong> ProGains always writes your workouts to the device first. A sync problem affects whether changes reach your other devices, not whether your training is recorded.</p>
-      </div>
-    </section>
-
-    <section id="storage">
-      <h2>How workout data is stored</h2>
-      <p>ProGains stores your workout information — your exercises, programs, templates, scheduled days, workouts, and every set, rep, weight, and RPE you log — <strong>on your iPhone</strong>, in the app's own local database.</p>
-      <p>If you're a Premium subscriber and you turn Cloud Sync on, that same data is also mirrored to the <strong>private CloudKit database in your own iCloud account</strong>, which is what lets it appear on your other Apple devices.</p>
-      <p><strong>ProGains does not run its own server for your workout data.</strong> There is no ProGains account to create, no login, and no ProGains backend that your training is uploaded to. Your data is either on your device or in your own iCloud — never on a server run by the developer, and never sent to a third party.</p>
-      <p>For the full detail on what is stored and where, see the <a href="privacy.html">ProGains Privacy Policy</a>.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact support</h2>
-      <p>Need help, found a bug, or have a feature request? Email us — we read every message.</p>
-      <div class="contact">
-        <span class="label">Email</span>
-        <a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
-      </div>
-      <p style="margin-top:1.15rem">To help us answer quickly, please include:</p>
-      <ul>
-        <li>Your iPhone model and iOS version</li>
-        <li>The ProGains version you're running</li>
-        <li>What you were doing when the problem happened, and what you expected instead</li>
-        <li>For sync problems: the text from the Status section in Settings (there's a <strong>Copy Error Details</strong> button for the error state)</li>
-      </ul>
-      <div class="note">
-        <p>For anything about billing, refunds, or cancelling — those are handled by Apple. Start at <a href="https://apps.apple.com/account/subscriptions">your Apple subscription settings</a> or <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
-      </div>
-    </section>
-
-  </div>
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <p>&copy; 2026 ProGains. All rights reserved.</p>
-    <nav class="footer-nav" aria-label="Footer">
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
-    </nav>
-  </div>
-</footer>
-
+<p>Subscription purchases are handled entirely by Apple through the App Store. ProGains never sees or processes your payment information — the app only receives whether your subscription is currently active.</p></section>
+<section id="subscription-en"><h2>Manage or cancel a subscription</h2><p>ProGains Premium is an auto-renewing subscription sold through the App Store, so it is managed in your Apple Account rather than inside the app. Pricing, renewal date, plan changes, and cancellation are all handled there.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Manage or Cancel Subscription</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>You can also get there on your iPhone: open <span class="path">Settings</span>, tap your name at the top, tap <strong>Subscriptions</strong>, then select <strong>ProGains</strong>.</p>
+<h3>What happens to my data if I cancel?</h3>
+<p>Cancelling does not erase your workout data. Everything you've recorded stays saved on your device exactly as it was, and you can keep using ProGains to create exercises, run workouts, and log your training.</p>
+<p>What changes is access to Premium features. When the subscription lapses, ProGains stops mirroring new changes to iCloud and the workout history list returns to the most recent three months. Your older workouts are not deleted — they're still stored on your device, and they reappear if you subscribe again.</p>
+<p>Refunds are handled by Apple, not by ProGains. Requests can be made at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></section>
+<section id="cloud-sync-en"><h2>Cloud Sync</h2><p><strong>Cloud Sync is a Premium feature.</strong> It keeps your workouts, programs, templates, exercises, and settings consistent across the Apple devices signed in to your Apple Account.</p>
+<h3>How it works</h3>
+<ul>
+<li>Your workout data is stored on your device first. That local copy is always the one you're using, whether Cloud Sync is on or off.</li>
+<li>Premium subscribers can turn Cloud Sync on in ProGains under <span class="path">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong> › <strong>iCloud</strong> › <strong>Cloud Sync</strong>. The change takes effect immediately — no restart required.</li>
+<li>When it's on, ProGains uses Apple's iCloud and CloudKit infrastructure to mirror your data to the <strong>private database</strong> in your own iCloud account.</li>
+<li>Because it's your private database, the data moves between your own devices under your Apple Account. The developer of ProGains cannot read it and has no access to it.</li>
+<li>Cloud Sync requires an iPhone signed in to iCloud with a working iCloud account. If you aren't signed in, ProGains will say so and keep saving your data locally.</li>
+<li>Turning Cloud Sync off does not delete anything. It stops mirroring; your local data stays exactly where it is.</li>
+</ul>
+<h3>Checking your sync status</h3>
+<p>Open <span class="path">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong>. When Cloud Sync is on, a <strong>Status</strong> section appears showing the current state — <em>Syncing…</em>, <em>Synced</em>, <em>Not signed in to iCloud</em>, <em>Sync error</em>, or <em>Local only</em> — along with a <strong>This device</strong> row and the time of the last successful sync.</p></section>
+<section id="local-only-en"><h2>"Local only" status</h2><p>In <strong>Settings › Status</strong>, the <strong>This device</strong> row shows either <strong>iCloud active</strong> or <strong>Local only</strong>.</p>
+<p><strong>Local only</strong> means exactly what it says: your workout data is saved safely on this iPhone, but iCloud mirroring did not start on this device, so recent changes have not been copied up to iCloud. Nothing has been lost — the data is intact locally.</p>
+<p>This can happen if the local database needs to migrate to a sync-compatible format, or if iCloud isn't fully set up on the device.</p>
+<h3>Troubleshooting steps</h3>
+<ol class="steps">
+<li><strong>Check your internet connection.</strong> Confirm Wi-Fi or cellular data is working on the device.</li>
+<li><strong>Check that you're signed in to iCloud.</strong> Open <span class="path">Settings › [your name]</span> on your iPhone and make sure you're signed in and that iCloud is enabled.</li>
+<li><strong>Check that Cloud Sync is on in ProGains.</strong> Open <span class="path">Planner</span> › <strong>gear icon</strong> › <strong>Settings</strong> › <strong>iCloud</strong> and confirm the <strong>Cloud Sync</strong> toggle is on. The toggle only appears while your Premium subscription is active.</li>
+<li><strong>Check that your Premium subscription is active.</strong> If it has lapsed, the Status section will say <em>Premium required</em>. See <a href="#subscription-en">Manage or cancel a subscription</a>.</li>
+<li><strong>Check your iCloud account and storage.</strong> Open <span class="path">Settings › [your name] › iCloud</span> and confirm the account is healthy and you haven't run out of iCloud storage.</li>
+<li><strong>Quit and reopen ProGains, then give it time.</strong> Fully close the app and open it again, then leave it open for a minute or two on a good connection. Syncing runs in the background and isn't always instant.</li>
+<li><strong>Still stuck?</strong> The Status section shows a technical detail line under the <em>Local only</em> and <em>Sync error</em> states, and the error state includes a <strong>Copy Error Details</strong> button. Copy that text and <a href="#contact-en">send it to support</a> — it tells us exactly what went wrong.</li>
+</ol>
+<div class="note">
+<p><strong>Your data is safe either way.</strong> ProGains always writes your workouts to the device first. A sync problem affects whether changes reach your other devices, not whether your training is recorded.</p>
+</div></section>
+<section id="storage-en"><h2>How workout data is stored</h2><p>ProGains stores your workout information — your exercises, programs, templates, scheduled days, workouts, and every set, rep, weight, and RPE you log — <strong>on your iPhone</strong>, in the app's own local database.</p>
+<p>If you're a Premium subscriber and you turn Cloud Sync on, that same data is also mirrored to the <strong>private CloudKit database in your own iCloud account</strong>, which is what lets it appear on your other Apple devices.</p>
+<p><strong>ProGains does not run its own server for your workout data.</strong> There is no ProGains account to create, no login, and no ProGains backend that your training is uploaded to. Your data is either on your device or in your own iCloud — never on a server run by the developer, and never sent to a third party.</p>
+<p>For the full detail on what is stored and where, see the <a href="privacy.html#en">ProGains Privacy Policy</a>.</p></section>
+<section id="contact-en"><h2>Contact support</h2><p>Need help, found a bug, or have a feature request? Email us — we read every message.</p>
+<div class="contact">
+<span class="label">Email</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">To help us answer quickly, please include:</p>
+<ul>
+<li>Your iPhone model and iOS version</li>
+<li>The ProGains version you're running</li>
+<li>What you were doing when the problem happened, and what you expected instead</li>
+<li>For sync problems: the text from the Status section in Settings (there's a <strong>Copy Error Details</strong> button for the error state)</li>
+</ul>
+<div class="note">
+<p>For anything about billing, refunds, or cancelling — those are handled by Apple. Start at <a href="https://apps.apple.com/account/subscriptions">your Apple subscription settings</a> or <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. All rights reserved.</p>
+<nav class="footer-nav" aria-label="Footer"><a href="support.html#en">Support</a><a href="privacy.html#en">Privacy</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="de" lang="de">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#de" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="Hauptnavigation">
+<a href="support.html#de" aria-current="page">Support</a>
+<a href="privacy.html#de">Datenschutz</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch" aria-current="true">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">Support</p>
+<h1>ProGains Support</h1>
+<p class="lede">Antworten auf die häufigsten Fragen zu ProGains – Abos, Cloud-Sync und wie deine Trainingsdaten gespeichert werden. Wenn du hier nicht findest, was du brauchst, schreib uns eine E-Mail. Wir helfen dir.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">E-Mail an den Support</a><a class="btn btn-secondary" href="privacy.html#de">Datenschutzerklärung lesen</a></div>
+</div></div>
+<main id="main-de"><div class="wrap">
+<nav class="toc" aria-label="Auf dieser Seite"><h2>Auf dieser Seite</h2><ol>
+<li><a href="#about-de">Über ProGains</a></li>
+<li><a href="#restore-de">Käufe wiederherstellen</a></li>
+<li><a href="#subscription-de">Abo verwalten oder kündigen</a></li>
+<li><a href="#cloud-sync-de">Cloud-Sync</a></li>
+<li><a href="#local-only-de">Der Status „Nur lokal“</a></li>
+<li><a href="#storage-de">Wie Trainingsdaten gespeichert werden</a></li>
+<li><a href="#contact-de">Support kontaktieren</a></li>
+</ol></nav>
+<section id="about-de"><h2>Über ProGains</h2><p>ProGains ist eine App für Krafttraining und Workout-Tracking auf dem iPhone. Sie ist für alle gemacht, die mit Gewichten trainieren und ihre Einheiten, ihren Plan und ihren Fortschritt an einem Ort haben wollen.</p>
+<p>Mit ProGains kannst du:</p>
+<ul class="features">
+<li>Eigene Übungen erstellen und anpassen – mit Notizen, Anleitung, Muskelgruppe, Equipment und optional einem Foto</li>
+<li>Workout-Vorlagen anlegen, die du jederzeit wiederverwenden kannst</li>
+<li>Mehrphasige Trainingsprogramme aufbauen und deine Trainingswoche planen</li>
+<li>Ein Workout live mitverfolgen, mit integriertem Pausentimer</li>
+<li>Sätze, Wiederholungen, Gewicht und RPE für jede Übung erfassen</li>
+<li>Aufwärmsätze, Arbeitssätze und Dropsätze getrennt protokollieren</li>
+<li>Ein freies Workout starten, wenn du gerade keinem Plan folgst</li>
+<li>Deinen Verlauf durchsehen und deine Trainingshistorie durchsuchen</li>
+<li>Deinen Kraftfortschritt und dein geschätztes Einwiederholungsmaximum über die Zeit verfolgen</li>
+<li>Premium freischalten für erweiterte Fortschrittsanalysen, Langzeitstatistiken, deinen kompletten Trainingsverlauf, unbegrenzte Programme und Vorlagen sowie Cloud-Sync</li>
+<li>Dein Training mit Premium-Cloud-Sync über deine Apple-Geräte hinweg synchron halten – über deinen eigenen iCloud-Account</li>
+</ul>
+<div class="note">
+<p><strong>Workouts aufzeichnen funktioniert immer offline.</strong> ProGains speichert dein Training währenddessen auf deinem Gerät. Eine Internetverbindung brauchst du nur für den Kauf eines Abos und – wenn du Premium hast und Cloud-Sync eingeschaltet ist – für die Synchronisierung mit iCloud.</p>
+</div></section>
+<section id="restore-de"><h2>Käufe wiederherstellen</h2><p>Wenn du ProGains Premium bereits abonniert hast – zum Beispiel auf einem anderen Gerät oder vor einer Neuinstallation der App –, kannst du dein Abo wiederherstellen, ohne noch einmal zu bezahlen.</p>
+<ol class="steps">
+<li>Öffne <strong>ProGains</strong> auf deinem iPhone.</li>
+<li>Öffne den Premium-Bildschirm. Du erreichst ihn über jeden Premium-Hinweis in der App – am schnellsten geht es über den Tab <span class="path">Planer</span>, dann das <strong>Zahnrad-Symbol</strong> oben links, um die <strong>Einstellungen</strong> zu öffnen, und dort <strong>Premium freischalten</strong> im Bereich <strong>iCloud</strong>. Der Tab <span class="path">Fortschritt</span> und die gesperrte Verlaufskarte unten im Tab <span class="path">Verlauf</span> führen zum selben Bildschirm.</li>
+<li>Tippe auf dem Bildschirm <strong>ProGains Premium</strong> auf <strong>Käufe wiederherstellen</strong> (unter dem Abo-Button).</li>
+<li>Warte einen Moment, während der App Store dein Konto prüft. Sobald dein Abo gefunden wurde, werden die Premium-Funktionen sofort freigeschaltet – ein Neustart ist nicht nötig.</li>
+</ol>
+<div class="note">
+<p><strong>Achte darauf, dass das Gerät bei dem Apple-Account angemeldet ist, mit dem das Abo ursprünglich gekauft wurde.</strong> Beim Wiederherstellen wird dein Kaufverlauf bei Apple ausgelesen – mit einem anderen Apple-Account wird das Abo nicht gefunden. Welcher Account angemeldet ist, siehst du auf deinem iPhone unter <span class="path">Einstellungen › [dein Name] › Medien &amp; Käufe</span>.</p>
+<p>Wenn auf dem Premium-Bildschirm bereits <strong>„Du bist Premium“</strong> steht, ist dein Abo aktiv und es gibt nichts wiederherzustellen.</p>
+</div>
+<p>Abo-Käufe werden vollständig von Apple über den App Store abgewickelt. ProGains sieht oder verarbeitet deine Zahlungsdaten nie – die App erfährt nur, ob dein Abo aktuell aktiv ist.</p></section>
+<section id="subscription-de"><h2>Abo verwalten oder kündigen</h2><p>ProGains Premium ist ein automatisch verlängertes Abo, das über den App Store verkauft wird. Es wird deshalb in deinem Apple-Account verwaltet und nicht in der App. Preis, Verlängerungsdatum, Tarifwechsel und Kündigung laufen alle dort.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Abo verwalten oder kündigen</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>Auf deinem iPhone kommst du auch so dorthin: Öffne die <span class="path">Einstellungen</span>, tippe oben auf deinen Namen, dann auf <strong>Abonnements</strong> und wähle <strong>ProGains</strong>.</p>
+<h3>Was passiert mit meinen Daten, wenn ich kündige?</h3>
+<p>Eine Kündigung löscht deine Trainingsdaten nicht. Alles, was du aufgezeichnet hast, bleibt genau so auf deinem Gerät gespeichert, und du kannst ProGains weiter nutzen, um Übungen zu erstellen, Workouts durchzuführen und dein Training zu protokollieren.</p>
+<p>Was sich ändert, ist der Zugang zu den Premium-Funktionen. Wenn das Abo ausläuft, spiegelt ProGains keine neuen Änderungen mehr nach iCloud, und der Trainingsverlauf zeigt wieder nur die letzten drei Monate. Deine älteren Workouts werden nicht gelöscht – sie sind weiterhin auf deinem Gerät gespeichert und erscheinen wieder, wenn du erneut abonnierst.</p>
+<p>Rückerstattungen wickelt Apple ab, nicht ProGains. Anfragen kannst du unter <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> stellen.</p></section>
+<section id="cloud-sync-de"><h2>Cloud-Sync</h2><p><strong>Cloud-Sync ist eine Premium-Funktion.</strong> Sie hält deine Workouts, Programme, Vorlagen, Übungen und Einstellungen auf allen Apple-Geräten konsistent, die bei deinem Apple-Account angemeldet sind.</p>
+<h3>So funktioniert es</h3>
+<ul>
+<li>Deine Trainingsdaten werden zuerst auf deinem Gerät gespeichert. Diese lokale Kopie ist immer die, mit der du arbeitest – egal ob Cloud-Sync an oder aus ist.</li>
+<li>Mit einem Premium-Abo kannst du Cloud-Sync in ProGains unter <span class="path">Planer</span> › <strong>Zahnrad-Symbol</strong> › <strong>Einstellungen</strong> › <strong>iCloud</strong> › <strong>Cloud-Sync</strong> einschalten. Die Änderung wirkt sofort – ein Neustart ist nicht nötig.</li>
+<li>Wenn Cloud-Sync an ist, nutzt ProGains die iCloud- und CloudKit-Infrastruktur von Apple, um deine Daten in die <strong>private Datenbank</strong> deines eigenen iCloud-Accounts zu spiegeln.</li>
+<li>Weil es deine private Datenbank ist, bewegen sich die Daten zwischen deinen eigenen Geräten unter deinem Apple-Account. Der Entwickler von ProGains kann sie nicht lesen und hat keinen Zugriff darauf.</li>
+<li>Cloud-Sync setzt ein iPhone voraus, das mit einem funktionierenden iCloud-Account bei iCloud angemeldet ist. Bist du nicht angemeldet, weist dich ProGains darauf hin und speichert deine Daten weiterhin lokal.</li>
+<li>Cloud-Sync auszuschalten löscht nichts. Es beendet nur das Spiegeln; deine lokalen Daten bleiben genau dort, wo sie sind.</li>
+</ul>
+<h3>Sync-Status prüfen</h3>
+<p>Öffne <span class="path">Planer</span> › <strong>Zahnrad-Symbol</strong> › <strong>Einstellungen</strong>. Wenn Cloud-Sync an ist, erscheint ein Bereich <strong>Status</strong> mit dem aktuellen Zustand – <em>Wird synchronisiert …</em>, <em>Synchronisiert</em>, <em>Nicht bei iCloud angemeldet</em>, <em>Sync-Fehler</em> oder <em>Nur lokal</em> – zusammen mit der Zeile <strong>Dieses Gerät</strong> und dem Zeitpunkt der letzten erfolgreichen Synchronisierung.</p></section>
+<section id="local-only-de"><h2>Der Status „Nur lokal“</h2><p>Unter <strong>Einstellungen › Status</strong> zeigt die Zeile <strong>Dieses Gerät</strong> entweder <strong>iCloud aktiv</strong> oder <strong>Nur lokal</strong> an.</p>
+<p><strong>Nur lokal</strong> heißt genau das: Deine Trainingsdaten sind sicher auf diesem iPhone gespeichert, aber die Spiegelung nach iCloud ist auf diesem Gerät nicht gestartet – die letzten Änderungen wurden also nicht zu iCloud übertragen. Verloren gegangen ist nichts, die Daten sind lokal vollständig vorhanden.</p>
+<p>Das kann passieren, wenn die lokale Datenbank erst in ein sync-fähiges Format überführt werden muss oder wenn iCloud auf dem Gerät nicht vollständig eingerichtet ist.</p>
+<h3>Schritte zur Fehlerbehebung</h3>
+<ol class="steps">
+<li><strong>Prüfe deine Internetverbindung.</strong> Vergewissere dich, dass WLAN oder Mobilfunk auf dem Gerät funktioniert.</li>
+<li><strong>Prüfe, ob du bei iCloud angemeldet bist.</strong> Öffne auf deinem iPhone <span class="path">Einstellungen › [dein Name]</span> und stelle sicher, dass du angemeldet und iCloud aktiviert ist.</li>
+<li><strong>Prüfe, ob Cloud-Sync in ProGains an ist.</strong> Öffne <span class="path">Planer</span> › <strong>Zahnrad-Symbol</strong> › <strong>Einstellungen</strong> › <strong>iCloud</strong> und vergewissere dich, dass der Schalter <strong>Cloud-Sync</strong> eingeschaltet ist. Der Schalter erscheint nur, solange dein Premium-Abo aktiv ist.</li>
+<li><strong>Prüfe, ob dein Premium-Abo aktiv ist.</strong> Ist es abgelaufen, zeigt der Bereich Status <em>Premium erforderlich</em> an. Siehe <a href="#subscription-de">Abo verwalten oder kündigen</a>.</li>
+<li><strong>Prüfe deinen iCloud-Account und deinen Speicher.</strong> Öffne <span class="path">Einstellungen › [dein Name] › iCloud</span> und vergewissere dich, dass mit dem Account alles in Ordnung ist und dein iCloud-Speicher nicht voll ist.</li>
+<li><strong>Beende ProGains, öffne es neu und gib ihm etwas Zeit.</strong> Schließe die App vollständig und öffne sie wieder, und lass sie dann ein bis zwei Minuten bei guter Verbindung geöffnet. Die Synchronisierung läuft im Hintergrund und ist nicht immer sofort fertig.</li>
+<li><strong>Klappt es immer noch nicht?</strong> Der Bereich Status zeigt bei <em>Nur lokal</em> und <em>Sync-Fehler</em> eine Zeile mit technischen Details, und im Fehlerzustand gibt es einen Button <strong>Fehlerdetails kopieren</strong>. Kopiere diesen Text und <a href="#contact-de">schick ihn an den Support</a> – er sagt uns genau, was schiefgelaufen ist.</li>
+</ol>
+<div class="note">
+<p><strong>Deine Daten sind in beiden Fällen sicher.</strong> ProGains schreibt deine Workouts immer zuerst auf das Gerät. Ein Sync-Problem betrifft nur, ob Änderungen deine anderen Geräte erreichen – nicht, ob dein Training aufgezeichnet wird.</p>
+</div></section>
+<section id="storage-de"><h2>Wie Trainingsdaten gespeichert werden</h2><p>ProGains speichert deine Trainingsinformationen – deine Übungen, Programme, Vorlagen, geplanten Tage, Workouts sowie jeden Satz, jede Wiederholung, jedes Gewicht und jeden RPE-Wert, den du erfasst – <strong>auf deinem iPhone</strong>, in der eigenen lokalen Datenbank der App.</p>
+<p>Wenn du ein Premium-Abo hast und Cloud-Sync einschaltest, werden dieselben Daten zusätzlich in die <strong>private CloudKit-Datenbank deines eigenen iCloud-Accounts</strong> gespiegelt. Dadurch erscheinen sie auch auf deinen anderen Apple-Geräten.</p>
+<p><strong>ProGains betreibt keinen eigenen Server für deine Trainingsdaten.</strong> Es gibt kein ProGains-Konto, das du anlegen müsstest, keinen Login und kein ProGains-Backend, auf das dein Training hochgeladen wird. Deine Daten liegen entweder auf deinem Gerät oder in deiner eigenen iCloud – nie auf einem Server des Entwicklers und nie bei Dritten.</p>
+<p>Alle Details dazu, was wo gespeichert wird, findest du in der <a href="privacy.html#de">ProGains Datenschutzerklärung</a>.</p></section>
+<section id="contact-de"><h2>Support kontaktieren</h2><p>Brauchst du Hilfe, hast du einen Fehler gefunden oder einen Wunsch für eine Funktion? Schreib uns – wir lesen jede Nachricht.</p>
+<div class="contact">
+<span class="label">E-Mail</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">Damit wir schnell antworten können, gib uns bitte an:</p>
+<ul>
+<li>Dein iPhone-Modell und deine iOS-Version</li>
+<li>Die ProGains-Version, die du nutzt</li>
+<li>Was du gerade gemacht hast, als das Problem auftrat, und was du stattdessen erwartet hast</li>
+<li>Bei Sync-Problemen: den Text aus dem Bereich Status in den Einstellungen (im Fehlerzustand gibt es einen Button <strong>Fehlerdetails kopieren</strong>)</li>
+</ul>
+<div class="note">
+<p>Alles rund um Abrechnung, Rückerstattungen oder Kündigung wickelt Apple ab. Starte bei <a href="https://apps.apple.com/account/subscriptions">deinen Apple-Abo-Einstellungen</a> oder bei <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. Alle Rechte vorbehalten.</p>
+<nav class="footer-nav" aria-label="Fußzeile"><a href="support.html#de">Support</a><a href="privacy.html#de">Datenschutz</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="ja" lang="ja">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#ja" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="メインナビゲーション">
+<a href="support.html#ja" aria-current="page">サポート</a>
+<a href="privacy.html#ja">プライバシー</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語" aria-current="true">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">サポート</p>
+<h1>ProGains サポート</h1>
+<p class="lede">ProGains についてよくあるご質問への回答です — サブスクリプション、クラウド同期、ワークアウトデータの保存方法について。お探しの内容が見つからない場合は、メールでご連絡ください。お手伝いします。</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">サポートにメールする</a><a class="btn btn-secondary" href="privacy.html#ja">プライバシーポリシーを読む</a></div>
+</div></div>
+<main id="main-ja"><div class="wrap">
+<nav class="toc" aria-label="このページの内容"><h2>このページの内容</h2><ol>
+<li><a href="#about-ja">ProGains について</a></li>
+<li><a href="#restore-ja">購入を復元する</a></li>
+<li><a href="#subscription-ja">サブスクリプションの管理・解約</a></li>
+<li><a href="#cloud-sync-ja">クラウド同期</a></li>
+<li><a href="#local-only-ja">「ローカルのみ」のステータス</a></li>
+<li><a href="#storage-ja">ワークアウトデータの保存方法</a></li>
+<li><a href="#contact-ja">サポートへのお問い合わせ</a></li>
+</ol></nav>
+<section id="about-ja"><h2>ProGains について</h2><p>ProGains は、iPhone 向けの筋力トレーニング・ワークアウト記録アプリです。ウェイトトレーニングに取り組む方が、日々のトレーニング、計画、進捗を 1 か所にまとめられるように作られています。</p>
+<p>ProGains でできること:</p>
+<ul class="features">
+<li>メモ、実施方法、筋肉部位、器具、写真（任意）を設定して、自分だけのエクササイズを作成・カスタマイズできます</li>
+<li>いつでも再利用できるワークアウトテンプレートを作成できます</li>
+<li>複数フェーズのトレーニングプログラムを作成し、1 週間のトレーニング予定を組めます</li>
+<li>内蔵の休憩タイマーを使いながら、ワークアウトをその場で記録できます</li>
+<li>すべてのエクササイズについて、セット、レップ、重量、RPE を記録できます</li>
+<li>ウォームアップセット、本番セット、ドロップセットを分けて記録できます</li>
+<li>計画に沿わないときは、フリースタイルのワークアウトを開始できます</li>
+<li>ワークアウトの記録を振り返り、トレーニング履歴を検索できます</li>
+<li>筋力の進捗と、推定 1 レップ最大重量の推移を確認できます</li>
+<li>プレミアムを解除すると、高度な進捗分析、長期の統計、すべてのワークアウト履歴、無制限のプログラムとテンプレート、そしてクラウド同期をご利用いただけます</li>
+<li>プレミアムのクラウド同期なら、ご自身の iCloud アカウントを使って、お使いの Apple デバイス間でトレーニング内容を同期できます</li>
+</ul>
+<div class="note">
+<p><strong>ワークアウトの記録は、常にオフラインでも動作します。</strong>ProGains はトレーニング内容をその都度デバイスに保存します。インターネット接続が必要なのは、サブスクリプションを購入するとき、そしてクラウド同期をオンにしているプレミアム会員の方が iCloud に同期するときだけです。</p>
+</div></section>
+<section id="restore-ja"><h2>購入を復元する</h2><p>すでに ProGains プレミアムに登録済みの場合 — たとえば別のデバイスで登録した場合や、アプリを再インストールする前に登録していた場合 — 再度お支払いすることなくサブスクリプションを復元できます。</p>
+<ol class="steps">
+<li>iPhone で <strong>ProGains</strong> を開きます。</li>
+<li>プレミアム画面を開きます。アプリ内のプレミアムの案内からいつでも開けますが、いちばん早いのは <span class="path">プランナー</span> タブを開き、左上の <strong>歯車アイコン</strong> から <strong>設定</strong> を開いて、<strong>iCloud</strong> セクションの <strong>プレミアムを解除</strong> をタップする方法です。<span class="path">進捗</span> タブや、<span class="path">記録</span> タブの下部にあるロックされた履歴カードからも同じ画面が開きます。</li>
+<li><strong>ProGains プレミアム</strong> の画面で、（登録ボタンの下にある）<strong>購入を復元</strong> をタップします。</li>
+<li>App Store がアカウントを確認するまで少しお待ちください。サブスクリプションが見つかると、プレミアム機能はすぐに使えるようになります。再起動は不要です。</li>
+</ol>
+<div class="note">
+<p><strong>最初にサブスクリプションを購入した Apple アカウントでデバイスにサインインしているか確認してください。</strong>復元では Apple から購入履歴を読み取るため、別の Apple アカウントでは見つかりません。サインイン中のアカウントは、iPhone の <span class="path">設定 › [あなたの名前] › メディアと購入</span> で確認できます。</p>
+<p>プレミアム画面にすでに <strong>「プレミアム会員です」</strong> と表示されている場合、サブスクリプションは有効なので、復元は必要ありません。</p>
+</div>
+<p>サブスクリプションの購入は、すべて App Store を通じて Apple が処理します。ProGains がお客様の支払い情報を見たり処理したりすることは一切ありません。アプリが受け取るのは、サブスクリプションが現在有効かどうかという情報だけです。</p></section>
+<section id="subscription-ja"><h2>サブスクリプションの管理・解約</h2><p>ProGains プレミアムは、App Store で販売される自動更新のサブスクリプションです。そのため、アプリ内ではなく Apple アカウントで管理します。料金、更新日、プランの変更、解約はすべてそちらで行います。</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">サブスクリプションを管理・解約する</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>iPhone からも移動できます。<span class="path">設定</span> を開き、上部にあるご自身の名前をタップして、<strong>サブスクリプション</strong> をタップし、<strong>ProGains</strong> を選択します。</p>
+<h3>解約するとデータはどうなりますか？</h3>
+<p>解約してもワークアウトのデータは消去されません。記録した内容はすべてそのままデバイスに保存され、引き続き ProGains でエクササイズの作成、ワークアウトの実施、トレーニングの記録を行えます。</p>
+<p>変わるのはプレミアム機能へのアクセスです。サブスクリプションが失効すると、ProGains は新しい変更を iCloud にミラーリングしなくなり、ワークアウト履歴の一覧は直近 3 か月分に戻ります。それより古いワークアウトが削除されることはありません。データはデバイスに残っており、再度登録すると再び表示されます。</p>
+<p>返金は ProGains ではなく Apple が対応します。お申し込みは <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> から行えます。</p></section>
+<section id="cloud-sync-ja"><h2>クラウド同期</h2><p><strong>クラウド同期はプレミアム機能です。</strong>Apple アカウントにサインインしている Apple デバイス間で、ワークアウト、プログラム、テンプレート、エクササイズ、設定を同じ状態に保ちます。</p>
+<h3>仕組み</h3>
+<ul>
+<li>ワークアウトのデータは、まずお使いのデバイスに保存されます。クラウド同期のオン・オフにかかわらず、実際に使われるのは常にこのローカルのデータです。</li>
+<li>プレミアム会員の方は、ProGains の <span class="path">プランナー</span> › <strong>歯車アイコン</strong> › <strong>設定</strong> › <strong>iCloud</strong> › <strong>クラウド同期</strong> でクラウド同期をオンにできます。変更はすぐに反映され、再起動は不要です。</li>
+<li>オンにすると、ProGains は Apple の iCloud と CloudKit の仕組みを利用して、ご自身の iCloud アカウント内の <strong>プライベートデータベース</strong> にデータをミラーリングします。</li>
+<li>お客様ご自身のプライベートデータベースであるため、データは Apple アカウントに紐づくご自身のデバイスの間だけを移動します。ProGains の開発者がその内容を読むことはできず、アクセス権もありません。</li>
+<li>クラウド同期には、有効な iCloud アカウントで iCloud にサインインした iPhone が必要です。サインインしていない場合、ProGains はその旨を表示し、データをローカルに保存し続けます。</li>
+<li>クラウド同期をオフにしても、何かが削除されることはありません。ミラーリングが止まるだけで、ローカルのデータはそのまま残ります。</li>
+</ul>
+<h3>同期ステータスを確認する</h3>
+<p><span class="path">プランナー</span> › <strong>歯車アイコン</strong> › <strong>設定</strong> を開きます。クラウド同期がオンのときは <strong>ステータス</strong> セクションが表示され、現在の状態（<em>同期中…</em>、<em>同期済み</em>、<em>iCloud にサインインしていません</em>、<em>同期エラー</em>、<em>ローカルのみ</em>）に加えて、<strong>このデバイス</strong> の行と、最後に同期に成功した時刻が確認できます。</p></section>
+<section id="local-only-ja"><h2>「ローカルのみ」のステータス</h2><p><strong>設定 › ステータス</strong> では、<strong>このデバイス</strong> の行に <strong>iCloud 有効</strong> または <strong>ローカルのみ</strong> のいずれかが表示されます。</p>
+<p><strong>ローカルのみ</strong> は、文字どおりの意味です。ワークアウトのデータはこの iPhone に安全に保存されていますが、このデバイスで iCloud へのミラーリングが開始されなかったため、最近の変更が iCloud にコピーされていません。データが失われたわけではなく、ローカルには無傷で残っています。</p>
+<p>これは、ローカルのデータベースを同期に対応した形式へ移行する必要がある場合や、デバイスで iCloud の設定が完了していない場合に起こることがあります。</p>
+<h3>トラブルシューティングの手順</h3>
+<ol class="steps">
+<li><strong>インターネット接続を確認します。</strong>デバイスで Wi-Fi またはモバイルデータ通信が使えることを確認してください。</li>
+<li><strong>iCloud にサインインしているか確認します。</strong>iPhone で <span class="path">設定 › [あなたの名前]</span> を開き、サインインしていることと、iCloud が有効になっていることを確認してください。</li>
+<li><strong>ProGains でクラウド同期がオンになっているか確認します。</strong><span class="path">プランナー</span> › <strong>歯車アイコン</strong> › <strong>設定</strong> › <strong>iCloud</strong> を開き、<strong>クラウド同期</strong> のスイッチがオンになっていることを確認してください。このスイッチは、プレミアムのサブスクリプションが有効な間のみ表示されます。</li>
+<li><strong>プレミアムのサブスクリプションが有効か確認します。</strong>失効している場合、ステータスのセクションに <em>プレミアムが必要です</em> と表示されます。<a href="#subscription-ja">サブスクリプションの管理・解約</a> をご覧ください。</li>
+<li><strong>iCloud アカウントと保存容量を確認します。</strong><span class="path">設定 › [あなたの名前] › iCloud</span> を開き、アカウントに問題がないことと、iCloud の保存容量が不足していないことを確認してください。</li>
+<li><strong>ProGains を終了して開き直し、しばらく待ちます。</strong>アプリを完全に終了してから開き直し、通信状態のよい場所で 1〜2 分ほど開いたままにしてください。同期はバックグラウンドで実行されるため、必ずしもすぐに終わるとは限りません。</li>
+<li><strong>それでも解決しない場合は</strong> ステータスのセクションには、<em>ローカルのみ</em> と <em>同期エラー</em> の状態のときに技術的な詳細を示す行が表示され、エラーの状態には <strong>エラーの詳細をコピー</strong> ボタンがあります。そのテキストをコピーして <a href="#contact-ja">サポートまでお送りください</a>。何が起きたのかを正確に把握できます。</li>
+</ol>
+<div class="note">
+<p><strong>どちらの場合でも、データは安全です。</strong>ProGains は常に、まずデバイスにワークアウトを書き込みます。同期の問題が影響するのは、変更が他のデバイスに届くかどうかであって、トレーニングが記録されるかどうかではありません。</p>
+</div></section>
+<section id="storage-ja"><h2>ワークアウトデータの保存方法</h2><p>ProGains は、ワークアウトの情報 — エクササイズ、プログラム、テンプレート、予定した日、ワークアウト、そして記録したすべてのセット、レップ、重量、RPE — を、<strong>お使いの iPhone</strong> 内にある、アプリ専用のローカルデータベースに保存します。</p>
+<p>プレミアム会員の方がクラウド同期をオンにすると、同じデータが <strong>ご自身の iCloud アカウント内のプライベート CloudKit データベース</strong> にもミラーリングされます。これにより、他の Apple デバイスでもデータが表示されます。</p>
+<p><strong>ProGains は、ワークアウトデータのために独自のサーバーを運用していません。</strong>作成する ProGains アカウントはなく、ログインもなく、トレーニング内容がアップロードされる ProGains のバックエンドもありません。データはお使いのデバイスか、ご自身の iCloud のいずれかにあり、開発者が運用するサーバーに置かれることも、第三者に送信されることもありません。</p>
+<p>何がどこに保存されるかの詳細については、<a href="privacy.html#ja">ProGains プライバシーポリシー</a> をご覧ください。</p></section>
+<section id="contact-ja"><h2>サポートへのお問い合わせ</h2><p>お困りのことや、見つかった不具合、機能のご要望はありませんか？メールでお知らせください。いただいたメッセージはすべて拝読しています。</p>
+<div class="contact">
+<span class="label">メール</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">早くお答えできるよう、次の内容を記載してください:</p>
+<ul>
+<li>お使いの iPhone のモデルと iOS のバージョン</li>
+<li>ご利用中の ProGains のバージョン</li>
+<li>問題が起きたときに何をしていたか、また本来どうなると思っていたか</li>
+<li>同期の問題の場合: 設定のステータスセクションに表示されているテキスト（エラーの状態には <strong>エラーの詳細をコピー</strong> ボタンがあります）</li>
+</ul>
+<div class="note">
+<p>請求、返金、解約に関することは、Apple が対応します。<a href="https://apps.apple.com/account/subscriptions">Apple のサブスクリプション設定</a> または <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> からお手続きください。</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. 無断複写・転載を禁じます。</p>
+<nav class="footer-nav" aria-label="フッター"><a href="support.html#ja">サポート</a><a href="privacy.html#ja">プライバシー</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="es" lang="es">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#es" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="Principal">
+<a href="support.html#es" aria-current="page">Soporte</a>
+<a href="privacy.html#es">Privacidad</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español" aria-current="true">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">Soporte</p>
+<h1>Soporte de ProGains</h1>
+<p class="lede">Respuestas a las preguntas más habituales sobre ProGains: suscripciones, Sincronización en la nube y cómo se guardan tus datos de entrenamiento. Si no encuentras aquí lo que necesitas, escríbenos y te ayudamos.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">Escribir a soporte</a><a class="btn btn-secondary" href="privacy.html#es">Leer la Política de Privacidad</a></div>
+</div></div>
+<main id="main-es"><div class="wrap">
+<nav class="toc" aria-label="En esta página"><h2>En esta página</h2><ol>
+<li><a href="#about-es">Sobre ProGains</a></li>
+<li><a href="#restore-es">Restaurar compras</a></li>
+<li><a href="#subscription-es">Gestionar o cancelar una suscripción</a></li>
+<li><a href="#cloud-sync-es">Sincronización en la nube</a></li>
+<li><a href="#local-only-es">Estado "Solo local"</a></li>
+<li><a href="#storage-es">Cómo se guardan los datos de entrenamiento</a></li>
+<li><a href="#contact-es">Contactar con soporte</a></li>
+</ol></nav>
+<section id="about-es"><h2>Sobre ProGains</h2><p>ProGains es una app de entrenamiento de fuerza y seguimiento de entrenamientos para iPhone. Está hecha para quienes entrenan con pesas y quieren tener sus sesiones, su plan y su progreso en un mismo sitio.</p>
+<p>Con ProGains puedes:</p>
+<ul class="features">
+<li>Crear y personalizar tus propios ejercicios, con notas, instrucciones, grupo muscular, equipamiento y una foto opcional</li>
+<li>Crear plantillas de entrenamiento que puedes reutilizar cuando quieras</li>
+<li>Crear programas de entrenamiento de varias fases y planificar tu semana de entrenamiento</li>
+<li>Seguir un entrenamiento mientras lo haces, con un temporizador de descanso integrado</li>
+<li>Registrar series, repeticiones, peso y RPE de cada ejercicio</li>
+<li>Anotar por separado las series de calentamiento, las series efectivas y las series descendentes</li>
+<li>Empezar un entrenamiento libre cuando no estás siguiendo un plan</li>
+<li>Consultar tus registros de entrenamiento y buscar en tu historial</li>
+<li>Seguir tu progreso de fuerza y tu 1RM estimado a lo largo del tiempo</li>
+<li>Desbloquear Premium para acceder a análisis de progreso avanzados, estadísticas a largo plazo, todo tu historial de entrenamientos, programas y plantillas ilimitados, y la Sincronización en la nube</li>
+<li>Mantener tu entrenamiento sincronizado entre tus dispositivos Apple con la Sincronización en la nube de Premium, usando tu propia cuenta de iCloud</li>
+</ul>
+<div class="note">
+<p><strong>Registrar entrenamientos siempre funciona sin conexión.</strong> ProGains guarda tu entrenamiento en el dispositivo sobre la marcha. Solo hace falta conexión a internet para comprar una suscripción y, si eres suscriptor Premium con la Sincronización en la nube activada, para sincronizar con iCloud.</p>
+</div></section>
+<section id="restore-es"><h2>Restaurar compras</h2><p>Si ya te has suscrito a ProGains Premium —por ejemplo en otro dispositivo, o antes de reinstalar la app— puedes restaurar tu suscripción sin volver a pagar.</p>
+<ol class="steps">
+<li>Abre <strong>ProGains</strong> en tu iPhone.</li>
+<li>Abre la pantalla de Premium. Puedes llegar a ella desde cualquier aviso de Premium de la app; la ruta más rápida es la pestaña <span class="path">Planificador</span>, luego el <strong>icono del engranaje</strong> de la esquina superior izquierda para abrir <strong>Ajustes</strong> y después <strong>Desbloquear Premium</strong> en la sección <strong>iCloud</strong>. La pestaña <span class="path">Progreso</span> y la tarjeta de historial bloqueada del final de la pestaña <span class="path">Registros</span> abren esa misma pantalla.</li>
+<li>En la pantalla <strong>ProGains Premium</strong>, toca <strong>Restaurar compras</strong> (debajo del botón de suscripción).</li>
+<li>Espera un momento mientras el App Store comprueba tu cuenta. En cuanto encuentre tu suscripción, las funciones Premium se desbloquean al instante: no hace falta reiniciar nada.</li>
+</ol>
+<div class="note">
+<p><strong>Asegúrate de que el dispositivo tenga la sesión iniciada con la cuenta de Apple que compró la suscripción originalmente.</strong> Al restaurar se consulta tu historial de compras en Apple, así que con otra cuenta de Apple no aparecerá. Puedes ver qué cuenta tiene la sesión iniciada en <span class="path">Ajustes › [tu nombre] › Contenido y compras</span> en tu iPhone.</p>
+<p>Si la pantalla de Premium ya dice <strong>"Eres Premium"</strong>, tu suscripción está activa y no hay nada que restaurar.</p>
+</div>
+<p>Las compras de suscripciones las gestiona íntegramente Apple a través del App Store. ProGains nunca ve ni procesa tu información de pago: la app solo recibe si tu suscripción está activa en este momento.</p></section>
+<section id="subscription-es"><h2>Gestionar o cancelar una suscripción</h2><p>ProGains Premium es una suscripción de renovación automática que se vende a través del App Store, así que se gestiona en tu cuenta de Apple y no dentro de la app. El precio, la fecha de renovación, los cambios de plan y la cancelación se gestionan todos allí.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Gestionar o cancelar la suscripción</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>También puedes llegar desde tu iPhone: abre <span class="path">Ajustes</span>, toca tu nombre en la parte superior, toca <strong>Suscripciones</strong> y selecciona <strong>ProGains</strong>.</p>
+<h3>¿Qué pasa con mis datos si cancelo?</h3>
+<p>Cancelar no borra tus datos de entrenamiento. Todo lo que hayas registrado sigue guardado en tu dispositivo tal y como estaba, y puedes seguir usando ProGains para crear ejercicios, hacer entrenamientos y registrar tu entrenamiento.</p>
+<p>Lo que cambia es el acceso a las funciones Premium. Cuando la suscripción caduca, ProGains deja de replicar los cambios nuevos en iCloud y la lista del historial de entrenamientos vuelve a mostrar solo los últimos tres meses. Tus entrenamientos más antiguos no se eliminan: siguen guardados en tu dispositivo y reaparecen si vuelves a suscribirte.</p>
+<p>Los reembolsos los gestiona Apple, no ProGains. Puedes solicitarlos en <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></section>
+<section id="cloud-sync-es"><h2>Sincronización en la nube</h2><p><strong>La Sincronización en la nube es una función Premium.</strong> Mantiene coherentes tus entrenamientos, programas, plantillas, ejercicios y ajustes en todos los dispositivos Apple que tengan la sesión iniciada con tu cuenta de Apple.</p>
+<h3>Cómo funciona</h3>
+<ul>
+<li>Tus datos de entrenamiento se guardan primero en tu dispositivo. Esa copia local es siempre la que estás usando, tanto si la Sincronización en la nube está activada como si no.</li>
+<li>Los suscriptores Premium pueden activar la Sincronización en la nube en ProGains desde <span class="path">Planificador</span> › <strong>icono del engranaje</strong> › <strong>Ajustes</strong> › <strong>iCloud</strong> › <strong>Sincronización en la nube</strong>. El cambio se aplica de inmediato: no hace falta reiniciar.</li>
+<li>Cuando está activada, ProGains usa la infraestructura de iCloud y CloudKit de Apple para replicar tus datos en la <strong>base de datos privada</strong> de tu propia cuenta de iCloud.</li>
+<li>Como es tu base de datos privada, los datos viajan entre tus propios dispositivos bajo tu cuenta de Apple. El desarrollador de ProGains no puede leerlos ni tiene acceso a ellos.</li>
+<li>La Sincronización en la nube requiere un iPhone con la sesión iniciada en iCloud y una cuenta de iCloud operativa. Si no has iniciado sesión, ProGains te lo indicará y seguirá guardando tus datos localmente.</li>
+<li>Desactivar la Sincronización en la nube no borra nada. Simplemente deja de replicar; tus datos locales se quedan exactamente donde están.</li>
+</ul>
+<h3>Consultar el estado de la sincronización</h3>
+<p>Abre <span class="path">Planificador</span> › <strong>icono del engranaje</strong> › <strong>Ajustes</strong>. Cuando la Sincronización en la nube está activada, aparece una sección <strong>Estado</strong> que muestra la situación actual —<em>Sincronizando…</em>, <em>Sincronizado</em>, <em>No has iniciado sesión en iCloud</em>, <em>Error de sincronización</em> o <em>Solo local</em>—, junto con una fila <strong>Este dispositivo</strong> y la hora de la última sincronización correcta.</p></section>
+<section id="local-only-es"><h2>Estado "Solo local"</h2><p>En <strong>Ajustes › Estado</strong>, la fila <strong>Este dispositivo</strong> muestra <strong>iCloud activo</strong> o <strong>Solo local</strong>.</p>
+<p><strong>Solo local</strong> significa exactamente lo que dice: tus datos de entrenamiento están guardados de forma segura en este iPhone, pero la réplica en iCloud no llegó a iniciarse en este dispositivo, así que los cambios recientes no se han copiado a iCloud. No se ha perdido nada: los datos están intactos en local.</p>
+<p>Esto puede ocurrir si la base de datos local necesita migrar a un formato compatible con la sincronización, o si iCloud no está del todo configurado en el dispositivo.</p>
+<h3>Pasos para solucionarlo</h3>
+<ol class="steps">
+<li><strong>Comprueba tu conexión a internet.</strong> Confirma que el Wi-Fi o los datos móviles funcionan en el dispositivo.</li>
+<li><strong>Comprueba que has iniciado sesión en iCloud.</strong> Abre <span class="path">Ajustes › [tu nombre]</span> en tu iPhone y asegúrate de que has iniciado sesión y de que iCloud está activado.</li>
+<li><strong>Comprueba que la Sincronización en la nube está activada en ProGains.</strong> Abre <span class="path">Planificador</span> › <strong>icono del engranaje</strong> › <strong>Ajustes</strong> › <strong>iCloud</strong> y confirma que el interruptor de <strong>Sincronización en la nube</strong> está activado. El interruptor solo aparece mientras tu suscripción Premium está activa.</li>
+<li><strong>Comprueba que tu suscripción Premium está activa.</strong> Si ha caducado, la sección Estado dirá <em>Se requiere Premium</em>. Consulta <a href="#subscription-es">Gestionar o cancelar una suscripción</a>.</li>
+<li><strong>Comprueba tu cuenta y tu almacenamiento de iCloud.</strong> Abre <span class="path">Ajustes › [tu nombre] › iCloud</span> y confirma que la cuenta funciona correctamente y que no te has quedado sin almacenamiento de iCloud.</li>
+<li><strong>Cierra ProGains, vuelve a abrirla y dale tiempo.</strong> Cierra la app por completo y ábrela de nuevo; después déjala abierta un minuto o dos con buena conexión. La sincronización se ejecuta en segundo plano y no siempre es instantánea.</li>
+<li><strong>¿Sigues atascado?</strong> La sección Estado muestra una línea con detalles técnicos bajo los estados <em>Solo local</em> y <em>Error de sincronización</em>, y el estado de error incluye un botón <strong>Copiar detalles del error</strong>. Copia ese texto y <a href="#contact-es">envíaselo a soporte</a>: nos dice exactamente qué ha fallado.</li>
+</ol>
+<div class="note">
+<p><strong>Tus datos están a salvo en cualquier caso.</strong> ProGains siempre escribe tus entrenamientos primero en el dispositivo. Un problema de sincronización afecta a si los cambios llegan a tus otros dispositivos, no a si tu entrenamiento queda registrado.</p>
+</div></section>
+<section id="storage-es"><h2>Cómo se guardan los datos de entrenamiento</h2><p>ProGains guarda tu información de entrenamiento —tus ejercicios, programas, plantillas, días programados, entrenamientos y cada serie, repetición, peso y RPE que registras— <strong>en tu iPhone</strong>, en la base de datos local de la propia app.</p>
+<p>Si eres suscriptor Premium y activas la Sincronización en la nube, esos mismos datos se replican también en la <strong>base de datos privada de CloudKit de tu propia cuenta de iCloud</strong>, que es lo que permite que aparezcan en tus otros dispositivos Apple.</p>
+<p><strong>ProGains no tiene un servidor propio para tus datos de entrenamiento.</strong> No hay ninguna cuenta de ProGains que crear, ni inicio de sesión, ni ningún backend de ProGains al que se suba tu entrenamiento. Tus datos están o en tu dispositivo o en tu propio iCloud: nunca en un servidor gestionado por el desarrollador, y nunca se envían a terceros.</p>
+<p>Para conocer todos los detalles sobre qué se guarda y dónde, consulta la <a href="privacy.html#es">Política de Privacidad de ProGains</a>.</p></section>
+<section id="contact-es"><h2>Contactar con soporte</h2><p>¿Necesitas ayuda, has encontrado un error o quieres proponer una función? Escríbenos: leemos todos los mensajes.</p>
+<div class="contact">
+<span class="label">Correo electrónico</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">Para que podamos responderte rápido, incluye por favor:</p>
+<ul>
+<li>El modelo de tu iPhone y la versión de iOS</li>
+<li>La versión de ProGains que estás usando</li>
+<li>Qué estabas haciendo cuando ocurrió el problema y qué esperabas que pasara</li>
+<li>Para problemas de sincronización: el texto de la sección Estado en Ajustes (hay un botón <strong>Copiar detalles del error</strong> para el estado de error)</li>
+</ul>
+<div class="note">
+<p>Todo lo relacionado con facturación, reembolsos o cancelaciones lo gestiona Apple. Empieza por <a href="https://apps.apple.com/account/subscriptions">los ajustes de tus suscripciones de Apple</a> o por <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. Todos los derechos reservados.</p>
+<nav class="footer-nav" aria-label="Pie de página"><a href="support.html#es">Soporte</a><a href="privacy.html#es">Privacidad</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="fr" lang="fr">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#fr" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="Principale">
+<a href="support.html#fr" aria-current="page">Assistance</a>
+<a href="privacy.html#fr">Confidentialité</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français" aria-current="true">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">Assistance</p>
+<h1>Assistance ProGains</h1>
+<p class="lede">Réponses aux questions les plus fréquentes sur ProGains — abonnements, Synchronisation iCloud et stockage de vos données d'entraînement. Si vous ne trouvez pas ici ce que vous cherchez, écrivez-nous et nous vous aiderons.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">Écrire à l'assistance</a><a class="btn btn-secondary" href="privacy.html#fr">Lire la politique de confidentialité</a></div>
+</div></div>
+<main id="main-fr"><div class="wrap">
+<nav class="toc" aria-label="Sur cette page"><h2>Sur cette page</h2><ol>
+<li><a href="#about-fr">À propos de ProGains</a></li>
+<li><a href="#restore-fr">Restaurer les achats</a></li>
+<li><a href="#subscription-fr">Gérer ou résilier un abonnement</a></li>
+<li><a href="#cloud-sync-fr">Synchronisation iCloud</a></li>
+<li><a href="#local-only-fr">Statut « Local uniquement »</a></li>
+<li><a href="#storage-fr">Comment les données d'entraînement sont stockées</a></li>
+<li><a href="#contact-fr">Contacter l'assistance</a></li>
+</ol></nav>
+<section id="about-fr"><h2>À propos de ProGains</h2><p>ProGains est une app d'entraînement en force et de suivi des séances pour iPhone. Elle est conçue pour les personnes qui s'entraînent avec des charges et qui veulent leurs séances, leur plan et leur progression au même endroit.</p>
+<p>Avec ProGains, vous pouvez :</p>
+<ul class="features">
+<li>Créer et personnaliser vos propres exercices, avec des notes, des instructions, le groupe musculaire, le matériel et une photo facultative</li>
+<li>Créer des modèles de séance que vous pouvez réutiliser à tout moment</li>
+<li>Créer des programmes d'entraînement en plusieurs phases et planifier votre semaine d'entraînement</li>
+<li>Suivre une séance pendant que vous la réalisez, avec un minuteur de repos intégré</li>
+<li>Enregistrer les séries, les répétitions, la charge et le RPE de chaque exercice</li>
+<li>Enregistrer séparément les séries d'échauffement, les séries effectives et les dropsets</li>
+<li>Démarrer une séance libre quand vous ne suivez pas de plan</li>
+<li>Consulter votre journal de séances et faire des recherches dans votre historique d'entraînement</li>
+<li>Suivre votre progression en force et l'estimation de votre maximum sur une répétition au fil du temps</li>
+<li>Débloquer Premium pour des analyses de progression avancées, des statistiques sur le long terme, l'intégralité de votre historique de séances, des programmes et des modèles illimités, ainsi que la Synchronisation iCloud</li>
+<li>Garder votre entraînement synchronisé entre vos appareils Apple grâce à la Synchronisation iCloud Premium, via votre propre compte iCloud</li>
+</ul>
+<div class="note">
+<p><strong>L'enregistrement des séances fonctionne toujours hors ligne.</strong> ProGains enregistre votre entraînement sur votre appareil au fur et à mesure. Une connexion Internet n'est nécessaire que pour souscrire un abonnement et, si vous êtes abonné Premium avec la Synchronisation iCloud activée, pour la synchronisation vers iCloud.</p>
+</div></section>
+<section id="restore-fr"><h2>Restaurer les achats</h2><p>Si vous êtes déjà abonné à ProGains Premium — par exemple sur un autre appareil, ou avant d'avoir réinstallé l'app — vous pouvez restaurer votre abonnement sans payer à nouveau.</p>
+<ol class="steps">
+<li>Ouvrez <strong>ProGains</strong> sur votre iPhone.</li>
+<li>Ouvrez l'écran Premium. Vous pouvez y accéder depuis n'importe quelle proposition Premium dans l'app — le chemin le plus rapide est l'onglet <span class="path">Planificateur</span>, puis l'<strong>icône d'engrenage</strong> en haut à gauche pour ouvrir les <strong>Réglages</strong>, puis <strong>Débloquer Premium</strong> dans la section <strong>iCloud</strong>. L'onglet <span class="path">Progression</span> et la carte d'historique verrouillée en bas de l'onglet <span class="path">Journal</span> ouvrent le même écran.</li>
+<li>Sur l'écran <strong>ProGains Premium</strong>, touchez <strong>Restaurer les achats</strong> (sous le bouton d'abonnement).</li>
+<li>Patientez un instant pendant que l'App Store vérifie votre compte. Dès que votre abonnement est trouvé, les fonctionnalités Premium se débloquent immédiatement — aucun redémarrage n'est nécessaire.</li>
+</ol>
+<div class="note">
+<p><strong>Assurez-vous que l'appareil est connecté au compte Apple qui a acheté l'abonnement à l'origine.</strong> La restauration lit votre historique d'achats auprès d'Apple : un autre compte Apple ne le trouvera donc pas. Vous pouvez vérifier quel compte est connecté dans <span class="path">Réglages › [votre nom] › Médias et achats</span> sur votre iPhone.</p>
+<p>Si l'écran Premium indique déjà <strong>« Vous êtes Premium »</strong>, votre abonnement est actif et il n'y a rien à restaurer.</p>
+</div>
+<p>Les achats d'abonnement sont entièrement gérés par Apple via l'App Store. ProGains ne voit ni ne traite jamais vos informations de paiement — l'app reçoit uniquement l'information indiquant si votre abonnement est actuellement actif.</p></section>
+<section id="subscription-fr"><h2>Gérer ou résilier un abonnement</h2><p>ProGains Premium est un abonnement à renouvellement automatique vendu via l'App Store : il se gère donc dans votre compte Apple, et non dans l'app. Le tarif, la date de renouvellement, les changements de formule et la résiliation s'y règlent tous.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Gérer ou résilier l'abonnement</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>Vous pouvez aussi y accéder depuis votre iPhone : ouvrez <span class="path">Réglages</span>, touchez votre nom en haut, touchez <strong>Abonnements</strong>, puis sélectionnez <strong>ProGains</strong>.</p>
+<h3>Que deviennent mes données si je résilie ?</h3>
+<p>La résiliation n'efface pas vos données d'entraînement. Tout ce que vous avez enregistré reste sur votre appareil, exactement en l'état, et vous pouvez continuer à utiliser ProGains pour créer des exercices, réaliser des séances et enregistrer votre entraînement.</p>
+<p>Ce qui change, c'est l'accès aux fonctionnalités Premium. Lorsque l'abonnement prend fin, ProGains cesse de répliquer les nouvelles modifications vers iCloud et la liste de l'historique des séances revient aux trois derniers mois. Vos séances plus anciennes ne sont pas supprimées — elles restent stockées sur votre appareil et réapparaissent si vous vous réabonnez.</p>
+<p>Les remboursements sont gérés par Apple, et non par ProGains. Les demandes peuvent être faites sur <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></section>
+<section id="cloud-sync-fr"><h2>Synchronisation iCloud</h2><p><strong>La Synchronisation iCloud est une fonctionnalité Premium.</strong> Elle maintient vos séances, vos programmes, vos modèles, vos exercices et vos réglages cohérents entre les appareils Apple connectés à votre compte Apple.</p>
+<h3>Comment ça fonctionne</h3>
+<ul>
+<li>Vos données d'entraînement sont d'abord stockées sur votre appareil. Cette copie locale est toujours celle que vous utilisez, que la Synchronisation iCloud soit activée ou non.</li>
+<li>Les abonnés Premium peuvent activer la Synchronisation iCloud dans ProGains sous <span class="path">Planificateur</span> › <strong>icône d'engrenage</strong> › <strong>Réglages</strong> › <strong>iCloud</strong> › <strong>Synchronisation iCloud</strong>. Le changement prend effet immédiatement — aucun redémarrage n'est nécessaire.</li>
+<li>Lorsqu'elle est activée, ProGains utilise l'infrastructure iCloud et CloudKit d'Apple pour répliquer vos données dans la <strong>base de données privée</strong> de votre propre compte iCloud.</li>
+<li>Comme il s'agit de votre base de données privée, les données circulent entre vos propres appareils, sous votre compte Apple. Le développeur de ProGains ne peut pas les lire et n'y a aucun accès.</li>
+<li>La Synchronisation iCloud nécessite un iPhone connecté à iCloud avec un compte iCloud fonctionnel. Si vous n'êtes pas connecté, ProGains vous le signale et continue d'enregistrer vos données localement.</li>
+<li>Désactiver la Synchronisation iCloud ne supprime rien. La réplication s'arrête ; vos données locales restent exactement là où elles sont.</li>
+</ul>
+<h3>Vérifier votre statut de synchronisation</h3>
+<p>Ouvrez <span class="path">Planificateur</span> › <strong>icône d'engrenage</strong> › <strong>Réglages</strong>. Lorsque la Synchronisation iCloud est activée, une section <strong>Statut</strong> apparaît et affiche l'état actuel — <em>Synchronisation…</em>, <em>Synchronisé</em>, <em>Non connecté à iCloud</em>, <em>Erreur de synchronisation</em> ou <em>Local uniquement</em> — ainsi qu'une ligne <strong>Cet appareil</strong> et l'heure de la dernière synchronisation réussie.</p></section>
+<section id="local-only-fr"><h2>Statut « Local uniquement »</h2><p>Dans <strong>Réglages › Statut</strong>, la ligne <strong>Cet appareil</strong> affiche soit <strong>iCloud actif</strong>, soit <strong>Local uniquement</strong>.</p>
+<p><strong>Local uniquement</strong> signifie exactement ce qui est écrit : vos données d'entraînement sont enregistrées en toute sécurité sur cet iPhone, mais la réplication vers iCloud n'a pas démarré sur cet appareil, si bien que les modifications récentes n'ont pas été copiées vers iCloud. Rien n'a été perdu — les données sont intactes en local.</p>
+<p>Cela peut arriver si la base de données locale doit être migrée vers un format compatible avec la synchronisation, ou si iCloud n'est pas entièrement configuré sur l'appareil.</p>
+<h3>Étapes de dépannage</h3>
+<ol class="steps">
+<li><strong>Vérifiez votre connexion Internet.</strong> Assurez-vous que le Wi-Fi ou les données cellulaires fonctionnent sur l'appareil.</li>
+<li><strong>Vérifiez que vous êtes connecté à iCloud.</strong> Ouvrez <span class="path">Réglages › [votre nom]</span> sur votre iPhone et assurez-vous que vous êtes connecté et qu'iCloud est activé.</li>
+<li><strong>Vérifiez que la Synchronisation iCloud est activée dans ProGains.</strong> Ouvrez <span class="path">Planificateur</span> › <strong>icône d'engrenage</strong> › <strong>Réglages</strong> › <strong>iCloud</strong> et vérifiez que l'option <strong>Synchronisation iCloud</strong> est activée. Cette option n'apparaît que tant que votre abonnement Premium est actif.</li>
+<li><strong>Vérifiez que votre abonnement Premium est actif.</strong> S'il a pris fin, la section Statut indiquera <em>Premium requis</em>. Voir <a href="#subscription-fr">Gérer ou résilier un abonnement</a>.</li>
+<li><strong>Vérifiez votre compte et votre stockage iCloud.</strong> Ouvrez <span class="path">Réglages › [votre nom] › iCloud</span> et vérifiez que le compte fonctionne correctement et que vous n'avez pas épuisé votre stockage iCloud.</li>
+<li><strong>Quittez et rouvrez ProGains, puis laissez-lui le temps.</strong> Fermez complètement l'app et rouvrez-la, puis laissez-la ouverte une ou deux minutes avec une bonne connexion. La synchronisation s'effectue en arrière-plan et n'est pas toujours instantanée.</li>
+<li><strong>Toujours bloqué ?</strong> La section Statut affiche une ligne de détail technique sous les états <em>Local uniquement</em> et <em>Erreur de synchronisation</em>, et l'état d'erreur comporte un bouton <strong>Copier les détails de l'erreur</strong>. Copiez ce texte et <a href="#contact-fr">envoyez-le à l'assistance</a> — il nous indique exactement ce qui n'a pas fonctionné.</li>
+</ol>
+<div class="note">
+<p><strong>Vos données sont en sécurité dans tous les cas.</strong> ProGains écrit toujours vos séances sur l'appareil en premier. Un problème de synchronisation a une incidence sur la transmission des modifications à vos autres appareils, pas sur l'enregistrement de votre entraînement.</p>
+</div></section>
+<section id="storage-fr"><h2>Comment les données d'entraînement sont stockées</h2><p>ProGains stocke vos informations d'entraînement — vos exercices, vos programmes, vos modèles, vos jours planifiés, vos séances, ainsi que chaque série, répétition, charge et RPE que vous enregistrez — <strong>sur votre iPhone</strong>, dans la base de données locale de l'app.</p>
+<p>Si vous êtes abonné Premium et que vous activez la Synchronisation iCloud, ces mêmes données sont également répliquées dans la <strong>base de données CloudKit privée de votre propre compte iCloud</strong>, ce qui leur permet d'apparaître sur vos autres appareils Apple.</p>
+<p><strong>ProGains n'exploite aucun serveur qui lui soit propre pour vos données d'entraînement.</strong> Il n'y a pas de compte ProGains à créer, pas de connexion, et aucun serveur ProGains vers lequel votre entraînement serait envoyé. Vos données se trouvent soit sur votre appareil, soit dans votre propre iCloud — jamais sur un serveur exploité par le développeur, et jamais transmises à un tiers.</p>
+<p>Pour le détail complet de ce qui est stocké et où, consultez la <a href="privacy.html#fr">politique de confidentialité de ProGains</a>.</p></section>
+<section id="contact-fr"><h2>Contacter l'assistance</h2><p>Besoin d'aide, vous avez trouvé un bug ou une idée de fonctionnalité ? Écrivez-nous — nous lisons chaque message.</p>
+<div class="contact">
+<span class="label">E-mail</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">Pour nous permettre de répondre rapidement, merci d'indiquer :</p>
+<ul>
+<li>Le modèle de votre iPhone et votre version d'iOS</li>
+<li>La version de ProGains que vous utilisez</li>
+<li>Ce que vous faisiez au moment du problème, et ce que vous attendiez à la place</li>
+<li>Pour les problèmes de synchronisation : le texte de la section Statut dans les Réglages (un bouton <strong>Copier les détails de l'erreur</strong> est proposé pour l'état d'erreur)</li>
+</ul>
+<div class="note">
+<p>Pour tout ce qui concerne la facturation, les remboursements ou la résiliation — ces points sont gérés par Apple. Commencez par <a href="https://apps.apple.com/account/subscriptions">vos réglages d'abonnement Apple</a> ou <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. Tous droits réservés.</p>
+<nav class="footer-nav" aria-label="Pied de page"><a href="support.html#fr">Assistance</a><a href="privacy.html#fr">Confidentialité</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="pt" lang="pt-BR">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#pt" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="Principal">
+<a href="support.html#pt" aria-current="page">Suporte</a>
+<a href="privacy.html#pt">Privacidade</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português" aria-current="true">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">Suporte</p>
+<h1>Suporte do ProGains</h1>
+<p class="lede">Respostas para as dúvidas mais comuns sobre o ProGains — assinaturas, Sincronização na nuvem e como os seus dados de treino são armazenados. Se você não encontrar o que precisa por aqui, escreva para a gente que nós ajudamos.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">Enviar e-mail ao suporte</a><a class="btn btn-secondary" href="privacy.html#pt">Ler a Política de Privacidade</a></div>
+</div></div>
+<main id="main-pt"><div class="wrap">
+<nav class="toc" aria-label="Nesta página"><h2>Nesta página</h2><ol>
+<li><a href="#about-pt">Sobre o ProGains</a></li>
+<li><a href="#restore-pt">Restaurar compras</a></li>
+<li><a href="#subscription-pt">Gerenciar ou cancelar uma assinatura</a></li>
+<li><a href="#cloud-sync-pt">Sincronização na nuvem</a></li>
+<li><a href="#local-only-pt">Status "Apenas local"</a></li>
+<li><a href="#storage-pt">Como os dados de treino são armazenados</a></li>
+<li><a href="#contact-pt">Falar com o suporte</a></li>
+</ol></nav>
+<section id="about-pt"><h2>Sobre o ProGains</h2><p>O ProGains é um app de treino de força e registro de treinos para iPhone. Ele foi feito para quem treina com pesos e quer as sessões, o plano e o progresso em um só lugar.</p>
+<p>Com o ProGains você pode:</p>
+<ul class="features">
+<li>Criar e personalizar seus próprios exercícios, com notas, instruções, grupo muscular, equipamento e uma foto opcional</li>
+<li>Montar modelos de treino para reutilizar quando quiser</li>
+<li>Montar programas de treino com várias fases e organizar a sua semana de treino</li>
+<li>Acompanhar um treino enquanto você o faz, com um timer de descanso integrado</li>
+<li>Registrar séries, repetições, carga e RPE de cada exercício</li>
+<li>Registrar separadamente séries de aquecimento, séries válidas e drop-sets</li>
+<li>Iniciar um treino livre quando você não estiver seguindo um plano</li>
+<li>Consultar os seus registros de treino e pesquisar no seu histórico</li>
+<li>Acompanhar a evolução de força e a estimativa de repetição máxima ao longo do tempo</li>
+<li>Desbloquear o Premium para ter análises avançadas de progresso, estatísticas de longo prazo, o seu histórico completo de treinos, programas e modelos ilimitados e a Sincronização na nuvem</li>
+<li>Manter os seus treinos em sincronia entre os seus dispositivos Apple com a Sincronização na nuvem do Premium, usando a sua própria conta do iCloud</li>
+</ul>
+<div class="note">
+<p><strong>Registrar treinos sempre funciona off-line.</strong> O ProGains salva o seu treino no dispositivo conforme você avança. A conexão com a internet só é necessária para comprar uma assinatura e, se você for assinante Premium com a Sincronização na nuvem ativada, para sincronizar com o iCloud.</p>
+</div></section>
+<section id="restore-pt"><h2>Restaurar compras</h2><p>Se você já assinou o ProGains Premium — por exemplo em outro dispositivo, ou antes de reinstalar o app — pode restaurar a sua assinatura sem pagar de novo.</p>
+<ol class="steps">
+<li>Abra o <strong>ProGains</strong> no seu iPhone.</li>
+<li>Abra a tela do Premium. Você chega até ela por qualquer aviso de Premium no app — o caminho mais rápido é a aba <span class="path">Planejador</span>, depois o <strong>ícone de engrenagem</strong> no canto superior esquerdo para abrir os <strong>Ajustes</strong> e então <strong>Desbloquear Premium</strong> na seção <strong>iCloud</strong>. A aba <span class="path">Progresso</span> e o cartão de histórico bloqueado no fim da aba <span class="path">Registros</span> abrem a mesma tela.</li>
+<li>Na tela do <strong>ProGains Premium</strong>, toque em <strong>Restaurar compras</strong> (abaixo do botão de assinatura).</li>
+<li>Aguarde um instante enquanto a App Store verifica a sua conta. Assim que a sua assinatura for encontrada, os recursos Premium são liberados na hora — sem precisar reiniciar.</li>
+</ol>
+<div class="note">
+<p><strong>Confirme que o dispositivo está conectado à Conta Apple que comprou a assinatura originalmente.</strong> A restauração lê o seu histórico de compras na Apple, então uma Conta Apple diferente não vai encontrá-la. Você pode ver qual conta está conectada em <span class="path">Ajustes › [seu nome] › Mídia e Compras</span> no seu iPhone.</p>
+<p>Se a tela do Premium já disser <strong>"Você é Premium"</strong>, a sua assinatura está ativa e não há nada a restaurar.</p>
+</div>
+<p>As compras de assinatura são feitas inteiramente pela Apple, por meio da App Store. O ProGains nunca vê nem processa as suas informações de pagamento — o app só recebe a informação de se a sua assinatura está ativa no momento.</p></section>
+<section id="subscription-pt"><h2>Gerenciar ou cancelar uma assinatura</h2><p>O ProGains Premium é uma assinatura com renovação automática vendida pela App Store, por isso ela é gerenciada na sua Conta Apple, e não dentro do app. Preço, data de renovação, mudança de plano e cancelamento são tratados por lá.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Gerenciar ou cancelar assinatura</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>Você também pode chegar lá pelo iPhone: abra os <span class="path">Ajustes</span>, toque no seu nome no topo, toque em <strong>Assinaturas</strong> e selecione <strong>ProGains</strong>.</p>
+<h3>O que acontece com os meus dados se eu cancelar?</h3>
+<p>Cancelar não apaga os seus dados de treino. Tudo o que você registrou continua salvo no seu dispositivo exatamente como estava, e você pode seguir usando o ProGains para criar exercícios, executar treinos e registrar o seu treinamento.</p>
+<p>O que muda é o acesso aos recursos Premium. Quando a assinatura expira, o ProGains para de espelhar as novas alterações no iCloud e a lista de histórico de treinos volta a mostrar apenas os três meses mais recentes. Os seus treinos mais antigos não são excluídos — eles continuam guardados no seu dispositivo e reaparecem se você assinar de novo.</p>
+<p>Os reembolsos são tratados pela Apple, não pelo ProGains. As solicitações podem ser feitas em <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></section>
+<section id="cloud-sync-pt"><h2>Sincronização na nuvem</h2><p><strong>A Sincronização na nuvem é um recurso Premium.</strong> Ela mantém os seus treinos, programas, modelos, exercícios e ajustes consistentes entre os dispositivos Apple conectados à sua Conta Apple.</p>
+<h3>Como funciona</h3>
+<ul>
+<li>Os seus dados de treino são salvos primeiro no dispositivo. Essa cópia local é sempre a que você está usando, com a Sincronização na nuvem ligada ou desligada.</li>
+<li>Assinantes Premium podem ligar a Sincronização na nuvem no ProGains em <span class="path">Planejador</span> › <strong>ícone de engrenagem</strong> › <strong>Ajustes</strong> › <strong>iCloud</strong> › <strong>Sincronização na nuvem</strong>. A mudança vale na hora — não é preciso reiniciar.</li>
+<li>Quando ela está ligada, o ProGains usa a infraestrutura do iCloud e do CloudKit da Apple para espelhar os seus dados no <strong>banco de dados privado</strong> da sua própria conta do iCloud.</li>
+<li>Como é o seu banco de dados privado, os dados circulam entre os seus próprios dispositivos, sob a sua Conta Apple. O desenvolvedor do ProGains não consegue lê-los e não tem acesso a eles.</li>
+<li>A Sincronização na nuvem exige um iPhone conectado ao iCloud, com uma conta do iCloud funcionando. Se você não estiver conectado, o ProGains avisa e continua salvando os seus dados localmente.</li>
+<li>Desligar a Sincronização na nuvem não apaga nada. Ela apenas para de espelhar; os seus dados locais ficam exatamente onde estão.</li>
+</ul>
+<h3>Como verificar o status da sincronização</h3>
+<p>Abra <span class="path">Planejador</span> › <strong>ícone de engrenagem</strong> › <strong>Ajustes</strong>. Quando a Sincronização na nuvem está ligada, aparece uma seção <strong>Status</strong> mostrando o estado atual — <em>Sincronizando…</em>, <em>Sincronizado</em>, <em>Você não está conectado ao iCloud</em>, <em>Erro de sincronização</em> ou <em>Apenas local</em> — junto com uma linha <strong>Este dispositivo</strong> e o horário da última sincronização bem-sucedida.</p></section>
+<section id="local-only-pt"><h2>Status "Apenas local"</h2><p>Em <strong>Ajustes › Status</strong>, a linha <strong>Este dispositivo</strong> mostra <strong>iCloud ativo</strong> ou <strong>Apenas local</strong>.</p>
+<p><strong>Apenas local</strong> quer dizer exatamente isso: os seus dados de treino estão salvos com segurança neste iPhone, mas o espelhamento para o iCloud não começou neste dispositivo, então as alterações recentes não foram copiadas para o iCloud. Nada foi perdido — os dados estão intactos localmente.</p>
+<p>Isso pode acontecer se o banco de dados local precisar migrar para um formato compatível com a sincronização, ou se o iCloud não estiver totalmente configurado no dispositivo.</p>
+<h3>Passos para resolver</h3>
+<ol class="steps">
+<li><strong>Verifique a sua conexão com a internet.</strong> Confirme que o Wi-Fi ou os dados móveis estão funcionando no dispositivo.</li>
+<li><strong>Verifique se você está conectado ao iCloud.</strong> Abra <span class="path">Ajustes › [seu nome]</span> no seu iPhone e confirme que você está conectado e que o iCloud está ativado.</li>
+<li><strong>Verifique se a Sincronização na nuvem está ligada no ProGains.</strong> Abra <span class="path">Planejador</span> › <strong>ícone de engrenagem</strong> › <strong>Ajustes</strong> › <strong>iCloud</strong> e confirme que a chave da <strong>Sincronização na nuvem</strong> está ligada. A chave só aparece enquanto a sua assinatura Premium está ativa.</li>
+<li><strong>Verifique se a sua assinatura Premium está ativa.</strong> Se ela expirou, a seção Status vai dizer <em>Premium necessário</em>. Veja <a href="#subscription-pt">Gerenciar ou cancelar uma assinatura</a>.</li>
+<li><strong>Verifique a sua conta e o seu armazenamento do iCloud.</strong> Abra <span class="path">Ajustes › [seu nome] › iCloud</span> e confirme que a conta está em ordem e que você não ficou sem espaço no iCloud.</li>
+<li><strong>Feche e reabra o ProGains, e dê um tempo a ele.</strong> Feche o app por completo e abra de novo, depois deixe-o aberto por um ou dois minutos com uma boa conexão. A sincronização acontece em segundo plano e nem sempre é instantânea.</li>
+<li><strong>Ainda com problema?</strong> A seção Status mostra uma linha com detalhes técnicos nos estados <em>Apenas local</em> e <em>Erro de sincronização</em>, e o estado de erro inclui um botão <strong>Copiar detalhes do erro</strong>. Copie esse texto e <a href="#contact-pt">envie para o suporte</a> — ele nos diz exatamente o que deu errado.</li>
+</ol>
+<div class="note">
+<p><strong>Os seus dados estão seguros de qualquer forma.</strong> O ProGains sempre grava os seus treinos no dispositivo primeiro. Um problema de sincronização afeta se as alterações chegam aos seus outros dispositivos, não se o seu treino foi registrado.</p>
+</div></section>
+<section id="storage-pt"><h2>Como os dados de treino são armazenados</h2><p>O ProGains armazena as suas informações de treino — os seus exercícios, programas, modelos, dias agendados, treinos e cada série, repetição, carga e RPE que você registra — <strong>no seu iPhone</strong>, no banco de dados local do próprio app.</p>
+<p>Se você for assinante Premium e ligar a Sincronização na nuvem, esses mesmos dados também são espelhados no <strong>banco de dados privado do CloudKit da sua própria conta do iCloud</strong>, que é o que permite que eles apareçam nos seus outros dispositivos Apple.</p>
+<p><strong>O ProGains não mantém um servidor próprio para os seus dados de treino.</strong> Não há conta do ProGains para criar, não há login e não existe um backend do ProGains para onde o seu treino seja enviado. Os seus dados estão no seu dispositivo ou no seu próprio iCloud — nunca em um servidor operado pelo desenvolvedor e nunca enviados a terceiros.</p>
+<p>Para todos os detalhes sobre o que é armazenado e onde, veja a <a href="privacy.html#pt">Política de Privacidade do ProGains</a>.</p></section>
+<section id="contact-pt"><h2>Falar com o suporte</h2><p>Precisa de ajuda, encontrou um problema ou tem uma sugestão de recurso? Escreva para a gente — lemos todas as mensagens.</p>
+<div class="contact">
+<span class="label">E-mail</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">Para que possamos responder rápido, inclua:</p>
+<ul>
+<li>O modelo do seu iPhone e a versão do iOS</li>
+<li>A versão do ProGains que você está usando</li>
+<li>O que você estava fazendo quando o problema aconteceu e o que esperava que acontecesse</li>
+<li>Para problemas de sincronização: o texto da seção Status nos Ajustes (há um botão <strong>Copiar detalhes do erro</strong> no estado de erro)</li>
+</ul>
+<div class="note">
+<p>Qualquer assunto sobre cobrança, reembolso ou cancelamento é tratado pela Apple. Comece pelos <a href="https://apps.apple.com/account/subscriptions">ajustes de assinatura da sua Conta Apple</a> ou por <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. Todos os direitos reservados.</p>
+<nav class="footer-nav" aria-label="Rodapé"><a href="support.html#pt">Suporte</a><a href="privacy.html#pt">Privacidade</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="it" lang="it">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#it" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="Principale">
+<a href="support.html#it" aria-current="page">Assistenza</a>
+<a href="privacy.html#it">Privacy</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano" aria-current="true">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">Assistenza</p>
+<h1>Assistenza ProGains</h1>
+<p class="lede">Le risposte alle domande più frequenti su ProGains: abbonamenti, Sincronizzazione cloud e come vengono conservati i dati dei tuoi allenamenti. Se non trovi quello che cerchi, scrivici: ti aiutiamo volentieri.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">Scrivi all'assistenza</a><a class="btn btn-secondary" href="privacy.html#it">Leggi l'informativa sulla privacy</a></div>
+</div></div>
+<main id="main-it"><div class="wrap">
+<nav class="toc" aria-label="In questa pagina"><h2>In questa pagina</h2><ol>
+<li><a href="#about-it">Informazioni su ProGains</a></li>
+<li><a href="#restore-it">Ripristinare gli acquisti</a></li>
+<li><a href="#subscription-it">Gestire o disdire un abbonamento</a></li>
+<li><a href="#cloud-sync-it">Sincronizzazione cloud</a></li>
+<li><a href="#local-only-it">Stato "Solo locale"</a></li>
+<li><a href="#storage-it">Come vengono conservati i dati degli allenamenti</a></li>
+<li><a href="#contact-it">Contatta l'assistenza</a></li>
+</ol></nav>
+<section id="about-it"><h2>Informazioni su ProGains</h2><p>ProGains è un'app per iPhone dedicata all'allenamento della forza e al monitoraggio degli allenamenti. È pensata per chi si allena con i pesi e vuole avere in un unico posto le sessioni, il programma e i progressi.</p>
+<p>Con ProGains puoi:</p>
+<ul class="features">
+<li>Creare e personalizzare i tuoi esercizi, con note, istruzioni, gruppo muscolare, attrezzatura e una foto opzionale</li>
+<li>Creare modelli di allenamento da riutilizzare quando vuoi</li>
+<li>Creare programmi di allenamento in più fasi e pianificare la tua settimana di allenamento</li>
+<li>Seguire un allenamento mentre lo esegui, con un timer di recupero integrato</li>
+<li>Registrare serie, ripetizioni, carico e RPE per ogni esercizio</li>
+<li>Annotare separatamente serie di riscaldamento, serie effettive e dropset</li>
+<li>Iniziare un allenamento libero quando non stai seguendo un programma</li>
+<li>Consultare i tuoi registri di allenamento e cercare nello storico dei tuoi allenamenti</li>
+<li>Monitorare i progressi di forza e il massimale stimato su una ripetizione nel tempo</li>
+<li>Sbloccare Premium per analisi avanzate dei progressi, statistiche a lungo termine, lo storico completo degli allenamenti, programmi e modelli illimitati e la Sincronizzazione cloud</li>
+<li>Mantenere i tuoi allenamenti sincronizzati su tutti i tuoi dispositivi Apple con la Sincronizzazione cloud Premium, usando il tuo account iCloud</li>
+</ul>
+<div class="note">
+<p><strong>La registrazione degli allenamenti funziona sempre offline.</strong> ProGains salva i tuoi allenamenti sul dispositivo mentre ti alleni. La connessione a internet serve solo per acquistare un abbonamento e, se sei abbonato Premium con la Sincronizzazione cloud attiva, per sincronizzare con iCloud.</p>
+</div></section>
+<section id="restore-it"><h2>Ripristinare gli acquisti</h2><p>Se hai già sottoscritto ProGains Premium — per esempio su un altro dispositivo, oppure prima di reinstallare l'app — puoi ripristinare l'abbonamento senza pagare di nuovo.</p>
+<ol class="steps">
+<li>Apri <strong>ProGains</strong> sul tuo iPhone.</li>
+<li>Apri la schermata Premium. Puoi raggiungerla da qualsiasi invito Premium nell'app: il percorso più rapido è la sezione <span class="path">Pianificatore</span>, poi l'<strong>icona a forma di ingranaggio</strong> in alto a sinistra per aprire le <strong>Impostazioni</strong>, quindi <strong>Sblocca Premium</strong> nella sezione <strong>iCloud</strong>. Anche la sezione <span class="path">Progressi</span> e la scheda dello storico bloccata in fondo alla sezione <span class="path">Registri</span> aprono la stessa schermata.</li>
+<li>Nella schermata <strong>ProGains Premium</strong>, tocca <strong>Ripristina acquisti</strong> (sotto il pulsante di abbonamento).</li>
+<li>Attendi qualche istante mentre l'App Store verifica il tuo account. Appena il tuo abbonamento viene trovato, le funzioni Premium si sbloccano subito: non serve riavviare nulla.</li>
+</ol>
+<div class="note">
+<p><strong>Assicurati che sul dispositivo sia stato effettuato l'accesso con l'Account Apple con cui hai acquistato l'abbonamento.</strong> Il ripristino legge la cronologia dei tuoi acquisti da Apple, quindi con un Account Apple diverso non verrà trovato. Puoi verificare quale account ha effettuato l'accesso in <span class="path">Impostazioni › [il tuo nome] › Contenuti multimediali e acquisti</span> sul tuo iPhone.</p>
+<p>Se la schermata Premium mostra già <strong>"Sei Premium"</strong>, il tuo abbonamento è attivo e non c'è nulla da ripristinare.</p>
+</div>
+<p>Gli acquisti degli abbonamenti sono gestiti interamente da Apple tramite l'App Store. ProGains non vede né elabora mai i tuoi dati di pagamento: l'app riceve soltanto l'informazione se il tuo abbonamento è attualmente attivo.</p></section>
+<section id="subscription-it"><h2>Gestire o disdire un abbonamento</h2><p>ProGains Premium è un abbonamento a rinnovo automatico venduto tramite l'App Store, quindi si gestisce dal tuo Account Apple e non dall'interno dell'app. Prezzo, data di rinnovo, cambio di piano e disdetta si gestiscono tutti da lì.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">Gestisci o disdici l'abbonamento</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>Puoi arrivarci anche dal tuo iPhone: apri <span class="path">Impostazioni</span>, tocca il tuo nome in alto, tocca <strong>Abbonamenti</strong> e poi seleziona <strong>ProGains</strong>.</p>
+<h3>Che cosa succede ai miei dati se disdico?</h3>
+<p>La disdetta non cancella i dati dei tuoi allenamenti. Tutto quello che hai registrato resta salvato sul tuo dispositivo esattamente com'era e puoi continuare a usare ProGains per creare esercizi, svolgere allenamenti e registrare i tuoi allenamenti.</p>
+<p>Quello che cambia è l'accesso alle funzioni Premium. Quando l'abbonamento scade, ProGains smette di replicare le nuove modifiche su iCloud e l'elenco dello storico degli allenamenti torna a mostrare gli ultimi tre mesi. Gli allenamenti più vecchi non vengono eliminati: restano conservati sul tuo dispositivo e ricompaiono se ti abboni di nuovo.</p>
+<p>I rimborsi sono gestiti da Apple, non da ProGains. Le richieste si possono inviare su <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></section>
+<section id="cloud-sync-it"><h2>Sincronizzazione cloud</h2><p><strong>La Sincronizzazione cloud è una funzione Premium.</strong> Mantiene allineati allenamenti, programmi, modelli, esercizi e impostazioni su tutti i dispositivi Apple su cui hai effettuato l'accesso con il tuo Account Apple.</p>
+<h3>Come funziona</h3>
+<ul>
+<li>I dati dei tuoi allenamenti vengono conservati prima di tutto sul tuo dispositivo. Quella copia locale è sempre quella che stai usando, che la Sincronizzazione cloud sia attiva o disattivata.</li>
+<li>Gli abbonati Premium possono attivare la Sincronizzazione cloud in ProGains da <span class="path">Pianificatore</span> › <strong>icona a forma di ingranaggio</strong> › <strong>Impostazioni</strong> › <strong>iCloud</strong> › <strong>Sincronizzazione cloud</strong>. La modifica ha effetto immediato: non serve riavviare nulla.</li>
+<li>Quando è attiva, ProGains usa l'infrastruttura iCloud e CloudKit di Apple per replicare i tuoi dati nel <strong>database privato</strong> del tuo account iCloud.</li>
+<li>Trattandosi del tuo database privato, i dati si spostano tra i tuoi dispositivi sotto il tuo Account Apple. Lo sviluppatore di ProGains non può leggerli e non vi ha alcun accesso.</li>
+<li>La Sincronizzazione cloud richiede un iPhone con l'accesso a iCloud effettuato e un account iCloud funzionante. Se non hai effettuato l'accesso, ProGains te lo segnala e continua a salvare i tuoi dati in locale.</li>
+<li>Disattivare la Sincronizzazione cloud non elimina nulla. Interrompe la replica; i tuoi dati locali restano esattamente dove sono.</li>
+</ul>
+<h3>Controllare lo stato della sincronizzazione</h3>
+<p>Apri <span class="path">Pianificatore</span> › <strong>icona a forma di ingranaggio</strong> › <strong>Impostazioni</strong>. Quando la Sincronizzazione cloud è attiva, compare una sezione <strong>Stato</strong> che mostra la situazione attuale — <em>Sincronizzazione…</em>, <em>Sincronizzato</em>, <em>Non hai effettuato l'accesso a iCloud</em>, <em>Errore di sincronizzazione</em> o <em>Solo locale</em> — insieme a una riga <strong>Questo dispositivo</strong> e all'ora dell'ultima sincronizzazione riuscita.</p></section>
+<section id="local-only-it"><h2>Stato "Solo locale"</h2><p>In <strong>Impostazioni › Stato</strong>, la riga <strong>Questo dispositivo</strong> mostra <strong>iCloud attivo</strong> oppure <strong>Solo locale</strong>.</p>
+<p><strong>Solo locale</strong> significa esattamente quello che dice: i dati dei tuoi allenamenti sono salvati al sicuro su questo iPhone, ma la replica su iCloud non è partita su questo dispositivo, quindi le modifiche recenti non sono state copiate su iCloud. Non è andato perso nulla: i dati sono intatti in locale.</p>
+<p>Può succedere se il database locale deve essere convertito in un formato compatibile con la sincronizzazione, oppure se iCloud non è configurato completamente sul dispositivo.</p>
+<h3>Come risolvere</h3>
+<ol class="steps">
+<li><strong>Controlla la connessione a internet.</strong> Verifica che il Wi-Fi o la rete dati funzionino sul dispositivo.</li>
+<li><strong>Controlla di aver effettuato l'accesso a iCloud.</strong> Apri <span class="path">Impostazioni › [il tuo nome]</span> sul tuo iPhone e assicurati di aver effettuato l'accesso e che iCloud sia attivo.</li>
+<li><strong>Controlla che la Sincronizzazione cloud sia attiva in ProGains.</strong> Apri <span class="path">Pianificatore</span> › <strong>icona a forma di ingranaggio</strong> › <strong>Impostazioni</strong> › <strong>iCloud</strong> e verifica che l'interruttore <strong>Sincronizzazione cloud</strong> sia attivo. L'interruttore compare solo mentre il tuo abbonamento Premium è attivo.</li>
+<li><strong>Controlla che il tuo abbonamento Premium sia attivo.</strong> Se è scaduto, la sezione Stato mostrerà <em>Premium richiesto</em>. Vedi <a href="#subscription-it">Gestire o disdire un abbonamento</a>.</li>
+<li><strong>Controlla il tuo account iCloud e lo spazio di archiviazione.</strong> Apri <span class="path">Impostazioni › [il tuo nome] › iCloud</span> e verifica che l'account funzioni correttamente e di non aver esaurito lo spazio di archiviazione iCloud.</li>
+<li><strong>Chiudi e riapri ProGains, poi dagli un po' di tempo.</strong> Chiudi completamente l'app e riaprila, quindi lasciala aperta un minuto o due con una buona connessione. La sincronizzazione avviene in background e non è sempre immediata.</li>
+<li><strong>Ancora bloccato?</strong> La sezione Stato mostra una riga con un dettaglio tecnico sotto gli stati <em>Solo locale</em> ed <em>Errore di sincronizzazione</em>, e lo stato di errore include un pulsante <strong>Copia i dettagli dell'errore</strong>. Copia quel testo e <a href="#contact-it">invialo all'assistenza</a>: ci dice esattamente che cosa è andato storto.</li>
+</ol>
+<div class="note">
+<p><strong>I tuoi dati sono al sicuro in ogni caso.</strong> ProGains scrive sempre prima i tuoi allenamenti sul dispositivo. Un problema di sincronizzazione riguarda il fatto che le modifiche arrivino agli altri tuoi dispositivi, non il fatto che il tuo allenamento venga registrato.</p>
+</div></section>
+<section id="storage-it"><h2>Come vengono conservati i dati degli allenamenti</h2><p>ProGains conserva le informazioni sui tuoi allenamenti — i tuoi esercizi, i programmi, i modelli, le giornate pianificate, gli allenamenti e ogni serie, ripetizione, carico e RPE che registri — <strong>sul tuo iPhone</strong>, nel database locale dell'app.</p>
+<p>Se sei abbonato Premium e attivi la Sincronizzazione cloud, gli stessi dati vengono replicati anche nel <strong>database privato CloudKit del tuo account iCloud</strong>, ed è questo che permette loro di comparire sugli altri tuoi dispositivi Apple.</p>
+<p><strong>ProGains non gestisce un proprio server per i dati dei tuoi allenamenti.</strong> Non c'è nessun account ProGains da creare, nessun login e nessun backend ProGains su cui i tuoi allenamenti vengano caricati. I tuoi dati sono sul tuo dispositivo oppure nel tuo iCloud: mai su un server gestito dallo sviluppatore e mai inviati a terze parti.</p>
+<p>Per il dettaglio completo su che cosa viene conservato e dove, consulta l'<a href="privacy.html#it">Informativa sulla privacy di ProGains</a>.</p></section>
+<section id="contact-it"><h2>Contatta l'assistenza</h2><p>Ti serve aiuto, hai trovato un bug o hai una proposta per una nuova funzione? Scrivici: leggiamo ogni messaggio.</p>
+<div class="contact">
+<span class="label">Email</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">Per aiutarci a risponderti in fretta, indica:</p>
+<ul>
+<li>Il modello del tuo iPhone e la versione di iOS</li>
+<li>La versione di ProGains che stai usando</li>
+<li>Che cosa stavi facendo quando si è verificato il problema e che cosa ti aspettavi invece</li>
+<li>Per i problemi di sincronizzazione: il testo della sezione Stato nelle Impostazioni (per lo stato di errore c'è il pulsante <strong>Copia i dettagli dell'errore</strong>)</li>
+</ul>
+<div class="note">
+<p>Per tutto ciò che riguarda pagamenti, rimborsi o disdette: se ne occupa Apple. Parti dalle <a href="https://apps.apple.com/account/subscriptions">impostazioni dei tuoi abbonamenti Apple</a> oppure da <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. Tutti i diritti riservati.</p>
+<nav class="footer-nav" aria-label="Piè di pagina"><a href="support.html#it">Assistenza</a><a href="privacy.html#it">Privacy</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="zh" lang="zh-Hans">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#zh" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="主导航">
+<a href="support.html#zh" aria-current="page">支持</a>
+<a href="privacy.html#zh">隐私</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文" aria-current="true">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">支持</p>
+<h1>ProGains 支持</h1>
+<p class="lede">这里汇总了关于 ProGains 最常见问题的解答 —— 订阅、云同步，以及你的训练数据是如何存储的。如果没有找到你需要的内容，欢迎发邮件给我们，我们会帮你解决。</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">邮件联系支持</a><a class="btn btn-secondary" href="privacy.html#zh">阅读隐私政策</a></div>
+</div></div>
+<main id="main-zh"><div class="wrap">
+<nav class="toc" aria-label="本页内容"><h2>本页内容</h2><ol>
+<li><a href="#about-zh">关于 ProGains</a></li>
+<li><a href="#restore-zh">恢复购买</a></li>
+<li><a href="#subscription-zh">管理或取消订阅</a></li>
+<li><a href="#cloud-sync-zh">云同步</a></li>
+<li><a href="#local-only-zh">「仅本地」状态</a></li>
+<li><a href="#storage-zh">训练数据如何存储</a></li>
+<li><a href="#contact-zh">联系支持</a></li>
+</ol></nav>
+<section id="about-zh"><h2>关于 ProGains</h2><p>ProGains 是一款适用于 iPhone 的力量训练与训练记录应用。它专为进行负重训练、希望把每次训练、训练计划和进展都集中在一处的人打造。</p>
+<p>使用 ProGains，你可以：</p>
+<ul class="features">
+<li>创建并自定义你自己的训练动作，可添加备注、动作说明、目标肌群、器械，以及一张可选的照片</li>
+<li>创建可随时重复使用的训练模板</li>
+<li>创建多阶段的训练方案，并安排你的训练周</li>
+<li>边练边记录训练，内置组间休息计时器</li>
+<li>为每个动作记录组数、次数、重量和 RPE</li>
+<li>分别记录热身组、正式组和递减组</li>
+<li>不按计划训练时，可以开始一次自由训练</li>
+<li>回顾你的训练记录，并搜索你的训练历史</li>
+<li>追踪力量进展以及预估最大单次重量（1RM）随时间的变化</li>
+<li>解锁高级版，获得进阶进展分析、长期统计数据、完整的训练历史、无限量的训练方案与模板，以及云同步</li>
+<li>使用高级版云同步，通过你自己的 iCloud 账户，在你的各台 Apple 设备之间保持训练数据同步</li>
+</ul>
+<div class="note">
+<p><strong>记录训练始终可以离线进行。</strong>ProGains 会在你训练的同时把数据保存到设备上。只有在购买订阅时，以及当你是已开启云同步的高级版订阅用户、需要同步到 iCloud 时，才需要联网。</p>
+</div></section>
+<section id="restore-zh"><h2>恢复购买</h2><p>如果你已经订阅过 ProGains 高级版 —— 例如在另一台设备上订阅，或是在重新安装应用之前订阅过 —— 你可以恢复订阅，无需再次付费。</p>
+<ol class="steps">
+<li>在 iPhone 上打开 <strong>ProGains</strong>。</li>
+<li>打开高级版页面。你可以从应用中任何高级版提示进入 —— 最快的路径是打开 <span class="path">计划</span> 标签页，点按左上角的<strong>齿轮图标</strong>打开<strong>设置</strong>，然后在 <strong>iCloud</strong> 部分点按<strong>解锁高级版</strong>。<span class="path">进展</span> 标签页，以及 <span class="path">记录</span> 标签页底部已锁定的历史卡片，打开的都是同一个页面。</li>
+<li>在 <strong>ProGains 高级版</strong>页面上，点按<strong>恢复购买</strong>（位于订阅按钮下方）。</li>
+<li>稍等片刻，App Store 会核对你的账户。找到你的订阅后，高级版功能会立即解锁 —— 无需重新启动。</li>
+</ol>
+<div class="note">
+<p><strong>请确认该设备登录的是当初购买此订阅的那个 Apple 账户。</strong>恢复购买会从 Apple 读取你的购买历史，因此换成其他 Apple 账户是找不到的。你可以在 iPhone 上的 <span class="path">设置 ›[你的姓名]› 媒体与购买项目</span> 中查看当前登录的是哪个账户。</p>
+<p>如果高级版页面已经显示<strong>「你已是高级用户」</strong>，说明你的订阅正在生效，无需恢复。</p>
+</div>
+<p>订阅购买完全由 Apple 通过 App Store 处理。ProGains 从不接触或处理你的支付信息 —— 应用只会收到你的订阅当前是否有效这一结果。</p></section>
+<section id="subscription-zh"><h2>管理或取消订阅</h2><p>ProGains 高级版是通过 App Store 销售的自动续期订阅，因此它在你的 Apple 账户中管理，而不是在应用内管理。价格、续期日期、更改套餐和取消订阅都在那里处理。</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">管理或取消订阅</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>你也可以在 iPhone 上前往：打开<span class="path">设置</span>，点按顶部你的姓名，点按<strong>订阅</strong>，然后选择 <strong>ProGains</strong>。</p>
+<h3>如果我取消订阅，我的数据会怎样？</h3>
+<p>取消订阅不会清除你的训练数据。你记录的一切都会原样保存在设备上，你也可以继续使用 ProGains 创建训练动作、进行训练和记录训练。</p>
+<p>发生变化的是高级版功能的使用权限。订阅失效后，ProGains 会停止把新的更改镜像到 iCloud，训练历史列表也会恢复为仅显示最近三个月。你更早的训练记录不会被删除 —— 它们仍然存储在你的设备上，如果你再次订阅就会重新出现。</p>
+<p>退款由 Apple 处理，而不是由 ProGains 处理。可前往 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> 提出申请。</p></section>
+<section id="cloud-sync-zh"><h2>云同步</h2><p><strong>云同步是高级版功能。</strong>它可以让你的训练、训练方案、模板、训练动作和设置，在登录你 Apple 账户的各台 Apple 设备之间保持一致。</p>
+<h3>工作原理</h3>
+<ul>
+<li>你的训练数据首先存储在设备上。无论云同步是开启还是关闭，你正在使用的始终是这份本地副本。</li>
+<li>高级版订阅用户可以在 ProGains 中开启云同步，路径为 <span class="path">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong> › <strong>iCloud</strong> › <strong>云同步</strong>。更改会立即生效 —— 无需重新启动。</li>
+<li>开启后，ProGains 会使用 Apple 的 iCloud 和 CloudKit 基础服务，把你的数据镜像到你自己 iCloud 账户中的<strong>私有数据库</strong>。</li>
+<li>由于这是你的私有数据库，数据只在你自己 Apple 账户下的设备之间流转。ProGains 的开发者无法读取这些数据，也无权访问。</li>
+<li>云同步需要 iPhone 已登录 iCloud，并拥有可正常使用的 iCloud 账户。如果你未登录，ProGains 会告知你，并继续把你的数据保存在本地。</li>
+<li>关闭云同步不会删除任何内容。它只是停止镜像；你的本地数据会原封不动地留在原处。</li>
+</ul>
+<h3>查看你的同步状态</h3>
+<p>打开 <span class="path">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong>。云同步开启时，会出现<strong>状态</strong>部分，显示当前状态 —— <em>正在同步…</em>、<em>已同步</em>、<em>未登录 iCloud</em>、<em>同步出错</em> 或 <em>仅本地</em> —— 并附有<strong>本设备</strong>一行以及上次成功同步的时间。</p></section>
+<section id="local-only-zh"><h2>「仅本地」状态</h2><p>在<strong>设置 › 状态</strong>中，<strong>本设备</strong>一行会显示 <strong>iCloud 已启用</strong> 或 <strong>仅本地</strong>。</p>
+<p><strong>仅本地</strong>的含义正如字面所示：你的训练数据已安全保存在这台 iPhone 上，但 iCloud 镜像未能在此设备上启动，因此最近的更改尚未复制到 iCloud。没有任何内容丢失 —— 本地数据完好无损。</p>
+<p>出现这种情况，可能是因为本地数据库需要迁移到兼容同步的格式，也可能是因为设备上的 iCloud 尚未完全设置好。</p>
+<h3>排查步骤</h3>
+<ol class="steps">
+<li><strong>检查你的网络连接。</strong>确认设备上的 Wi-Fi 或蜂窝移动数据可以正常使用。</li>
+<li><strong>确认你已登录 iCloud。</strong>在 iPhone 上打开 <span class="path">设置 ›[你的姓名]</span>，确认你已登录并且 iCloud 已启用。</li>
+<li><strong>确认 ProGains 中的云同步已开启。</strong>打开 <span class="path">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong> › <strong>iCloud</strong>，确认<strong>云同步</strong>开关已打开。该开关仅在你的高级版订阅有效期间才会出现。</li>
+<li><strong>确认你的高级版订阅仍然有效。</strong>如果订阅已失效，状态部分会显示<em>需要高级版</em>。请参阅<a href="#subscription-zh">管理或取消订阅</a>。</li>
+<li><strong>检查你的 iCloud 账户和储存空间。</strong>打开 <span class="path">设置 ›[你的姓名]› iCloud</span>，确认账户状态正常，并且你的 iCloud 储存空间没有用尽。</li>
+<li><strong>退出并重新打开 ProGains，然后给它一点时间。</strong>彻底关闭应用再重新打开，在网络良好的情况下让它保持打开一两分钟。同步在后台运行，并不总是立即完成。</li>
+<li><strong>仍然没有解决？</strong>在<em>仅本地</em>和<em>同步出错</em>状态下，状态部分会显示一行技术细节，出错状态还会提供<strong>复制错误详情</strong>按钮。请复制那段文字并<a href="#contact-zh">发送给支持团队</a> —— 它能准确告诉我们出了什么问题。</li>
+</ol>
+<div class="note">
+<p><strong>无论哪种情况，你的数据都是安全的。</strong>ProGains 始终先把你的训练写入设备。同步问题影响的是更改能否传到你的其他设备，而不是你的训练有没有被记录下来。</p>
+</div></section>
+<section id="storage-zh"><h2>训练数据如何存储</h2><p>ProGains 会把你的训练信息 —— 你的训练动作、训练方案、模板、已安排的训练日、每次训练，以及你记录的每一组、每一次、每个重量和每个 RPE —— 存储<strong>在你的 iPhone 上</strong>，保存在应用自己的本地数据库中。</p>
+<p>如果你是高级版订阅用户并开启了云同步，同样的数据还会被镜像到<strong>你自己 iCloud 账户中的私有 CloudKit 数据库</strong>，正是这一点让它能出现在你的其他 Apple 设备上。</p>
+<p><strong>ProGains 不会为你的训练数据运行自己的服务器。</strong>无需创建 ProGains 账户，无需登录，也没有任何 ProGains 后端会接收你上传的训练数据。你的数据要么在你的设备上，要么在你自己的 iCloud 中 —— 绝不会存放在开发者运营的服务器上，也绝不会发送给第三方。</p>
+<p>关于存储哪些内容以及存储在何处的完整说明，请参阅 <a href="privacy.html#zh">ProGains 隐私政策</a>。</p></section>
+<section id="contact-zh"><h2>联系支持</h2><p>需要帮助、发现了程序缺陷，或者有功能建议？欢迎发邮件给我们 —— 我们会阅读每一封来信。</p>
+<div class="contact">
+<span class="label">邮箱</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">为了让我们更快答复，请在邮件中说明：</p>
+<ul>
+<li>你的 iPhone 型号和 iOS 版本</li>
+<li>你正在使用的 ProGains 版本</li>
+<li>问题发生时你正在做什么，以及你原本预期的结果</li>
+<li>如果是同步问题：请附上设置中状态部分的文字（出错状态下有<strong>复制错误详情</strong>按钮）</li>
+</ul>
+<div class="note">
+<p>与账单、退款或取消订阅有关的事项均由 Apple 处理。请从<a href="https://apps.apple.com/account/subscriptions">你的 Apple 订阅设置</a>或 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> 开始。</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. 保留所有权利。</p>
+<nav class="footer-nav" aria-label="页脚"><a href="support.html#zh">支持</a><a href="privacy.html#zh">隐私</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
+<div class="i18n" id="ko" lang="ko">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="#ko" aria-label="ProGains"><span class="brand-mark" aria-hidden="true"></span><span><span class="pro">Pro</span><span class="gains">Gains</span></span></a>
+<nav class="site-nav" aria-label="주 메뉴">
+<a href="support.html#ko" aria-current="page">지원</a>
+<a href="privacy.html#ko">개인정보 처리방침</a>
+</nav>
+<nav class="lang-switch" aria-label="Language"><a href="#en" lang="en" hreflang="en" title="English">EN</a><a href="#de" lang="de" hreflang="de" title="Deutsch">DE</a><a href="#ja" lang="ja" hreflang="ja" title="日本語">日本語</a><a href="#es" lang="es" hreflang="es" title="Español">ES</a><a href="#fr" lang="fr" hreflang="fr" title="Français">FR</a><a href="#pt" lang="pt-BR" hreflang="pt-BR" title="Português">PT</a><a href="#it" lang="it" hreflang="it" title="Italiano">IT</a><a href="#zh" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">中文</a><a href="#ko" lang="ko" hreflang="ko" title="한국어" aria-current="true">한국어</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p class="eyebrow">지원</p>
+<h1>ProGains 지원</h1>
+<p class="lede">ProGains에 대해 가장 많이 묻는 질문 — 구독, 클라우드 동기화, 운동 데이터가 저장되는 방식 — 에 대한 답변입니다. 여기에서 원하는 내용을 찾지 못했다면 이메일을 보내 주세요. 도와드리겠습니다.</p>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:progains.support@gmail.com">지원팀에 이메일 보내기</a><a class="btn btn-secondary" href="privacy.html#ko">개인정보 처리방침 읽기</a></div>
+</div></div>
+<main id="main-ko"><div class="wrap">
+<nav class="toc" aria-label="이 페이지의 내용"><h2>이 페이지의 내용</h2><ol>
+<li><a href="#about-ko">ProGains 소개</a></li>
+<li><a href="#restore-ko">구매 복원</a></li>
+<li><a href="#subscription-ko">구독 관리 또는 취소</a></li>
+<li><a href="#cloud-sync-ko">클라우드 동기화</a></li>
+<li><a href="#local-only-ko">"로컬 전용" 상태</a></li>
+<li><a href="#storage-ko">운동 데이터가 저장되는 방식</a></li>
+<li><a href="#contact-ko">지원팀에 문의하기</a></li>
+</ol></nav>
+<section id="about-ko"><h2>ProGains 소개</h2><p>ProGains는 iPhone용 근력 운동 및 운동 기록 앱입니다. 웨이트 트레이닝을 하면서 운동 세션, 훈련 계획, 진행 상황을 한곳에서 관리하고 싶은 분들을 위해 만들었습니다.</p>
+<p>ProGains에서는 다음을 할 수 있습니다:</p>
+<ul class="features">
+<li>메모, 수행 방법, 운동 부위, 장비, 선택 사항인 사진과 함께 나만의 운동 종목을 만들고 편집하기</li>
+<li>언제든 다시 사용할 수 있는 운동 템플릿 만들기</li>
+<li>여러 단계로 구성된 트레이닝 프로그램을 만들고 한 주의 훈련 일정 짜기</li>
+<li>내장 휴식 타이머와 함께 운동하는 동안 실시간으로 기록하기</li>
+<li>모든 운동 종목의 세트, 반복 횟수, 중량, RPE 기록하기</li>
+<li>웜업 세트, 본세트, 드롭세트를 각각 구분해 기록하기</li>
+<li>정해진 계획 없이 운동할 때는 프리스타일 운동 시작하기</li>
+<li>운동 기록을 다시 보고 훈련 이력 검색하기</li>
+<li>시간에 따른 근력 향상과 예상 1RM 확인하기</li>
+<li>프리미엄을 잠금 해제해 고급 진행 분석, 장기 통계, 전체 운동 이력, 무제한 프로그램 및 템플릿, 클라우드 동기화 사용하기</li>
+<li>프리미엄 클라우드 동기화로 본인의 iCloud 계정을 사용해 Apple 기기 간에 훈련 내용을 동기화된 상태로 유지하기</li>
+</ul>
+<div class="note">
+<p><strong>운동 기록은 언제나 오프라인에서도 작동합니다.</strong> ProGains는 운동하는 동안 훈련 내용을 기기에 바로 저장합니다. 인터넷 연결은 구독을 구입할 때, 그리고 클라우드 동기화를 켠 프리미엄 구독자가 iCloud로 동기화할 때만 필요합니다.</p>
+</div></section>
+<section id="restore-ko"><h2>구매 복원</h2><p>이미 ProGains 프리미엄을 구독한 적이 있다면 — 예를 들어 다른 기기에서 구독했거나 앱을 다시 설치하기 전에 구독했다면 — 다시 결제하지 않고 구독을 복원할 수 있습니다.</p>
+<ol class="steps">
+<li>iPhone에서 <strong>ProGains</strong>를 엽니다.</li>
+<li>프리미엄 화면을 엽니다. 앱 안의 어떤 프리미엄 안내에서도 이동할 수 있지만, 가장 빠른 방법은 <span class="path">플래너</span> 탭에서 왼쪽 상단의 <strong>톱니바퀴 아이콘</strong>을 눌러 <strong>설정</strong>을 연 다음, <strong>iCloud</strong> 섹션의 <strong>프리미엄 잠금 해제</strong>를 누르는 것입니다. <span class="path">진행</span> 탭과 <span class="path">기록</span> 탭 아래쪽의 잠긴 이력 카드에서도 같은 화면이 열립니다.</li>
+<li><strong>ProGains 프리미엄</strong> 화면에서 구독 버튼 아래에 있는 <strong>구매 복원</strong>을 누릅니다.</li>
+<li>App Store가 계정을 확인하는 동안 잠시 기다립니다. 구독이 확인되면 프리미엄 기능이 즉시 잠금 해제되며, 앱을 다시 시작할 필요는 없습니다.</li>
+</ol>
+<div class="note">
+<p><strong>해당 기기가 처음 구독을 구입한 Apple 계정으로 로그인되어 있는지 확인하세요.</strong> 복원은 Apple에 저장된 구매 내역을 읽어오기 때문에, 다른 Apple 계정으로는 구독을 찾을 수 없습니다. 현재 로그인된 계정은 iPhone의 <span class="path">설정 › [사용자 이름] › 미디어 및 구입</span>에서 확인할 수 있습니다.</p>
+<p>프리미엄 화면에 이미 <strong>"프리미엄 이용 중"</strong>이라고 표시되어 있다면 구독이 활성 상태이므로 복원할 것이 없습니다.</p>
+</div>
+<p>구독 결제는 전적으로 App Store를 통해 Apple이 처리합니다. ProGains는 결제 정보를 보거나 처리하지 않으며, 구독이 현재 활성 상태인지 여부만 전달받습니다.</p></section>
+<section id="subscription-ko"><h2>구독 관리 또는 취소</h2><p>ProGains 프리미엄은 App Store를 통해 판매되는 자동 갱신 구독이므로, 앱 안이 아니라 Apple 계정에서 관리합니다. 가격, 갱신일, 요금제 변경, 취소는 모두 그곳에서 처리됩니다.</p>
+<div class="btn-row">
+<a class="btn btn-primary" href="https://apps.apple.com/account/subscriptions">구독 관리 또는 취소</a>
+</div>
+<p style="margin-top:1rem"><small><a href="https://apps.apple.com/account/subscriptions">https://apps.apple.com/account/subscriptions</a></small></p>
+<p>iPhone에서도 이동할 수 있습니다. <span class="path">설정</span>을 열고 맨 위의 이름을 누른 다음, <strong>구독</strong>을 누르고 <strong>ProGains</strong>를 선택하세요.</p>
+<h3>구독을 취소하면 데이터는 어떻게 되나요?</h3>
+<p>구독을 취소해도 운동 데이터는 지워지지 않습니다. 기록한 모든 내용은 기기에 그대로 저장되어 있으며, 계속해서 ProGains로 운동 종목을 만들고, 운동을 진행하고, 훈련을 기록할 수 있습니다.</p>
+<p>달라지는 것은 프리미엄 기능의 사용 여부입니다. 구독이 만료되면 ProGains는 새로운 변경 사항을 더 이상 iCloud에 반영하지 않으며, 운동 이력 목록은 최근 3개월치로 돌아갑니다. 이전 운동 기록이 삭제되는 것은 아닙니다. 기기에 그대로 저장되어 있으며, 다시 구독하면 다시 나타납니다.</p>
+<p>환불은 ProGains가 아니라 Apple이 처리합니다. <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>에서 요청할 수 있습니다.</p></section>
+<section id="cloud-sync-ko"><h2>클라우드 동기화</h2><p><strong>클라우드 동기화는 프리미엄 기능입니다.</strong> Apple 계정에 로그인된 Apple 기기 전체에서 운동 기록, 프로그램, 템플릿, 운동 종목, 설정을 동일하게 유지해 줍니다.</p>
+<h3>작동 방식</h3>
+<ul>
+<li>운동 데이터는 먼저 기기에 저장됩니다. 클라우드 동기화를 켜든 끄든, 실제로 사용하는 것은 언제나 이 로컬 사본입니다.</li>
+<li>프리미엄 구독자는 ProGains의 <span class="path">플래너</span> › <strong>톱니바퀴 아이콘</strong> › <strong>설정</strong> › <strong>iCloud</strong> › <strong>클라우드 동기화</strong>에서 이 기능을 켤 수 있습니다. 변경 사항은 즉시 적용되며 앱을 다시 시작할 필요가 없습니다.</li>
+<li>켜져 있으면 ProGains는 Apple의 iCloud 및 CloudKit 인프라를 사용해 데이터를 본인의 iCloud 계정에 있는 <strong>개인 데이터베이스</strong>에 미러링합니다.</li>
+<li>본인의 개인 데이터베이스이므로, 데이터는 사용자의 Apple 계정 아래에서 본인 기기 사이를 오갑니다. ProGains 개발자는 이를 읽을 수 없으며 접근 권한도 없습니다.</li>
+<li>클라우드 동기화를 사용하려면 iPhone이 정상적으로 작동하는 iCloud 계정으로 iCloud에 로그인되어 있어야 합니다. 로그인되어 있지 않으면 ProGains가 이를 알려 주고 데이터는 계속 로컬에 저장합니다.</li>
+<li>클라우드 동기화를 꺼도 아무것도 삭제되지 않습니다. 미러링만 중단될 뿐, 로컬 데이터는 있던 그대로 남아 있습니다.</li>
+</ul>
+<h3>동기화 상태 확인하기</h3>
+<p><span class="path">플래너</span> › <strong>톱니바퀴 아이콘</strong> › <strong>설정</strong>을 엽니다. 클라우드 동기화가 켜져 있으면 <strong>상태</strong> 섹션이 나타나 현재 상태 — <em>동기화 중…</em>, <em>동기화됨</em>, <em>iCloud에 로그인되어 있지 않습니다</em>, <em>동기화 오류</em>, <em>로컬 전용</em> — 와 함께 <strong>이 기기</strong> 행과 마지막으로 성공한 동기화 시각을 보여 줍니다.</p></section>
+<section id="local-only-ko"><h2>"로컬 전용" 상태</h2><p><strong>설정 › 상태</strong>의 <strong>이 기기</strong> 행에는 <strong>iCloud 활성</strong> 또는 <strong>로컬 전용</strong>이 표시됩니다.</p>
+<p><strong>로컬 전용</strong>은 말 그대로의 의미입니다. 운동 데이터는 이 iPhone에 안전하게 저장되어 있지만, 이 기기에서 iCloud 미러링이 시작되지 않아 최근 변경 사항이 iCloud로 복사되지 않았다는 뜻입니다. 사라진 것은 없으며, 데이터는 로컬에 온전히 남아 있습니다.</p>
+<p>이는 로컬 데이터베이스를 동기화 가능한 형식으로 마이그레이션해야 하거나, 기기에서 iCloud가 완전히 설정되지 않은 경우에 발생할 수 있습니다.</p>
+<h3>문제 해결 단계</h3>
+<ol class="steps">
+<li><strong>인터넷 연결을 확인하세요.</strong> 기기에서 Wi-Fi 또는 셀룰러 데이터가 정상적으로 작동하는지 확인합니다.</li>
+<li><strong>iCloud에 로그인되어 있는지 확인하세요.</strong> iPhone에서 <span class="path">설정 › [사용자 이름]</span>을 열고, 로그인되어 있고 iCloud가 켜져 있는지 확인합니다.</li>
+<li><strong>ProGains에서 클라우드 동기화가 켜져 있는지 확인하세요.</strong> <span class="path">플래너</span> › <strong>톱니바퀴 아이콘</strong> › <strong>설정</strong> › <strong>iCloud</strong>를 열고 <strong>클라우드 동기화</strong> 스위치가 켜져 있는지 확인합니다. 이 스위치는 프리미엄 구독이 활성 상태일 때만 나타납니다.</li>
+<li><strong>프리미엄 구독이 활성 상태인지 확인하세요.</strong> 구독이 만료되었다면 상태 섹션에 <em>프리미엄 필요</em>라고 표시됩니다. <a href="#subscription-ko">구독 관리 또는 취소</a>를 참고하세요.</li>
+<li><strong>iCloud 계정과 저장 공간을 확인하세요.</strong> <span class="path">설정 › [사용자 이름] › iCloud</span>를 열고 계정에 문제가 없는지, iCloud 저장 공간이 부족하지는 않은지 확인합니다.</li>
+<li><strong>ProGains를 종료했다가 다시 열고 잠시 기다리세요.</strong> 앱을 완전히 닫았다가 다시 연 다음, 연결 상태가 좋은 곳에서 1~2분 정도 열어 둡니다. 동기화는 백그라운드에서 진행되며 항상 즉시 이루어지지는 않습니다.</li>
+<li><strong>그래도 해결되지 않나요?</strong> 상태 섹션에는 <em>로컬 전용</em>과 <em>동기화 오류</em> 상태일 때 기술 세부 정보 줄이 표시되고, 오류 상태에는 <strong>오류 세부 정보 복사</strong> 버튼이 있습니다. 그 텍스트를 복사해 <a href="#contact-ko">지원팀에 보내 주세요</a>. 무엇이 잘못되었는지 정확히 알 수 있습니다.</li>
+</ol>
+<div class="note">
+<p><strong>어느 경우든 데이터는 안전합니다.</strong> ProGains는 언제나 운동 내용을 기기에 먼저 기록합니다. 동기화 문제는 변경 사항이 다른 기기에 전달되는지에만 영향을 줄 뿐, 훈련이 기록되는지 여부에는 영향을 주지 않습니다.</p>
+</div></section>
+<section id="storage-ko"><h2>운동 데이터가 저장되는 방식</h2><p>ProGains는 운동 정보 — 운동 종목, 프로그램, 템플릿, 예정된 훈련일, 운동 기록, 그리고 기록한 모든 세트, 반복 횟수, 중량, RPE — 를 앱 자체의 로컬 데이터베이스에 담아 <strong>iPhone에</strong> 저장합니다.</p>
+<p>프리미엄 구독자가 클라우드 동기화를 켜면, 같은 데이터가 <strong>본인 iCloud 계정의 개인 CloudKit 데이터베이스</strong>에도 미러링되며, 덕분에 다른 Apple 기기에서도 볼 수 있습니다.</p>
+<p><strong>ProGains는 운동 데이터를 위한 자체 서버를 운영하지 않습니다.</strong> 새로 만들어야 하는 ProGains 계정도, 로그인도, 훈련 내용이 업로드되는 ProGains 백엔드도 없습니다. 데이터는 사용자의 기기 아니면 본인의 iCloud에 있을 뿐이며, 개발자가 운영하는 서버에 저장되는 일도, 제3자에게 전송되는 일도 없습니다.</p>
+<p>무엇이 어디에 저장되는지에 대한 자세한 내용은 <a href="privacy.html#ko">ProGains 개인정보 처리방침</a>을 참고하세요.</p></section>
+<section id="contact-ko"><h2>지원팀에 문의하기</h2><p>도움이 필요하거나, 버그를 발견했거나, 기능 제안이 있으신가요? 이메일을 보내 주세요. 보내 주시는 모든 메시지를 읽고 있습니다.</p>
+<div class="contact">
+<span class="label">이메일</span>
+<a class="email" href="mailto:progains.support@gmail.com">progains.support@gmail.com</a>
+</div>
+<p style="margin-top:1.15rem">빠르게 답변드릴 수 있도록 다음 내용을 함께 알려 주세요:</p>
+<ul>
+<li>사용 중인 iPhone 모델과 iOS 버전</li>
+<li>사용 중인 ProGains 버전</li>
+<li>문제가 발생했을 때 무엇을 하고 있었는지, 그리고 어떤 결과를 기대했는지</li>
+<li>동기화 문제의 경우: 설정의 상태 섹션에 표시된 텍스트 (오류 상태에는 <strong>오류 세부 정보 복사</strong> 버튼이 있습니다)</li>
+</ul>
+<div class="note">
+<p>결제, 환불, 취소와 관련된 사항은 Apple에서 처리합니다. <a href="https://apps.apple.com/account/subscriptions">Apple 구독 설정</a> 또는 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>에서 시작하세요.</p>
+</div></section>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p>&copy; 2026 ProGains. 모든 권리 보유.</p>
+<nav class="footer-nav" aria-label="푸터"><a href="support.html#ko">지원</a><a href="privacy.html#ko">개인정보 처리방침</a><a href="mailto:progains.support@gmail.com">progains.support@gmail.com</a></nav>
+</div></footer>
+</div>
 </body>
 </html>

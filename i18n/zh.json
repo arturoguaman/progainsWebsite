@@ -1,0 +1,141 @@
+{
+ "code": "zh",
+ "htmlLang": "zh-Hans",
+ "label": "中文",
+ "name": "简体中文",
+ "ogLocale": "zh_CN",
+ "langNote": "本文是 ProGains 隐私政策的简体中文译本，仅为方便阅读而提供。如与英文版本存在任何出入，均以英文版本为准。",
+ "nav": {
+  "label": "主导航",
+  "support": "支持",
+  "privacy": "隐私"
+ },
+ "footer": {
+  "label": "页脚",
+  "rights": "保留所有权利。"
+ },
+ "support": {
+  "title": "ProGains 支持",
+  "desc": "ProGains 的帮助与支持。ProGains 是一款适用于 iPhone 的力量训练与训练记录应用。恢复购买、管理订阅、排查云同步问题，以及联系支持团队。",
+  "eyebrow": "支持",
+  "h1": "ProGains 支持",
+  "lede": "这里汇总了关于 ProGains 最常见问题的解答 —— 订阅、云同步，以及你的训练数据是如何存储的。如果没有找到你需要的内容，欢迎发邮件给我们，我们会帮你解决。",
+  "btnEmail": "邮件联系支持",
+  "btnOther": "阅读隐私政策",
+  "tocLabel": "本页内容",
+  "sections": [
+   {
+    "id": "about",
+    "h2": "关于 ProGains",
+    "html": "<p>ProGains 是一款适用于 iPhone 的力量训练与训练记录应用。它专为进行负重训练、希望把每次训练、训练计划和进展都集中在一处的人打造。</p>\n<p>使用 ProGains，你可以：</p>\n<ul class=\"features\">\n<li>创建并自定义你自己的训练动作，可添加备注、动作说明、目标肌群、器械，以及一张可选的照片</li>\n<li>创建可随时重复使用的训练模板</li>\n<li>创建多阶段的训练方案，并安排你的训练周</li>\n<li>边练边记录训练，内置组间休息计时器</li>\n<li>为每个动作记录组数、次数、重量和 RPE</li>\n<li>分别记录热身组、正式组和递减组</li>\n<li>不按计划训练时，可以开始一次自由训练</li>\n<li>回顾你的训练记录，并搜索你的训练历史</li>\n<li>追踪力量进展以及预估最大单次重量（1RM）随时间的变化</li>\n<li>解锁高级版，获得进阶进展分析、长期统计数据、完整的训练历史、无限量的训练方案与模板，以及云同步</li>\n<li>使用高级版云同步，通过你自己的 iCloud 账户，在你的各台 Apple 设备之间保持训练数据同步</li>\n</ul>\n<div class=\"note\">\n<p><strong>记录训练始终可以离线进行。</strong>ProGains 会在你训练的同时把数据保存到设备上。只有在购买订阅时，以及当你是已开启云同步的高级版订阅用户、需要同步到 iCloud 时，才需要联网。</p>\n</div>"
+   },
+   {
+    "id": "restore",
+    "h2": "恢复购买",
+    "html": "<p>如果你已经订阅过 ProGains 高级版 —— 例如在另一台设备上订阅，或是在重新安装应用之前订阅过 —— 你可以恢复订阅，无需再次付费。</p>\n<ol class=\"steps\">\n<li>在 iPhone 上打开 <strong>ProGains</strong>。</li>\n<li>打开高级版页面。你可以从应用中任何高级版提示进入 —— 最快的路径是打开 <span class=\"path\">计划</span> 标签页，点按左上角的<strong>齿轮图标</strong>打开<strong>设置</strong>，然后在 <strong>iCloud</strong> 部分点按<strong>解锁高级版</strong>。<span class=\"path\">进展</span> 标签页，以及 <span class=\"path\">记录</span> 标签页底部已锁定的历史卡片，打开的都是同一个页面。</li>\n<li>在 <strong>ProGains 高级版</strong>页面上，点按<strong>恢复购买</strong>（位于订阅按钮下方）。</li>\n<li>稍等片刻，App Store 会核对你的账户。找到你的订阅后，高级版功能会立即解锁 —— 无需重新启动。</li>\n</ol>\n<div class=\"note\">\n<p><strong>请确认该设备登录的是当初购买此订阅的那个 Apple 账户。</strong>恢复购买会从 Apple 读取你的购买历史，因此换成其他 Apple 账户是找不到的。你可以在 iPhone 上的 <span class=\"path\">设置 ›[你的姓名]› 媒体与购买项目</span> 中查看当前登录的是哪个账户。</p>\n<p>如果高级版页面已经显示<strong>「你已是高级用户」</strong>，说明你的订阅正在生效，无需恢复。</p>\n</div>\n<p>订阅购买完全由 Apple 通过 App Store 处理。ProGains 从不接触或处理你的支付信息 —— 应用只会收到你的订阅当前是否有效这一结果。</p>"
+   },
+   {
+    "id": "subscription",
+    "h2": "管理或取消订阅",
+    "html": "<p>ProGains 高级版是通过 App Store 销售的自动续期订阅，因此它在你的 Apple 账户中管理，而不是在应用内管理。价格、续期日期、更改套餐和取消订阅都在那里处理。</p>\n<div class=\"btn-row\">\n<a class=\"btn btn-primary\" href=\"https://apps.apple.com/account/subscriptions\">管理或取消订阅</a>\n</div>\n<p style=\"margin-top:1rem\"><small><a href=\"https://apps.apple.com/account/subscriptions\">https://apps.apple.com/account/subscriptions</a></small></p>\n<p>你也可以在 iPhone 上前往：打开<span class=\"path\">设置</span>，点按顶部你的姓名，点按<strong>订阅</strong>，然后选择 <strong>ProGains</strong>。</p>\n<h3>如果我取消订阅，我的数据会怎样？</h3>\n<p>取消订阅不会清除你的训练数据。你记录的一切都会原样保存在设备上，你也可以继续使用 ProGains 创建训练动作、进行训练和记录训练。</p>\n<p>发生变化的是高级版功能的使用权限。订阅失效后，ProGains 会停止把新的更改镜像到 iCloud，训练历史列表也会恢复为仅显示最近三个月。你更早的训练记录不会被删除 —— 它们仍然存储在你的设备上，如果你再次订阅就会重新出现。</p>\n<p>退款由 Apple 处理，而不是由 ProGains 处理。可前往 <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> 提出申请。</p>"
+   },
+   {
+    "id": "cloud-sync",
+    "h2": "云同步",
+    "html": "<p><strong>云同步是高级版功能。</strong>它可以让你的训练、训练方案、模板、训练动作和设置，在登录你 Apple 账户的各台 Apple 设备之间保持一致。</p>\n<h3>工作原理</h3>\n<ul>\n<li>你的训练数据首先存储在设备上。无论云同步是开启还是关闭，你正在使用的始终是这份本地副本。</li>\n<li>高级版订阅用户可以在 ProGains 中开启云同步，路径为 <span class=\"path\">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong> › <strong>iCloud</strong> › <strong>云同步</strong>。更改会立即生效 —— 无需重新启动。</li>\n<li>开启后，ProGains 会使用 Apple 的 iCloud 和 CloudKit 基础服务，把你的数据镜像到你自己 iCloud 账户中的<strong>私有数据库</strong>。</li>\n<li>由于这是你的私有数据库，数据只在你自己 Apple 账户下的设备之间流转。ProGains 的开发者无法读取这些数据，也无权访问。</li>\n<li>云同步需要 iPhone 已登录 iCloud，并拥有可正常使用的 iCloud 账户。如果你未登录，ProGains 会告知你，并继续把你的数据保存在本地。</li>\n<li>关闭云同步不会删除任何内容。它只是停止镜像；你的本地数据会原封不动地留在原处。</li>\n</ul>\n<h3>查看你的同步状态</h3>\n<p>打开 <span class=\"path\">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong>。云同步开启时，会出现<strong>状态</strong>部分，显示当前状态 —— <em>正在同步…</em>、<em>已同步</em>、<em>未登录 iCloud</em>、<em>同步出错</em> 或 <em>仅本地</em> —— 并附有<strong>本设备</strong>一行以及上次成功同步的时间。</p>"
+   },
+   {
+    "id": "local-only",
+    "h2": "「仅本地」状态",
+    "html": "<p>在<strong>设置 › 状态</strong>中，<strong>本设备</strong>一行会显示 <strong>iCloud 已启用</strong> 或 <strong>仅本地</strong>。</p>\n<p><strong>仅本地</strong>的含义正如字面所示：你的训练数据已安全保存在这台 iPhone 上，但 iCloud 镜像未能在此设备上启动，因此最近的更改尚未复制到 iCloud。没有任何内容丢失 —— 本地数据完好无损。</p>\n<p>出现这种情况，可能是因为本地数据库需要迁移到兼容同步的格式，也可能是因为设备上的 iCloud 尚未完全设置好。</p>\n<h3>排查步骤</h3>\n<ol class=\"steps\">\n<li><strong>检查你的网络连接。</strong>确认设备上的 Wi-Fi 或蜂窝移动数据可以正常使用。</li>\n<li><strong>确认你已登录 iCloud。</strong>在 iPhone 上打开 <span class=\"path\">设置 ›[你的姓名]</span>，确认你已登录并且 iCloud 已启用。</li>\n<li><strong>确认 ProGains 中的云同步已开启。</strong>打开 <span class=\"path\">计划</span> › <strong>齿轮图标</strong> › <strong>设置</strong> › <strong>iCloud</strong>，确认<strong>云同步</strong>开关已打开。该开关仅在你的高级版订阅有效期间才会出现。</li>\n<li><strong>确认你的高级版订阅仍然有效。</strong>如果订阅已失效，状态部分会显示<em>需要高级版</em>。请参阅<a href=\"#subscription-zh\">管理或取消订阅</a>。</li>\n<li><strong>检查你的 iCloud 账户和储存空间。</strong>打开 <span class=\"path\">设置 ›[你的姓名]› iCloud</span>，确认账户状态正常，并且你的 iCloud 储存空间没有用尽。</li>\n<li><strong>退出并重新打开 ProGains，然后给它一点时间。</strong>彻底关闭应用再重新打开，在网络良好的情况下让它保持打开一两分钟。同步在后台运行，并不总是立即完成。</li>\n<li><strong>仍然没有解决？</strong>在<em>仅本地</em>和<em>同步出错</em>状态下，状态部分会显示一行技术细节，出错状态还会提供<strong>复制错误详情</strong>按钮。请复制那段文字并<a href=\"#contact-zh\">发送给支持团队</a> —— 它能准确告诉我们出了什么问题。</li>\n</ol>\n<div class=\"note\">\n<p><strong>无论哪种情况，你的数据都是安全的。</strong>ProGains 始终先把你的训练写入设备。同步问题影响的是更改能否传到你的其他设备，而不是你的训练有没有被记录下来。</p>\n</div>"
+   },
+   {
+    "id": "storage",
+    "h2": "训练数据如何存储",
+    "html": "<p>ProGains 会把你的训练信息 —— 你的训练动作、训练方案、模板、已安排的训练日、每次训练，以及你记录的每一组、每一次、每个重量和每个 RPE —— 存储<strong>在你的 iPhone 上</strong>，保存在应用自己的本地数据库中。</p>\n<p>如果你是高级版订阅用户并开启了云同步，同样的数据还会被镜像到<strong>你自己 iCloud 账户中的私有 CloudKit 数据库</strong>，正是这一点让它能出现在你的其他 Apple 设备上。</p>\n<p><strong>ProGains 不会为你的训练数据运行自己的服务器。</strong>无需创建 ProGains 账户，无需登录，也没有任何 ProGains 后端会接收你上传的训练数据。你的数据要么在你的设备上，要么在你自己的 iCloud 中 —— 绝不会存放在开发者运营的服务器上，也绝不会发送给第三方。</p>\n<p>关于存储哪些内容以及存储在何处的完整说明，请参阅 <a href=\"privacy.html#zh\">ProGains 隐私政策</a>。</p>"
+   },
+   {
+    "id": "contact",
+    "h2": "联系支持",
+    "html": "<p>需要帮助、发现了程序缺陷，或者有功能建议？欢迎发邮件给我们 —— 我们会阅读每一封来信。</p>\n<div class=\"contact\">\n<span class=\"label\">邮箱</span>\n<a class=\"email\" href=\"mailto:progains.support@gmail.com\">progains.support@gmail.com</a>\n</div>\n<p style=\"margin-top:1.15rem\">为了让我们更快答复，请在邮件中说明：</p>\n<ul>\n<li>你的 iPhone 型号和 iOS 版本</li>\n<li>你正在使用的 ProGains 版本</li>\n<li>问题发生时你正在做什么，以及你原本预期的结果</li>\n<li>如果是同步问题：请附上设置中状态部分的文字（出错状态下有<strong>复制错误详情</strong>按钮）</li>\n</ul>\n<div class=\"note\">\n<p>与账单、退款或取消订阅有关的事项均由 Apple 处理。请从<a href=\"https://apps.apple.com/account/subscriptions\">你的 Apple 订阅设置</a>或 <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> 开始。</p>\n</div>"
+   }
+  ]
+ },
+ "privacy": {
+  "title": "ProGains 隐私政策",
+  "desc": "ProGains 隐私政策。ProGains 没有服务器，也不会自行发起任何网络请求。你的训练数据保留在你的设备上；如果你启用了高级版云同步，则保存在你自己的私有 iCloud 数据库中。",
+  "eyebrow": "隐私政策",
+  "h1": "隐私政策 —— ProGains",
+  "lede": "ProGains 是一款在你的设备上运行的训练记录应用。它没有账户体系，没有自己的服务器，也不会自行发起任何网络请求。本政策将准确说明这对你的数据意味着什么。",
+  "updatedLabel": "最后更新：",
+  "updatedDate": "2026年8月23日",
+  "tocLabel": "本页内容",
+  "sections": [
+   {
+    "id": "summary",
+    "h2": "摘要",
+    "html": "<p>ProGains（下称「本应用」「我们」）由一位独立开发者开发并发布。本政策适用于 ProGains iPhone 应用。</p>\n<dl class=\"facts\">\n<dt>本应用没有服务器。</dt>\n<dd>ProGains 不运营任何后端服务。没有 ProGains 账户，无需注册，也无需登录。本应用不会自行发起任何网络请求 —— 它不会把你的数据发送到任何由我们掌控的地方。</dd>\n<dt>你的训练数据保存在你的设备上。</dt>\n<dd>你在 ProGains 中创建的一切，都存储在你 iPhone 上的一个数据库中。</dd>\n<dt>可选的云同步使用的是你的 iCloud，而不是我们的。</dt>\n<dd>如果你是高级版订阅用户并开启了云同步，Apple 的 CloudKit 会把你的数据镜像到你自己 iCloud 账户中的<strong>私有数据库</strong>，从而让它出现在你的其他 Apple 设备上。我们无法访问该数据库。</dd>\n<dt>没有分析统计、没有跟踪、没有广告、没有第三方 SDK。</dt>\n<dd>ProGains 不含任何广告、任何第三方分析统计，也不进行任何形式的跟踪。它唯一用于设备之外事务的 Apple 框架是 StoreKit，用于订阅。</dd>\n<dt>付款由 Apple 处理。</dt>\n<dd>订阅由 Apple 通过 App Store 处理。我们绝不会看到你的支付信息。</dd>\n</dl>"
+   },
+   {
+    "id": "collect",
+    "h2": "我们收集什么",
+    "html": "<p><strong>我们不会从你这里收集个人信息。</strong></p>\n<p>ProGains 不运营自己的服务器，也不会自行发起任何网络请求。它没有任何代码会把你的训练数据、你对应用的使用情况、你的设备标识符或其他任何信息传输给我们或任何第三方。无需创建 ProGains 账户，本应用也从不索取你的姓名、电子邮件地址、出生日期或任何其他身份识别信息。</p>\n<p>本应用包含一小组内部事件名称，用于在开发过程中了解哪些高级版功能被查看过（例如「查看了付费墙」）。这些事件仅在调试版本中被编译为向开发者控制台打印；在 App Store 上发布的版本中，它们完全不起任何作用，不含任何个人数据，也绝不会被传输到任何地方。</p>\n<div class=\"note\">\n<p><strong>本政策<em>不</em>涵盖的内容。</strong>ProGains 使用两项 Apple 服务 —— App Store（用于订阅，通过 StoreKit）和 iCloud/CloudKit（用于可选的云同步）。它们是 Apple 的服务，由 Apple 依据其自身的隐私实践运营，Apple 可能会因此获得相关信息。下面的章节说明 ProGains 如何使用其中的每一项。关于 Apple 的隐私实践，请参阅 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a>。</p>\n</div>"
+   },
+   {
+    "id": "workout-data",
+    "h2": "你的训练数据",
+    "html": "<p>你在 ProGains 中创建的一切，都本地存储在你的设备上，保存在应用自己的数据库中。其中包括：</p>\n<ul class=\"features\">\n<li>你创建或自定义的训练动作 —— 名称、目标肌群、器械类型、备注、动作说明</li>\n<li>训练方案及其阶段和训练日</li>\n<li>训练模板</li>\n<li>已安排的训练日</li>\n<li>训练记录 —— 日期、开始与结束时间、时长、训练名称、整体备注、主观难度</li>\n<li>每次训练中的动作记录</li>\n<li>单组数据 —— 组类型（热身、正式组、递减组）、次数、重量、RPE 以及每组的备注</li>\n<li>跨设备跟随你的应用状态 —— 你当前的训练方案、它是否已暂停，以及你默认的休息计时时长</li>\n</ul>\n<p style=\"margin-top:1.15rem\">这些信息完全由你创建。ProGains 不会从任何其他来源推导出它们，它们也不会被发送给我们。</p>\n<p>如果你是高级版订阅用户并启用了云同步，这些数据还会按下文所述被镜像到你自己 iCloud 账户中的私有 CloudKit 数据库。<strong>开发者不运营该数据库，也无法读取其中的内容。</strong></p>"
+   },
+   {
+    "id": "photos",
+    "h2": "训练动作照片",
+    "html": "<p>ProGains 允许你为动作库中的动作附加一张可选的照片。当你点按添加照片时，iOS 会显示它自己的系统照片选择器；你选择一张图片，随后只有这张图片会被交给应用。ProGains 不会获得访问你照片图库的权限，也不会读取、浏览或扫描你的照片。</p>\n<p>你选择的照片会被调整尺寸并压缩，然后与该动作一起存储在应用的本地数据库中。如果启用了云同步，它会与你的其他数据一起被镜像到你的私有 iCloud 数据库。它绝不会被发送给我们或任何其他人。在应用中删除该照片，或删除该动作，即可将其移除。</p>"
+   },
+   {
+    "id": "icloud",
+    "h2": "iCloud 与 CloudKit",
+    "html": "<p>云同步是一项<strong>可选的高级版功能</strong>。除非你主动开启，否则它处于关闭状态，并且仅在高级版订阅有效期间可用。</p>\n<p>启用后，ProGains 会使用 Apple 的 CloudKit，把你的训练数据镜像到<strong>私有数据库</strong>中 —— 也就是与本应用关联的那个 iCloud 容器（<code>iCloud.com.ProGainsApp.database</code>）中的私有数据库。具体来说，这意味着：</p>\n<ul>\n<li>数据存储在<strong>你的</strong> Apple 账户下，位于<strong>你的</strong>私有 iCloud 数据库中。它会占用你的 iCloud 储存空间，并受 Apple 的条款和隐私政策约束。</li>\n<li>它会在登录同一 Apple 账户且安装了 ProGains 的各台 Apple 设备之间同步。</li>\n<li><strong>ProGains 的开发者无权访问你的私有 CloudKit 数据库，无法读取、导出或恢复其中的内容。</strong>私有 CloudKit 数据库只能通过用户自己设备上已登录的 Apple 账户访问。没有任何开发者控制台、后台面板或 API 会把它暴露给我们。</li>\n<li>ProGains 不使用 CloudKit 的公共数据库或共享数据库。你创建的任何内容都不会被其他 ProGains 用户看到。</li>\n<li>为了让你的各台设备保持最新，CloudKit 会使用 Apple 的推送通知服务来告知有更改正在等待同步。这些是由 Apple 和 iOS 处理的静默系统级消息；它们不会向你传递任何消息内容，我们也不会将其用于任何其他目的。</li>\n<li>云同步需要 iPhone 已登录 iCloud，拥有可正常使用的 iCloud 账户和可用的储存空间。如果 iCloud 不可用，ProGains 会继续把你的数据保存在本地，并告知你处于仅本地状态。</li>\n<li>关闭云同步会停止后续的镜像。它不会删除你的本地数据，其本身也不会删除已经存在于你 iCloud 数据库中的内容。</li>\n</ul>\n<p>如果你从未启用过云同步，ProGains 完全不会将 iCloud 用于你的训练数据。</p>"
+   },
+   {
+    "id": "subscriptions",
+    "h2": "订阅与付款",
+    "html": "<p>ProGains 高级版是通过 App Store 销售、由 Apple 使用 StoreKit 处理的自动续期订阅。整笔交易全部由 Apple 处理。</p>\n<p><strong>ProGains 不会接收或存储：</strong></p>\n<ul>\n<li>你的信用卡或借记卡卡号</li>\n<li>任何其他支付凭据或账单信息</li>\n<li>你的姓名、账单地址或 Apple 账户电子邮件地址</li>\n</ul>\n<p>应用确实会从 StoreKit 收到的，是你的<strong>订阅权益</strong> —— 本质上就是某个 ProGains 产品的订阅当前是否有效，以及它何时到期。ProGains 会从 Apple 读取这一信息，以决定是否解锁高级版功能，并在应用回到前台时、以及 Apple 报告发生变化（续期、到期、取消、退款）时重新检查。这些权益信息不会存储在我们的任何服务器上，因为我们并不运营服务器。</p>\n<p>恢复购买使用 Apple 的标准机制，从 App Store 重新读取你已有的权益。管理、更改或取消订阅是在你的 Apple 账户设置中完成的，而不是在应用内完成。操作说明请参阅<a href=\"support.html#subscription-zh\">支持页面</a>。</p>\n<p>Apple 因购买行为而收集的信息，依据 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a>处理。</p>"
+   },
+   {
+    "id": "notifications",
+    "h2": "通知",
+    "html": "<p>ProGains 使用<strong>本地通知</strong>来提示组间的休息计时。在你完成初始引导后，iOS 会就发送通知的权限询问你一次。如果你允许，ProGains 会在休息计时开始时安排一条通知，这样即使应用在后台，休息结束时你也会收到提醒。如果你让应用保持在前台，该通知会被取消，你会收到应用内提醒。跳过或结束休息计时同样会取消它。</p>\n<p>这些通知完全由 iOS 在你的设备上创建和安排。<strong>它们不是从 ProGains 服务器发出的</strong> —— 并不存在这样的服务器 —— 而且它们不含任何个人信息。如果你拒绝该权限，或之后在 iOS 设置中关闭通知，ProGains 仍可正常使用；你只是不会收到后台的休息计时提醒。</p>\n<p>另外，如果你启用了高级版云同步，Apple 的 CloudKit 会使用静默的系统推送通知来保持你的各台设备同步，详见 <a href=\"#icloud-zh\">iCloud 与 CloudKit</a>。这些由 Apple 和 iOS 处理，绝不会显示给你。</p>"
+   },
+   {
+    "id": "tracking",
+    "h2": "跟踪与广告",
+    "html": "<p>ProGains 不会跟踪你。具体来说，本应用：</p>\n<ul>\n<li><strong>没有广告。</strong>既没有任何广告，也没有任何广告 SDK。</li>\n<li><strong>没有第三方分析统计。</strong>不含任何形式的分析统计 SDK。</li>\n<li><strong>完全没有第三方 SDK。</strong>ProGains 没有任何第三方软件包依赖。它链接的唯一非标准框架是 Apple 自己的 StoreKit，用于订阅。</li>\n<li><strong>没有 App Tracking Transparency（应用跟踪透明度）授权请求</strong>，因为没有什么需要询问 —— 按照 Apple 的定义，本应用不进行任何跟踪。</li>\n<li><strong>没有广告标识符（IDFA）</strong>，也<strong>没有供应商标识符（IDFV）</strong>。本应用不会读取、存储或传输其中任何一个。</li>\n<li><strong>不做设备指纹识别</strong>，不进行跨应用或跨网站跟踪，也不涉及数据经纪商。</li>\n</ul>\n<p>关于你或你训练的任何信息都不会被出售、共享或用于广告，因为这些信息根本不会离开你的设备或你自己的 iCloud 账户。</p>"
+   },
+   {
+    "id": "device-settings",
+    "h2": "存储在你设备上的设置",
+    "html": "<p>ProGains 会在你设备上应用的标准 iOS 偏好设置存储中保留少量偏好项：你是否已完成初始引导、云同步是否已开启，以及上次成功同步的时间。这些内容仅存在于设备本地，不含任何个人信息，并会在应用被删除时一并移除。</p>\n<p>ProGains 不使用 Cookie 或任何基于网页的跟踪技术。本应用不是网页应用，也不含任何内嵌浏览器。</p>"
+   },
+   {
+    "id": "deletion",
+    "h2": "数据删除",
+    "html": "<p>由于我们不持有你的任何数据，删除完全由你掌控。</p>\n<h3>删除单项内容</h3>\n<p>你可以随时在 ProGains 中删除任何训练动作、训练方案、模板、训练记录或照片。如果云同步已开启，这些删除操作会同步到你的其他设备。</p>\n<h3>删除应用</h3>\n<p>从 iPhone 上删除 ProGains，会从该设备移除应用及其本地存储的数据 —— 训练数据库和应用的偏好设置。</p>\n<div class=\"note\">\n<p><strong>删除应用不会自动移除已经同步到 iCloud 的数据。</strong>如果你使用过高级版云同步，你的数据副本会保留在你自己 iCloud 账户中的私有 CloudKit 数据库里，以便在同一 Apple 账户下重新安装应用时可以恢复它。移除该副本需要通过 iCloud 完成，而不是通过应用完成。</p>\n</div>\n<h3>移除你的 iCloud 副本</h3>\n<p>存储在你私有 iCloud 数据库中的数据，由你通过自己的 Apple 账户管理。根据你的 iOS 版本，ProGains 会出现在 <span class=\"path\">设置 ›[你的姓名]› iCloud</span> 中使用 iCloud 的 App 列表里，你可以在那里为该应用关闭 iCloud，并选择删除它的 iCloud 数据。你也可以在 <span class=\"path\">设置 ›[你的姓名]› iCloud › 管理账户储存空间</span> 中管理或删除 App 的 iCloud 数据。Apple 自己关于管理和删除 iCloud 数据的说明才是权威参考：请参阅 <a href=\"https://support.apple.com/en-us/108922\">Apple 支持 —— 管理你的 iCloud 储存空间</a>。</p>\n<p>由于这些控制项属于 Apple，其确切位置会随 iOS 版本而变化，我们无法代你删除 iCloud 数据，也无法保证某个具体的菜单路径。如果你希望我们帮你在设备上找到相应的设置，请<a href=\"#contact-zh\">发邮件给我们</a>，我们会一步步指导你。</p>"
+   },
+   {
+    "id": "children",
+    "h2": "儿童",
+    "html": "<p>ProGains 是一款面向普通大众的健身应用，并非针对儿童。它不会在知情的情况下收集任何年龄段任何人的任何信息，因为它根本不收集信息。</p>"
+   },
+   {
+    "id": "changes",
+    "h2": "本政策的变更",
+    "html": "<p>如果本应用的行为发生了影响你隐私的变化，本政策将会更新，本页顶部的「最后更新」日期也会随之改变。重大变更会在相应的应用更新发布之前或同时体现在此处。在更新之后继续使用 ProGains，即表示接受修订后的政策。</p>"
+   },
+   {
+    "id": "contact",
+    "h2": "联系我们",
+    "html": "<p>对本政策有疑问，或想了解 ProGains 如何处理你的数据？欢迎发邮件给我们。</p>\n<div class=\"contact\">\n<span class=\"label\">邮箱</span>\n<a class=\"email\" href=\"mailto:progains.support@gmail.com\">progains.support@gmail.com</a>\n</div>\n<p style=\"margin-top:1.15rem\">如需应用使用方面的帮助，请参阅 <a href=\"support.html#zh\">ProGains 支持页面</a>。</p>"
+   }
+  ]
+ }
+}
